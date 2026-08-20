@@ -13,9 +13,15 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
   <ItemGroup>
+    <TrimmerRootAssembly Include="$(MSBuildProjectName)" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="Realm.MapAPI">
       <HintPath>lib/Realm.MapAPI.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="$(AssemblyName)" />
   </ItemGroup>
   <ItemGroup>
     <DirectPInvoke Include="env" />
@@ -35,8 +41,5 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.ILCompiler.LLVM" Version="10.0.0-rc.1.26357.1" />
     <PackageReference Include="runtime.win-x64.Microsoft.DotNet.ILCompiler.LLVM" Version="10.0.0-rc.1.26357.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <TrimmerRootAssembly Include="$(MSBuildProjectName)" />
   </ItemGroup>
 </Project>

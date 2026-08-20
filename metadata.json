@@ -2,192 +2,111 @@
   "MapProperties": {},
   "CustomUnits": [
     {
-      "Animations": {},
+      "Animations": {
+        "Attack": [
+          "upward_thrust___upward_weapon_thrust.ranim"
+        ],
+        "Dance": [
+          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
+        ],
+        "Death": [
+          "death___death_from_standing_idle.ranim"
+        ],
+        "Idle": [
+          "bored___standing_around_bored_idle.ranim"
+        ],
+        "Labor": [
+          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+        ],
+        "Spell_Cast": [
+          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
+        ],
+        "Walk": [
+          "standard_walk___standard_walk.ranim"
+        ]
+      },
       "Description": "",
-      "ModelPath": "adventurer.glb",
-      "Name": "adventurer",
+      "ModelPath": "fantasy_warrior_unit_1.glb",
+      "Name": "Kevin",
       "PathingType": 9,
-      "UnitId": "adventurer"
+      "RecalculateNormals": true,
+      "UnitId": "fantasy_warrior_unit_1"
     },
     {
+      "Animations": {
+        "Attack": [
+          "upward_thrust___upward_weapon_thrust.ranim"
+        ],
+        "Dance": [
+          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
+        ],
+        "Death": [
+          "death___death_from_standing_idle.ranim"
+        ],
+        "Idle": [
+          "bored___standing_around_bored_idle.ranim"
+        ],
+        "Labor": [
+          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+        ],
+        "Spell_Cast": [
+          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
+        ],
+        "Walk": [
+          "standard_walk___standard_walk.ranim"
+        ]
+      },
       "Description": "",
-      "ModelPath": "armored_dragon.glb",
-      "Name": "armored_dragon",
+      "ModelPath": "orc_warrior_7.glb",
+      "Name": "Chad",
       "PathingType": 9,
-      "UnitId": "armored_dragon"
+      "RecalculateNormals": true,
+      "UnitId": "orc_warrior_7"
     }
   ],
   "CustomBuildings": [
     {
+      "Animations": {},
       "Description": "",
-      "ModelPath": "ancient_altar.glb",
-      "Name": "ancient_altar",
+      "ModelPath": "ice_castle_1.glb",
+      "Name": "Castle",
       "PathingType": 32,
-      "UnitId": "ancient_altar"
+      "RecalculateNormals": true,
+      "UnitId": "ice_castle_1"
     },
     {
+      "Animations": {},
       "Description": "",
-      "ModelPath": "archway_structure.glb",
-      "Name": "archway_structure",
+      "ModelPath": "timber_framed_house.glb",
+      "Name": "House",
       "PathingType": 32,
-      "UnitId": "archway_structure"
-    },
-    {
-      "Description": "",
-      "ModelPath": "castle.glb",
-      "Name": "castle",
-      "PathingType": 32,
-      "UnitId": "castle"
-    },
-    {
-      "Description": "",
-      "ModelPath": "castle_tower_1.glb",
-      "Name": "castle_tower_1",
-      "PathingType": 32,
-      "UnitId": "castle_tower_1"
-    },
-    {
-      "Description": "",
-      "ModelPath": "ritual_altar.glb",
-      "Name": "ritual_altar",
-      "PathingType": 32,
-      "UnitId": "ritual_altar"
-    },
-    {
-      "Description": "",
-      "ModelPath": "seashell_arch.glb",
-      "Name": "seashell_arch",
-      "PathingType": 32,
-      "UnitId": "seashell_arch"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_gate_1.glb",
-      "Name": "stone_gate_1",
-      "PathingType": 32,
-      "UnitId": "stone_gate_1"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_gate_entrance.glb",
-      "Name": "stone_gate_entrance",
-      "PathingType": 32,
-      "UnitId": "stone_gate_entrance"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_1.glb",
-      "Name": "stone_tower_1",
-      "PathingType": 32,
-      "UnitId": "stone_tower_1"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_10.glb",
-      "Name": "stone_tower_10",
-      "PathingType": 32,
-      "UnitId": "stone_tower_10"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_2.glb",
-      "Name": "stone_tower_2",
-      "PathingType": 32,
-      "UnitId": "stone_tower_2"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_3.glb",
-      "Name": "stone_tower_3",
-      "PathingType": 32,
-      "UnitId": "stone_tower_3"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_4.glb",
-      "Name": "stone_tower_4",
-      "PathingType": 32,
-      "UnitId": "stone_tower_4"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_5.glb",
-      "Name": "stone_tower_5",
-      "PathingType": 32,
-      "UnitId": "stone_tower_5"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_6.glb",
-      "Name": "stone_tower_6",
-      "PathingType": 32,
-      "UnitId": "stone_tower_6"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_7.glb",
-      "Name": "stone_tower_7",
-      "PathingType": 32,
-      "UnitId": "stone_tower_7"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_8.glb",
-      "Name": "stone_tower_8",
-      "PathingType": 32,
-      "UnitId": "stone_tower_8"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_tower_9.glb",
-      "Name": "stone_tower_9",
-      "PathingType": 32,
-      "UnitId": "stone_tower_9"
-    },
-    {
-      "Description": "",
-      "ModelPath": "temple_complex.glb",
-      "Name": "temple_complex",
-      "PathingType": 32,
-      "UnitId": "temple_complex"
-    },
-    {
-      "Description": "",
-      "ModelPath": "torii_gate.glb",
-      "Name": "torii_gate",
-      "PathingType": 32,
-      "UnitId": "torii_gate"
-    },
-    {
-      "Description": "",
-      "ModelPath": "white_wall_section.glb",
-      "Name": "white_wall_section",
-      "PathingType": 32,
-      "UnitId": "white_wall_section"
-    },
-    {
-      "Description": "",
-      "ModelPath": "wooden_gazebo.glb",
-      "Name": "wooden_gazebo",
-      "PathingType": 32,
-      "UnitId": "wooden_gazebo"
-    },
-    {
-      "Description": "",
-      "ModelPath": "wooden_house_1.glb",
-      "Name": "wooden_house_1",
-      "PathingType": 32,
-      "UnitId": "wooden_house_1"
-    },
-    {
-      "Description": "",
-      "ModelPath": "wooden_warehouse.glb",
-      "Name": "wooden_warehouse",
-      "PathingType": 32,
-      "UnitId": "wooden_warehouse"
+      "RecalculateNormals": true,
+      "UnitId": "timber_framed_house"
     }
   ],
   "CustomResources": [
+    {
+      "Animations": {},
+      "CollisionCircle": 0.3,
+      "Description": "",
+      "ModelPath": "coniferous_tree_1.glb",
+      "Name": "Tree",
+      "PathingType": 255,
+      "RecalculateNormals": true,
+      "UnitId": "coniferous_tree_1",
+      "YOffset": 3.0000002
+    },
+    {
+      "Animations": {},
+      "CollisionCircle": 0.25,
+      "Description": "",
+      "ModelPath": "palm_tree.glb",
+      "Name": "Palm Tree",
+      "PathingType": 255,
+      "RecalculateNormals": true,
+      "UnitId": "palm_tree",
+      "YOffset": 3.15
+    },
     {
       "Brightness": 0.37,
       "Description": "",
@@ -195,27 +114,6 @@
       "Name": "bleached_dead_tree",
       "PathingType": 255,
       "UnitId": "bleached_dead_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "coniferous_tree.glb",
-      "Name": "coniferous_tree",
-      "PathingType": 255,
-      "UnitId": "coniferous_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "faceted_stone_rock.glb",
-      "Name": "faceted_stone_rock",
-      "PathingType": 255,
-      "UnitId": "faceted_stone_rock"
-    },
-    {
-      "Description": "",
-      "ModelPath": "fantasy_tree.glb",
-      "Name": "fantasy_tree",
-      "PathingType": 255,
-      "UnitId": "fantasy_tree"
     },
     {
       "Brightness": 0.91999996,
@@ -232,180 +130,40 @@
     },
     {
       "Brightness": 1,
+      "CollisionCircle": 0.55,
       "Description": "",
-      "ModelPath": "frost_pine_tree.glb",
-      "Name": "frost_pine_tree",
-      "PathingType": 255,
-      "UnitId": "frost_pine_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "fungal_tree.glb",
-      "Name": "fungal_tree",
-      "PathingType": 255,
-      "UnitId": "fungal_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "mossy_rock_formation.glb",
-      "Name": "mossy_rock_formation",
-      "PathingType": 255,
-      "UnitId": "mossy_rock_formation"
-    },
-    {
-      "Description": "",
-      "ModelPath": "mossy_rock_formation_1.glb",
-      "Name": "mossy_rock_formation_1",
-      "PathingType": 255,
-      "UnitId": "mossy_rock_formation_1"
-    },
-    {
-      "Brightness": 1,
-      "CollisionCircle": 0.4,
-      "Description": "",
+      "IgnorePlayerColor": false,
       "ModelPath": "mossy_rock_ore.glb",
       "Name": "mossy_rock_ore",
       "PathingType": 255,
-      "UnitId": "mossy_rock_ore"
-    },
-    {
-      "Description": "",
-      "ModelPath": "pine_tree.glb",
-      "Name": "pine_tree",
-      "PathingType": 255,
       "RecalculateNormals": true,
-      "UnitId": "pine_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "rock_boulder.glb",
-      "Name": "rock_boulder",
-      "PathingType": 255,
-      "UnitId": "rock_boulder"
-    },
-    {
-      "Brightness": 0.39,
-      "CollisionCircle": 1.25,
-      "Description": "",
-      "ModelPath": "rock_formation.glb",
-      "Name": "rock_formation",
-      "PathingType": 255,
-      "UnitId": "rock_formation"
-    },
-    {
-      "Description": "",
-      "ModelPath": "rock_formation_2.glb",
-      "Name": "rock_formation_2",
-      "PathingType": 255,
-      "UnitId": "rock_formation_2"
-    },
-    {
-      "Brightness": 1,
-      "Description": "",
-      "ModelPath": "rock_terrain.glb",
-      "Name": "rock_terrain",
-      "PathingType": 255,
-      "UnitId": "rock_terrain"
-    },
-    {
-      "Description": "",
-      "ModelPath": "spirit_tree.glb",
-      "Name": "spirit_tree",
-      "PathingType": 255,
-      "UnitId": "spirit_tree"
-    },
-    {
-      "Description": "",
-      "ModelPath": "spirit_tree_2.glb",
-      "Name": "spirit_tree_2",
-      "PathingType": 255,
-      "UnitId": "spirit_tree_2"
-    },
-    {
-      "Description": "",
-      "ModelPath": "stone_boulder.glb",
-      "Name": "stone_boulder",
-      "PathingType": 255,
-      "UnitId": "stone_boulder"
-    },
-    {
-      "Description": "",
-      "ModelPath": "tree_bonze.glb",
-      "Name": "tree_bonze",
-      "PathingType": 255,
-      "UnitId": "tree_bonze"
-    },
-    {
-      "Description": "",
-      "ModelPath": "willow_tree_3.glb",
-      "Name": "willow_tree_3",
-      "PathingType": 255,
-      "UnitId": "willow_tree_3"
+      "Tint": "#ffffff",
+      "UnitId": "mossy_rock_ore",
+      "YOffset": 0.45000017
     }
   ],
   "CustomProps": [
     {
+      "Animations": {},
+      "CollisionCircle": 0.75,
       "Description": "",
-      "ModelPath": "architectural_components.glb",
-      "Name": "architectural_components",
+      "ModelPath": "crystal_cluster_5.glb",
+      "Name": "Crystals",
       "PathingType": 255,
-      "UnitId": "architectural_components"
+      "RecalculateNormals": true,
+      "UnitId": "crystal_cluster_5",
+      "YOffset": 1.0500002
     },
     {
+      "Animations": {},
+      "CollisionCircle": 0.4,
       "Description": "",
-      "ModelPath": "palm_tree_2.glb",
-      "Name": "palm_tree_2",
+      "ModelPath": "spiked_wooden_stake.glb",
+      "Name": "Spike Pole",
       "PathingType": 255,
-      "UnitId": "palm_tree_2"
-    },
-    {
-      "Description": "",
-      "ModelPath": "tree_bonze.glb",
-      "Name": "tree_bonze",
-      "PathingType": 255,
-      "UnitId": "tree_bonze"
-    },
-    {
-      "Description": "",
-      "ModelPath": "tree_snake_ornament.glb",
-      "Name": "tree_snake_ornament",
-      "PathingType": 255,
-      "UnitId": "tree_snake_ornament"
-    },
-    {
-      "Description": "",
-      "ModelPath": "tree_stump.glb",
-      "Name": "tree_stump",
-      "PathingType": 255,
-      "UnitId": "tree_stump"
-    },
-    {
-      "Description": "",
-      "ModelPath": "tree_stump_1.glb",
-      "Name": "tree_stump_1",
-      "PathingType": 255,
-      "UnitId": "tree_stump_1"
-    },
-    {
-      "Description": "",
-      "ModelPath": "water_vase.glb",
-      "Name": "water_vase",
-      "PathingType": 255,
-      "UnitId": "water_vase"
-    },
-    {
-      "Description": "",
-      "ModelPath": "wood_pile.glb",
-      "Name": "wood_pile",
-      "PathingType": 255,
-      "UnitId": "wood_pile"
-    },
-    {
-      "Description": "",
-      "ModelPath": "wooden_box.glb",
-      "Name": "wooden_box",
-      "PathingType": 255,
-      "UnitId": "wooden_box"
+      "RecalculateNormals": true,
+      "UnitId": "spiked_wooden_stake",
+      "YOffset": 0.7500002
     }
   ],
   "CustomAbilities": [],
@@ -413,164 +171,67 @@
   "CustomItems": [],
   "CustomWeapons": [],
   "Assets": {
+    "animations": {
+      "bored___standing_around_bored_idle.ranim": "18f12b05e4fec0ea63d87859b85f21cd5a2b24f202eb688ee919881a45a5f999",
+      "death___death_from_standing_idle.ranim": "e3359b33a523e7256861e32639056ff0edbf441979a4ccc200ec9f9de6a5a482",
+      "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim": "e5cd8587cc810ee7c42ab6274c86592ca30376aead1dc78d5bf75c3469c540a3",
+      "magic_spell_casting___casting_a_spell_with_one_hand.ranim": "c34fedc5df2e49885453bc20e2199a4f1924e25cfe1460781eab5022abeb7813",
+      "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim": "193a74c2f1246ca1b6411efd722e281bdc012cc791a96a59210f6c8607ba772f",
+      "standard_walk___standard_walk.ranim": "5941c8332db13407e3f0edbd47884fc773ddc6b89678360f7637f0b1f050f004",
+      "upward_thrust___upward_weapon_thrust.ranim": "fbbefae0cc7b6d156a4e1eed936f73bf668fdf79fb7b714443e15c9677aa7639"
+    },
     "decals": {
       "acid_drip.png": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
       "arcane_spark.png": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
     },
     "glb": {
       "buildings": {
-        "ancient_altar.glb": {
+        "ice_castle_1.glb": {
           "default_asset_type": "buildings",
-          "hash": "15e08279ae6b07e7023cf90cba094fe2302dd5f9667877d232b6514a2e848707"
+          "generate_normals": true,
+          "hash": "52d8e8d854c45d08f04f15f6d352e368e6ebe2915efc7fe733e835be1ac52195"
         },
-        "archway_structure.glb": {
+        "timber_framed_house.glb": {
           "default_asset_type": "buildings",
-          "hash": "70498cd690224028d5a4198f9a0297b1aeecb84e552d664d375e302f7e967298"
-        },
-        "castle.glb": {
-          "default_asset_type": "buildings",
-          "hash": "51a85a078ce65e2b4df4b1a8e877893be336546d8df0e4a68a29deeb5293cd01"
-        },
-        "castle_tower_1.glb": {
-          "default_asset_type": "buildings",
-          "hash": "3cd8530511a01188a2ae7ade49a314a5010dec0c131dfdb7556b2a8e8cee473b"
-        },
-        "ritual_altar.glb": {
-          "default_asset_type": "buildings",
-          "hash": "9f15d8b88cb5091f68fcd7e06ebb72073a0976d2c5d2ddfffd7a18270cf0e172"
-        },
-        "seashell_arch.glb": {
-          "default_asset_type": "buildings",
-          "hash": "50016b73bcd6f2da49eaf8dcc958d14416cf711897b8d7222fd9a103c7b2f367"
-        },
-        "stone_gate_1.glb": {
-          "default_asset_type": "buildings",
-          "hash": "a6b19330061ebb0a8f03e1d922df5660ed77e6ca5d5cd6d687da74bc98e73595"
-        },
-        "stone_gate_entrance.glb": {
-          "default_asset_type": "buildings",
-          "hash": "16ec970147be80523e6f246125ef4f716eb990aa0df14cd47b2c3c2eeb003cbe"
-        },
-        "stone_tower_1.glb": {
-          "default_asset_type": "buildings",
-          "hash": "4b9ff7f2bbe20df42b3681202c75c721fc5a993e38adb43b902ba7779c24af60"
-        },
-        "stone_tower_10.glb": {
-          "default_asset_type": "buildings",
-          "hash": "613b595bf83c2ca9449a2baab1f91efd44542f69ad39b5b41f0dd9e3855b9eeb"
-        },
-        "stone_tower_2.glb": {
-          "default_asset_type": "buildings",
-          "hash": "6c947a450356446515c302ca7a34d15d876b9a8995c83f2137ad66509de1ffa4"
-        },
-        "stone_tower_3.glb": {
-          "default_asset_type": "buildings",
-          "hash": "8a6e974b79ac9235052780681b6661642685baab8622a522f99f06dc65843227"
-        },
-        "stone_tower_4.glb": {
-          "default_asset_type": "buildings",
-          "hash": "c645b4f7513875b97dbf7fb948402e090e60fb37bc895dc1612fde10c4ffc398"
-        },
-        "stone_tower_5.glb": {
-          "default_asset_type": "buildings",
-          "hash": "0863cd6c216b165012297f1360466bf33c90bda52501cd3002ce6af682266ef4"
-        },
-        "stone_tower_6.glb": {
-          "default_asset_type": "buildings",
-          "hash": "520402c58187c0c2e470898849d6ffff0a52def5c32085951a7f82ba5e8f2460"
-        },
-        "stone_tower_7.glb": {
-          "default_asset_type": "buildings",
-          "hash": "b133b2fef0970d2ad79e1a7a1ccac3719837d0bd5bee19ae006ca132da4148e3"
-        },
-        "stone_tower_8.glb": {
-          "default_asset_type": "buildings",
-          "hash": "0070ecf5b8762633d33a6a4c4e0f89b7dbeeda6a270170af547b1e837c00248f"
-        },
-        "stone_tower_9.glb": {
-          "default_asset_type": "buildings",
-          "hash": "03e307df87fe6a809f64b3437fb08b5d0a4f412fe88c13eacf95cf0b6853065e"
-        },
-        "temple_complex.glb": {
-          "default_asset_type": "buildings",
-          "hash": "ee39a3446c5ef2847d2a0e14691d960c1bfdad4cd96ce0f8298f0e5f7291bcc3"
-        },
-        "torii_gate.glb": {
-          "default_asset_type": "buildings",
-          "hash": "bd88857d7fceb960e9d7023326ebaf9dc8a33d2616c17ad73e89b1f3739b444b"
-        },
-        "white_wall_section.glb": {
-          "default_asset_type": "buildings",
-          "hash": "82751253c56eafe505baa14295e9b4be25aacabd789891abfcd6fda6969dae82"
-        },
-        "wooden_gazebo.glb": {
-          "default_asset_type": "buildings",
-          "hash": "f216a280d071e8eb14c9b8c408460e1e85c1f3aa0035d806b1ef24332258ddb6"
-        },
-        "wooden_house_1.glb": {
-          "default_asset_type": "buildings",
-          "hash": "7315fa0c634d375d83fbfb3cc0067364b6bc2ab214430f73689a99be6d8bec05"
-        },
-        "wooden_warehouse.glb": {
-          "default_asset_type": "buildings",
-          "hash": "b3939da252a2fd8ba7f66707dc25dc52e96fcf649dca16d9c934e9cbd27d0bf4"
+          "generate_normals": true,
+          "hash": "fb72c8a4c9bc36a262197392675d55e73aa8646beb752d8fd9ea7b2dcdaf14cf"
         }
       },
       "props": {
-        "architectural_components.glb": {
+        "crystal_cluster_5.glb": {
+          "collision_circle_ratio": 0.75,
           "default_asset_type": "props",
-          "hash": "6a2fb5548dd803196b797690212fd87ee00b55cd481ec8e32e9aacd8bb43dc39"
+          "generate_normals": true,
+          "hash": "f3a50db94ab0264ac77c279a1fd7f88612467dffa0ce6d3ab2d0d0ba14393244",
+          "y_offset": 1.0500002
         },
-        "palm_tree_2.glb": {
+        "spiked_wooden_stake.glb": {
+          "collision_circle_ratio": 0.4,
           "default_asset_type": "props",
-          "hash": "a4cc8a64b5520aae9bbb46d5c8605a1dbd823b13420eeae612bcd7ee02284307"
-        },
-        "tree_bonze.glb": {
-          "default_asset_type": "props",
-          "hash": "a22746b12308b5d4d21643722d00372bab3eb9fd3947087c1450cac5b16a693d"
-        },
-        "tree_snake_ornament.glb": {
-          "default_asset_type": "props",
-          "hash": "dbd033146329b82a018159927a1aa94fcd0b7d815520cc47d26ffd7e8dd8c71b"
-        },
-        "tree_stump.glb": {
-          "default_asset_type": "props",
-          "hash": "832a0595559cc70d73d2ea0a0f2ba30773ffba9576c9c50540ef04e53bba9b35"
-        },
-        "tree_stump_1.glb": {
-          "default_asset_type": "props",
-          "hash": "7a2de4259341f488fc4a2c9e40df54af4508d4f08ec75f8c459e65bc17978f29"
-        },
-        "water_vase.glb": {
-          "default_asset_type": "props",
-          "hash": "bc73d84e9c1ee3b444964219e308f0ee482a7997e2f1447703a1e3ddd52d9a3c"
-        },
-        "wood_pile.glb": {
-          "default_asset_type": "props",
-          "hash": "fa5424aee2f3ca89b3db66a0b4439873c0d622429dd1b58b7f1a657b8185d2cc"
-        },
-        "wooden_box.glb": {
-          "default_asset_type": "props",
-          "hash": "0d170bda830292b6d09ef545d22bee9806c519de628ba3497c404ed82ec08205"
+          "generate_normals": true,
+          "hash": "b67bd5617dff8b4329c121ca9761f6218d28f0b08324279c426cbe1642f16d1d",
+          "y_offset": 0.7500002
         }
       },
       "resources": {
+        "coniferous_tree_1.glb": {
+          "collision_circle_ratio": 0.3,
+          "default_asset_type": "resources",
+          "generate_normals": true,
+          "hash": "3c2de41b9a1ff7b653c6cc359032ae3712c520df25bf175a82968652bbee94bf",
+          "y_offset": 3.0000002
+        },
+        "palm_tree.glb": {
+          "collision_circle_ratio": 0.25,
+          "default_asset_type": "resources",
+          "generate_normals": true,
+          "hash": "59d40a05d2b97ade867b377279f092542a0956884022502554763e22e0d6e83f",
+          "y_offset": 3.15
+        },
         "bleached_dead_tree.glb": {
           "brightness": 0.37,
           "default_asset_type": "resources",
           "hash": "3560fe81fea75b33a71b81e6a1d0b9162adf4c85ee98d4dc66400f316873b4c8"
-        },
-        "coniferous_tree.glb": {
-          "default_asset_type": "resources",
-          "hash": "452c1089dbd63db5abcaa38dc63ff762d9ab33743dbfe95f55b66d4e70776538"
-        },
-        "faceted_stone_rock.glb": {
-          "default_asset_type": "resources",
-          "hash": "ebd0f158892fda9bf41597d2f9b3090587450365fd22bef3bd87a11eac96a700"
-        },
-        "fantasy_tree.glb": {
-          "default_asset_type": "resources",
-          "hash": "52fca68b3fad39287916f7cfe4931be751e28bcddb202b60f44af941eb8c4013"
         },
         "fantasy_tree_1.glb": {
           "brightness": 0.91999996,
@@ -581,82 +242,26 @@
           "ignore_player_color": false,
           "y_offset": 2.0500002
         },
-        "frost_pine_tree.glb": {
-          "brightness": 1,
-          "default_asset_type": "resources",
-          "hash": "a396811624afc68ee19c19b497542f847e189202fee27ec24f5fa117f76acb3f"
-        },
-        "fungal_tree.glb": {
-          "default_asset_type": "resources",
-          "hash": "dab36a93795a60b90e80384d5902ce4fc72e9a8df11aad5cca4c2e65069c560f"
-        },
-        "mossy_rock_formation.glb": {
-          "default_asset_type": "resources",
-          "hash": "4cea8de7a05c4b35632da631726c8df70cf1ee8d1c01a15091980d9264ce2138"
-        },
-        "mossy_rock_formation_1.glb": {
-          "default_asset_type": "resources",
-          "hash": "1f18f0a941a03fb4ccc2db6b333abc5a2a907532e4b707ad1216691cbcc54051"
-        },
         "mossy_rock_ore.glb": {
           "brightness": 1,
-          "collision_circle_ratio": 0.4,
+          "collision_circle_ratio": 0.55,
           "default_asset_type": "resources",
-          "hash": "83c826c055919a625c80a9c646bc39764c85591e5e32a474281a40dc8d71e03b"
-        },
-        "pine_tree.glb": {
-          "default_asset_type": "resources",
+          "hash": "83c826c055919a625c80a9c646bc39764c85591e5e32a474281a40dc8d71e03b",
+          "y_offset": 0.45000017,
           "generate_normals": true,
-          "hash": "7040c599ef9305fabe56b6d38c5176160ab7a67e553c0cdbc6ab942a5a631ec6"
-        },
-        "rock_boulder.glb": {
-          "default_asset_type": "resources",
-          "hash": "dd89025365e2d63105284f9e37eac204fcf2899ad6b9c81f8bbf37262c683680"
-        },
-        "rock_formation.glb": {
-          "brightness": 0.39,
-          "collision_circle_ratio": 1.25,
-          "default_asset_type": "resources",
-          "hash": "72915de6ade6550eb32977d9bd97f71a86fd24a23db4c0ff271f9d48e6af333f"
-        },
-        "rock_formation_2.glb": {
-          "default_asset_type": "resources",
-          "hash": "6a874ed2831e240683db1378ec4e2e66ff4770c2412cf35e78b763fd191b0976"
-        },
-        "rock_terrain.glb": {
-          "brightness": 1,
-          "default_asset_type": "resources",
-          "hash": "2d0dc042313c1ecd2ae370468af33ce503e5046fadfe792b2c22c69eb4988dd4"
-        },
-        "spirit_tree.glb": {
-          "default_asset_type": "resources",
-          "hash": "f194e6d7998abff4177d60a1a95dae2ff7f7f0ece5f015351a974b3f045c2c61"
-        },
-        "spirit_tree_2.glb": {
-          "default_asset_type": "resources",
-          "hash": "c02dc01a6ecc63340a997f385a942bf8479a6ac96810335f932dd75f3fb19b70"
-        },
-        "stone_boulder.glb": {
-          "default_asset_type": "resources",
-          "hash": "0c5382ae8206c4c25234e5db17e1190bb6c3db6251404dab0bd9f2eb22c5216a"
-        },
-        "tree_bonze.glb": {
-          "default_asset_type": "resources",
-          "hash": "a22746b12308b5d4d21643722d00372bab3eb9fd3947087c1450cac5b16a693d"
-        },
-        "willow_tree_3.glb": {
-          "default_asset_type": "resources",
-          "hash": "3e382839ba2c4c8cf55fbb3aef7185e50985802210945c7e46cc187ef0861cdb"
+          "ignore_player_color": false
         }
       },
       "units": {
-        "adventurer.glb": {
+        "fantasy_warrior_unit_1.glb": {
           "default_asset_type": "units",
-          "hash": "b91001d65c335e770097a7cd2c548a9e4ef0b3880cca46cb2032a2083e9836ac"
+          "generate_normals": true,
+          "hash": "71b2b318523e49a8f33d501fe49a84adc03460e688bb47fe40d41c98aaa98625"
         },
-        "armored_dragon.glb": {
+        "orc_warrior_7.glb": {
           "default_asset_type": "units",
-          "hash": "f3c849c4eee54b2240f0eb328e71e457b4045412d8d5f64ba3e0ca91abd95576"
+          "generate_normals": true,
+          "hash": "3dc8e5aa020f3a826a82dc95fdcab3eabd9b4a0ec9dd4b20f36ca34185416b99"
         }
       }
     },
@@ -716,7 +321,19 @@
         "stochastic_tile_size": 0.5,
         "tile_mode": "Stochastic",
         "uv_scale": 1.25
-      }
+      },
+      "whispering_woods_soft_grass.ktx2": "2db615712c6bff191d48f97428e3e9bc80c74cdb8ff9f63ab41fdae6a8d1d33a",
+      "ancient_jungle_mossy_stone.ktx2": "8ce9002a1e6d4d802e5ddf2f537e1a705abbef3c580ff0aaeb8cb0966e00f190",
+      "ancient_jungle_overgrown_path.ktx2": "82817a46e4f4ad1fde83c2b3ce852a052e544a3926f8f6143d4b9dba5ebd8424",
+      "deep_trench_dense_mud.ktx2": "27bd88d3c661a25f068f8b253ba2eb1c49051f77a12173e92b395c78fb12e291",
+      "dusty_canyon_granite_basin.ktx2": "476933287507388fac7c5823cd4089a4e1913a87d9fe7d1a30d1d6ab77447996",
+      "frozen_tundra_mud.ktx2": "223a936936e7de901eb618a081d46e2296c0c9681b41794c3094f31d31e57107",
+      "mangrove_swamp_bog_grass.ktx2": "dbfeb5a3c6d9deac441f1944eb7eecef4b085a8123a4d9db7b97e6165d07e0ee",
+      "petrified_forest_gray_granite.ktx2": "4f2cc6d36258a2ee8bdc4225b707d8cb5dc09938e1d95391c8482d4a25c40f40",
+      "sunken_ruins_crushed_granite.ktx2": "3ce20b1553713a2c1482e6dcb66f93447fc6472458d053bdaba7232a1484c7a8",
+      "sunken_ruins_mossy_stone.ktx2": "bd3b13cf2dd187275f48b76e0742d34eaaa17812d6a4cd95a7cceed99e611646",
+      "sunken_ruins_reef_stone.ktx2": "30772f8d743d3ded66c572aa5b81b3e57e54079a9622159b5c8b807105682660",
+      "dusty_canyon_scarce_soil.ktx2": "018b8a6f2374d080d22a9ea49cad869707d193f5571241a696a4b7cc3fc1958a"
     },
     "vfx_spritesheets": {
       "arcane_surge_sheet.png": {
@@ -732,12 +349,20 @@
     }
   },
   "ModelOffsets": {
-    "fantasy_tree_1.glb": 2.0500002
+    "coniferous_tree_1.glb": 3.0000002,
+    "palm_tree.glb": 3.15,
+    "crystal_cluster_5.glb": 1.0500002,
+    "spiked_wooden_stake.glb": 0.7500002,
+    "fantasy_tree_1.glb": 2.0500002,
+    "mossy_rock_ore.glb": 0.45000017
   },
   "ModelCollisionCircleRatios": {
+    "coniferous_tree_1.glb": 0.3,
+    "palm_tree.glb": 0.25,
+    "crystal_cluster_5.glb": 0.75,
+    "spiked_wooden_stake.glb": 0.4,
     "fantasy_tree_1.glb": 0.3,
-    "mossy_rock_ore.glb": 0.4,
-    "rock_formation.glb": 1.25
+    "mossy_rock_ore.glb": 0.55
   },
   "ModelObstacleRadii": {},
   "ModelBrightness": {
@@ -749,10 +374,19 @@
     "rock_terrain.glb": 1
   },
   "ModelGenerateNormals": {
+    "fantasy_warrior_unit_1.glb": true,
+    "orc_warrior_7.glb": true,
+    "ice_castle_1.glb": true,
+    "timber_framed_house.glb": true,
+    "coniferous_tree_1.glb": true,
+    "palm_tree.glb": true,
+    "crystal_cluster_5.glb": true,
+    "spiked_wooden_stake.glb": true,
     "fantasy_tree_1.glb": true,
-    "pine_tree.glb": true
+    "mossy_rock_ore.glb": true
   },
   "ModelIgnorePlayerColor": {
-    "fantasy_tree_1.glb": false
+    "fantasy_tree_1.glb": false,
+    "mossy_rock_ore.glb": false
   }
 }

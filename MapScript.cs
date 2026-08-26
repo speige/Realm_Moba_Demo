@@ -36,10 +36,10 @@ public class MapScript : IWasmModule
     private void SpawnPlayerHero(IGameAPI api)
     {
         Vector3 spawn;
-        if (api.TryGetCoordinate("Spawn_Team1", out var spawnCoord))
-            spawn = spawnCoord.Center;
-        else if (api.TryGetCoordinate("Base_Team1", out var baseCoord))
-            spawn = baseCoord.Center;
+        if (api.TryGetCoordinateCenter("Spawn_Team1", out spawn))
+            ;
+        else if (api.TryGetCoordinateCenter("Base_Team1", out spawn))
+            ;
         else
         {
             api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");

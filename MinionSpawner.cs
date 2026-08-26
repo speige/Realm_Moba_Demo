@@ -34,8 +34,8 @@ public sealed class MinionSpawner
 
     private void SpawnWave(IGameAPI api)
     {
-        if (!CoordinateResolver.TryGetCenter(api, "Base_Team1", out var baseTeam1) ||
-            !CoordinateResolver.TryGetCenter(api, "Base_Team2", out var baseTeam2))
+        if (!api.TryGetCoordinateCenter("Base_Team1", out var baseTeam1) ||
+            !api.TryGetCoordinateCenter("Base_Team2", out var baseTeam2))
         {
             api.BroadcastMessage("MinionSpawner: Base_Team1/Base_Team2 missing; skipping wave");
             return;
@@ -48,16 +48,14 @@ public sealed class MinionSpawner
     private void SpawnTeam(IGameAPI api, int player, Vector3 start, Vector3 destination)
     {
         var spawnPad = player == 0 ? "Spawn_Team1" : "Spawn_Team2";
-        var spawnStart = CoordinateResolver.RequireCenterOrFallback(
-            api,
-            spawnPad,
-            start + (player == 0 ? new Vector3(5f, 0f, -5f) : new Vector3(-5f, 0f, 5f)));
+        var spawnStart = api.TryGetCoordinateCenter(spawnPad, out var padCenter)
+            ? padCenter
+            : start + (player == 0 ? new Vector3(5f, 0f, -5f) : new Vector3(-5f, 0f, 5f));
 
         var laneCorners = new[] { "Top_Corner", "Middle", "Bot_Corner" };
         for (var lane = 0; lane < laneCorners.Length; lane++)
         {
-            if (!CoordinateResolver.TryBuildLaneWaypoints(
-                    api, start, laneCorners[lane], destination, out var waypoints))
+            if (!api.TryBuildWaypointPath(start, laneCorners[lane], destination, out var waypoints))
             {
                 api.BroadcastMessage($"MinionSpawner: skipping lane {laneCorners[lane]}");
                 continue;

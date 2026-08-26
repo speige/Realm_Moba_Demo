@@ -8,6 +8,7 @@ public class MapScript : IWasmModule
     private readonly List<TowerAI> _towers = [];
     private readonly MinionSpawner _minionSpawner = new();
     private IUnit? _hero;
+    private HeroProgression? _progression;
 
     public void Initialize(IGameAPI api)
     {
@@ -50,6 +51,8 @@ public class MapScript : IWasmModule
         api.SetUnitOwner(_hero, 0);
         api.SelectUnit(_hero);
         api.PanCameraTo(_hero.Position, 0.35f);
+        _progression = new HeroProgression(_hero);
+        _progression.Attach(api);
         api.SendMessageToPlayer(0, "Kevin ready. Waves every 30s.");
     }
 
@@ -59,6 +62,7 @@ public class MapScript : IWasmModule
             tower.Update(api, delta);
 
         _minionSpawner.Update(api, delta);
+        _progression?.Update(api, delta);
     }
 
     private static int GetTowerOwner(Vector3 position, IGameAPI api)

@@ -39,7 +39,7 @@ public sealed class LanePathfinder
         }
 
         var waypoint = _waypoints[_waypointIndex];
-        if (Vector3.DistanceSquared(_unit.Position, waypoint) <= 4f)
+        if (HorizontalDistanceSquared(_unit.Position, waypoint) <= 4f)
         {
             _waypointIndex++;
             if (_waypointIndex >= _waypoints.Count)
@@ -54,5 +54,12 @@ public sealed class LanePathfinder
             _unit.AttackMove(waypoint);
             _hasMovementOrder = true;
         }
+    }
+
+    private static float HorizontalDistanceSquared(Vector3 from, Vector3 to)
+    {
+        var deltaX = from.X - to.X;
+        var deltaZ = from.Z - to.Z;
+        return deltaX * deltaX + deltaZ * deltaZ;
     }
 }

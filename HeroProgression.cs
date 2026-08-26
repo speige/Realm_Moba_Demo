@@ -37,16 +37,15 @@ public sealed class HeroProgression
 
     private void HandleUnitDied(IUnit dead, IUnit? killer)
     {
-        if (_api == null || !_rewardedDeaths.Add(dead.UniqueId))
+        if (_api == null || dead.Player == _hero.Player || _hero.IsDead)
             return;
-        if (dead.Player == _hero.Player || _hero.IsDead)
+        if (!_rewardedDeaths.Add(dead.UniqueId))
             return;
 
         // Killer attribution is currently informational; the demo rewards any enemy death.
         _ = killer?.UniqueId;
-        _api.SetPlayerGold(0, _api.GetPlayerGold(0) + KillGold);
+        _api.AdjustPlayerGold(0, KillGold);
         _trackedXp += KillXp;
-        _hero.Experience = _trackedXp;
         var level = 1 + (int)(_trackedXp / XpPerLevel);
         _api.SetUnitLevel(_hero, level);
     }

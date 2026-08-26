@@ -70,6 +70,49 @@
         ]
       },
       "Description": "",
+      "ModelPath": "fantasy_warrior_unit_1.glb",
+      "Name": "Team 1 Minion",
+      "PathingType": 9,
+      "RecalculateNormals": true,
+      "UnitId": "moba_minion_team1",
+      "NormalMode": "Flat",
+      "MaxHp": 280,
+      "Damage": 18,
+      "Range": 1.5,
+      "Armor": 1,
+      "Speed": 3.8,
+      "AttackCooldown": 1.2,
+      "PopCost": 1,
+      "AttackType": "melee",
+      "ArmorType": "light",
+      "GoldBounty": 25,
+      "XpBounty": 40
+    },
+    {
+      "Animations": {
+        "Attack": [
+          "upward_thrust___upward_weapon_thrust.ranim"
+        ],
+        "Dance": [
+          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
+        ],
+        "Death": [
+          "death___death_from_standing_idle.ranim"
+        ],
+        "Idle": [
+          "bored___standing_around_bored_idle.ranim"
+        ],
+        "Labor": [
+          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+        ],
+        "Spell_Cast": [
+          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
+        ],
+        "Walk": [
+          "standard_walk___standard_walk.ranim"
+        ]
+      },
+      "Description": "",
       "ModelPath": "orc_warrior_7.glb",
       "Name": "Chad",
       "PathingType": 9,

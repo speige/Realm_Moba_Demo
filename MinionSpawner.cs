@@ -9,6 +9,7 @@ public sealed class MinionSpawner
     private const float SpawnOffset = 1.5f;
     private readonly List<LanePathfinder> _minions = [];
     private float _elapsed = WaveInterval;
+    private bool _reportedSpawnFailure;
 
     public void Update(IGameAPI api, float delta)
     {
@@ -60,12 +61,19 @@ public sealed class MinionSpawner
             {
                 var offset = new Vector3((member - 1) * SpawnOffset, 0, (lane - 1) * SpawnOffset);
                 var unit = api.SpawnUnit(
-                    player == 0 ? "fantasy_warrior_unit_1" : "orc_warrior_7",
+                    player == 0 ? "moba_minion_team1" : "orc_warrior_7",
                     spawnStart + offset,
                     player == 1,
                     true);
                 if (unit == null)
+                {
+                    if (!_reportedSpawnFailure)
+                    {
+                        api.BroadcastMessage("MinionSpawner: SpawnUnit returned null; some minions were skipped");
+                        _reportedSpawnFailure = true;
+                    }
                     continue;
+                }
 
                 api.SetUnitOwner(unit, player);
                 _minions.Add(new LanePathfinder(unit, waypoints));

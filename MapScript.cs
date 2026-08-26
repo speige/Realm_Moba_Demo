@@ -20,7 +20,7 @@ public class MapScript : IWasmModule
 
         foreach (var unit in api.GetAllUnits().Where(unit => unit.UnitId == "ice_castle_1" && unit.IsBuilding))
         {
-            var owner = GetTowerOwner(unit.Position, api);
+            var owner = GetTowerOwner(unit, api);
             if (unit.Player != owner)
                 api.SetUnitOwner(unit, owner);
 
@@ -65,8 +65,12 @@ public class MapScript : IWasmModule
         _progression?.Update(api, delta);
     }
 
-    private static int GetTowerOwner(Vector3 position, IGameAPI api)
+    private static int GetTowerOwner(IUnit unit, IGameAPI api)
     {
+        if (unit.Player is 0 or 1)
+            return unit.Player;
+
+        var position = unit.Position;
         if (api.IsPositionInCoordinate(position, "Base_Team1") ||
             api.IsPositionInCoordinate(position, "Mid_Team1_Tower"))
             return 0;

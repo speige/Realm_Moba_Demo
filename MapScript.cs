@@ -26,16 +26,31 @@ public class MapScript : IWasmModule
             _towers.Add(new TowerAI(unit));
         }
 
-        if (api.HasCoordinate("Base_Team1"))
-        {
-            var heroSpawn = api.GetCoordinate("Base_Team1").Center + new Vector3(4f, 0f, -4f);
-            _hero = api.SpawnUnit("fantasy_warrior_unit_1", heroSpawn, false, true);
-            if (_hero != null)
-                api.SetUnitOwner(_hero, 0);
+        SpawnPlayerHero(api);
+    }
 
-            if (_hero != null)
-                api.SelectUnit(_hero);
+    private void SpawnPlayerHero(IGameAPI api)
+    {
+        if (!CoordinateResolver.TryGetCenter(api, "Spawn_Team1", out var spawn) &&
+            !CoordinateResolver.TryGetCenter(api, "Base_Team1", out spawn))
+        {
+            api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");
+            return;
         }
+
+        _hero = api.SpawnUnitForPlayer("fantasy_warrior_unit_1", spawn, 0)
+                ?? api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
+
+        if (_hero == null)
+        {
+            api.BroadcastMessage("Hero spawn returned null for fantasy_warrior_unit_1");
+            return;
+        }
+
+        api.SetUnitOwner(_hero, 0);
+        api.SelectUnit(_hero);
+        api.PanCameraTo(_hero.Position, 0.35f);
+        api.SendMessageToPlayer(0, "Kevin ready. Waves every 30s.");
     }
 
     public void Update(IGameAPI api, float delta)

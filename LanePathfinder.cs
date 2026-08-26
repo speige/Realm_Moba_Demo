@@ -9,8 +9,10 @@ public sealed class LanePathfinder
     private readonly IReadOnlyList<Vector3> _waypoints;
     private int _waypointIndex = 1;
     private bool _hasMovementOrder;
+    private float _attackCooldown;
 
     public const float ScanRadius = 8f;
+    private const float DefaultAttackCooldown = 1.2f;
 
     public LanePathfinder(IUnit unit, IReadOnlyList<Vector3> waypoints)
     {
@@ -25,15 +27,32 @@ public sealed class LanePathfinder
         if (!IsAlive || _waypointIndex >= _waypoints.Count)
             return;
 
+        _attackCooldown = MathF.Max(0, _attackCooldown - delta);
+
+        var attackRange = _unit.Range > 0 ? _unit.Range : 1.5f;
         var target = api.GetUnitsInRadius(_unit.Position, ScanRadius)
             .Where(candidate => !candidate.IsDead && candidate.Player != _unit.Player)
-            .OrderBy(candidate => Vector3.DistanceSquared(candidate.Position, _unit.Position))
+            .OrderBy(candidate => HorizontalDistanceSquared(candidate.Position, _unit.Position))
             .FirstOrDefault();
 
         if (target != null)
         {
-            _unit.Stop();
-            _unit.Attack(target);
+            var distSq = HorizontalDistanceSquared(_unit.Position, target.Position);
+            if (distSq > attackRange * attackRange)
+            {
+                // Walk into melee/ranged attack distance instead of stopping out of range.
+                _unit.AttackMove(target.Position);
+                _hasMovementOrder = false;
+                return;
+            }
+
+            if (_attackCooldown <= 0)
+            {
+                _unit.Attack(target);
+                api.DealDamage(_unit, target, _unit.Damage > 0 ? _unit.Damage : 18f);
+                _attackCooldown = DefaultAttackCooldown;
+            }
+
             _hasMovementOrder = false;
             return;
         }

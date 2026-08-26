@@ -4,7 +4,12 @@
 bin/
 obj/
 
-# Playtest screenshots / media dropped into docs (keep markdown tracked)
+# Local-only — do not push (supervisor request)
+docs/
+tools/
+CORE_API_MOBA_PROMPT.md
+
+# Playtest screenshots / media dropped into docs (keep markdown local)
 docs/**/*.heic
 docs/**/*.HEIC
 docs/**/*.png

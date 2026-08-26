@@ -31,7 +31,19 @@
       "PathingType": 9,
       "RecalculateNormals": true,
       "UnitId": "fantasy_warrior_unit_1",
-      "NormalMode": "Flat"
+      "NormalMode": "Flat",
+      "MaxHp": 600,
+      "Damage": 35,
+      "Range": 1.5,
+      "Armor": 3,
+      "Speed": 4.5,
+      "AttackCooldown": 1.1,
+      "PopCost": 1,
+      "AttackType": "melee",
+      "ArmorType": "light",
+      "IsHero": true,
+      "GoldBounty": 200,
+      "XpBounty": 100
     },
     {
       "Animations": {
@@ -63,7 +75,18 @@
       "PathingType": 9,
       "RecalculateNormals": true,
       "UnitId": "orc_warrior_7",
-      "NormalMode": "Flat"
+      "NormalMode": "Flat",
+      "MaxHp": 280,
+      "Damage": 18,
+      "Range": 1.5,
+      "Armor": 1,
+      "Speed": 3.8,
+      "AttackCooldown": 1.2,
+      "PopCost": 1,
+      "AttackType": "melee",
+      "ArmorType": "light",
+      "GoldBounty": 25,
+      "XpBounty": 40
     }
   ],
   "CustomBuildings": [
@@ -75,7 +98,17 @@
       "PathingType": 32,
       "RecalculateNormals": true,
       "UnitId": "ice_castle_1",
-      "NormalMode": "Flat"
+      "NormalMode": "Flat",
+      "MaxHp": 2500,
+      "Damage": 45,
+      "Range": 12,
+      "Armor": 8,
+      "Speed": 0,
+      "AttackCooldown": 1.25,
+      "AttackType": "ranged",
+      "ArmorType": "building",
+      "GoldBounty": 150,
+      "XpBounty": 120
     },
     {
       "Animations": {},

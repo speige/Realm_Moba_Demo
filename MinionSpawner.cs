@@ -27,8 +27,12 @@ public sealed class MinionSpawner
 
     private void SpawnWave(IGameAPI api)
     {
-        var baseTeam1 = GetCenter(api, "Base_Team1");
-        var baseTeam2 = GetCenter(api, "Base_Team2");
+        if (!CoordinateResolver.TryGetCenter(api, "Base_Team1", out var baseTeam1) ||
+            !CoordinateResolver.TryGetCenter(api, "Base_Team2", out var baseTeam2))
+        {
+            api.BroadcastMessage("MinionSpawner: Base_Team1/Base_Team2 missing; skipping wave");
+            return;
+        }
 
         SpawnTeam(api, 0, baseTeam1, baseTeam2);
         SpawnTeam(api, 1, baseTeam2, baseTeam1);
@@ -36,19 +40,22 @@ public sealed class MinionSpawner
 
     private void SpawnTeam(IGameAPI api, int player, Vector3 start, Vector3 destination)
     {
-        var spawnStart = start + (player == 0 ? new Vector3(5f, 0f, -5f) : new Vector3(-5f, 0f, 5f));
-        var top = GetCenter(api, "Top_Corner");
-        var bot = GetCenter(api, "Bot_Corner");
-        var middle = GetCenter(api, "Middle");
-        var lanes = new IReadOnlyList<Vector3>[]
-        {
-            [start, top, destination],
-            [start, middle, destination],
-            [start, bot, destination]
-        };
+        var spawnPad = player == 0 ? "Spawn_Team1" : "Spawn_Team2";
+        var spawnStart = CoordinateResolver.RequireCenterOrFallback(
+            api,
+            spawnPad,
+            start + (player == 0 ? new Vector3(5f, 0f, -5f) : new Vector3(-5f, 0f, 5f)));
 
-        for (var lane = 0; lane < lanes.Length; lane++)
+        var laneCorners = new[] { "Top_Corner", "Middle", "Bot_Corner" };
+        for (var lane = 0; lane < laneCorners.Length; lane++)
         {
+            if (!CoordinateResolver.TryBuildLaneWaypoints(
+                    api, start, laneCorners[lane], destination, out var waypoints))
+            {
+                api.BroadcastMessage($"MinionSpawner: skipping lane {laneCorners[lane]}");
+                continue;
+            }
+
             for (var member = 0; member < 3; member++)
             {
                 var offset = new Vector3((member - 1) * SpawnOffset, 0, (lane - 1) * SpawnOffset);
@@ -57,17 +64,12 @@ public sealed class MinionSpawner
                     spawnStart + offset,
                     player == 1,
                     true);
-                if (unit != null)
-                {
-                    api.SetUnitOwner(unit, player);
-                    _minions.Add(new LanePathfinder(unit, lanes[lane]));
-                }
+                if (unit == null)
+                    continue;
+
+                api.SetUnitOwner(unit, player);
+                _minions.Add(new LanePathfinder(unit, waypoints));
             }
         }
-    }
-
-    private static Vector3 GetCenter(IGameAPI api, string name)
-    {
-        return api.HasCoordinate(name) ? api.GetCoordinate(name).Center : Vector3.Zero;
     }
 }

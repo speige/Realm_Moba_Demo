@@ -12,6 +12,7 @@ public sealed class HeroProgression
     private readonly HashSet<int> _rewardedDeaths = [];
     private IGameAPI? _api;
     private float _trackedXp;
+    private float _trackedGold;
     private bool _attached;
 
     public HeroProgression(IUnit hero)
@@ -26,7 +27,13 @@ public sealed class HeroProgression
 
         _attached = true;
         _api = api;
-        api.SetPlayerGold(0, MathF.Max(api.GetPlayerGold(0), 300f));
+        _trackedGold = MathF.Max(api.GetPlayerGold(0), 300f);
+        api.SetPlayerGold(0, _trackedGold);
+        api.SetLeaderboardVisible("MOBA", true);
+        api.ClearLeaderboard();
+        api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
+        api.AddLeaderboardRow("Level", "1", null);
+        api.SendMessageToPlayer(0, $"Starting gold: {(int)_trackedGold}");
         api.OnUnitDied += HandleUnitDied;
     }
 
@@ -42,11 +49,14 @@ public sealed class HeroProgression
         if (!_rewardedDeaths.Add(dead.UniqueId))
             return;
 
-        // Killer attribution is currently informational; the demo rewards any enemy death.
         _ = killer?.UniqueId;
-        _api.AdjustPlayerGold(0, KillGold);
+        _trackedGold += KillGold;
+        _api.SetPlayerGold(0, _trackedGold);
         _trackedXp += KillXp;
         var level = 1 + (int)(_trackedXp / XpPerLevel);
         _api.SetUnitLevel(_hero, level);
+        _api.SetLeaderboardValue("Gold", $"{(int)_trackedGold}");
+        _api.SetLeaderboardValue("Level", $"{level}");
+        _api.SendMessageToPlayer(0, $"+{(int)KillGold} gold (total {(int)_trackedGold}) | Level {level}");
     }
 }

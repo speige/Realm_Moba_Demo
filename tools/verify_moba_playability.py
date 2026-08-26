@@ -85,14 +85,22 @@ def main() -> int:
             errors.append(f"missing coordinate {name}")
 
     castles = [u for u in terrain.get("Units", []) if u.get("UnitId") == "ice_castle_1"]
-    if len(castles) < 9:
-        errors.append(f"expected at least 9 authored castles, found {len(castles)}")
+    if len(castles) < 8:
+        errors.append(f"expected at least 8 authored castles, found {len(castles)}")
     team1_towers = [c for c in castles if c.get("Player") == 0]
     if not any(
         abs(c["PosX"] + 39.76) < 0.05 and abs(c["PosZ"] - 45.52) < 0.05
         for c in team1_towers
     ):
         errors.append("missing Team 1 tower near (-39.76, 45.52)")
+    if any(
+        abs(c["PosX"] + 42.29) < 0.05 and abs(c["PosZ"] - 52.08) < 0.05
+        for c in team1_towers
+    ):
+        errors.append("duplicate Team 1 mid tower near (-42.29, 52.08) should be removed")
+    shroud = (meta.get("MapProperties") or {}).get("ShroudType")
+    if shroud not in ("ExplorationShroud", "VisionShroud", "visible"):
+        errors.append("MapProperties.ShroudType should enable exploration/vision (got %r)" % shroud)
     if any(castle.get("Player") not in (0, 1) for castle in castles):
         errors.append("all authored castles must have player 0 or 1 ownership")
     if any(bool(castle.get("IsEnemy")) != (castle.get("Player") == 1) for castle in castles):

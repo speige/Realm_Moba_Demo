@@ -1,5 +1,9 @@
 {
-  "MapProperties": {},
+  "MapProperties": {
+    "ShroudType": "ExplorationShroud",
+    "MapName": "Realm MOBA Demo",
+    "MapDescription": "Three-lane MOBA demo with towers, waves, and a hero."
+  },
   "CustomUnits": [
     {
       "Animations": {
@@ -45,7 +49,7 @@
       "GoldBounty": 200,
       "XpBounty": 100,
       "CollisionCircle": 0.4,
-      "ScanRadius": 8
+      "ScanRadius": 14
     },
     {
       "Animations": {
@@ -91,7 +95,7 @@
       "XpBounty": 40,
       "IsHero": false,
       "CollisionCircle": 0.4,
-      "ScanRadius": 8
+      "ScanRadius": 14
     },
     {
       "Animations": {
@@ -137,7 +141,7 @@
       "XpBounty": 40,
       "IsHero": false,
       "CollisionCircle": 0.4,
-      "ScanRadius": 8
+      "ScanRadius": 14
     },
     {
       "Animations": {
@@ -183,7 +187,7 @@
       "XpBounty": 100,
       "IsHero": true,
       "CollisionCircle": 0.4,
-      "ScanRadius": 8
+      "ScanRadius": 14
     }
   ],
   "CustomBuildings": [
@@ -206,7 +210,7 @@
       "ArmorType": "building",
       "GoldBounty": 150,
       "XpBounty": 120,
-      "ScanRadius": 12,
+      "ScanRadius": 16,
       "CollisionCircle": 1.5
     },
     {

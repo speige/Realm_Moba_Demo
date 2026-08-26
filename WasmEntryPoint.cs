@@ -1,6 +1,7 @@
 namespace GameClientWorld;
 
 using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using System.Runtime.InteropServices;
 using Realm.MapAPI;
@@ -17,6 +18,8 @@ public class WasmEntryPoint
     }
 
     [UnmanagedCallersOnly(EntryPoint = "initialize")]
+    [UnconditionalSuppressMessage("Trimming", "IL2026", Justification = "Map scripts are discovered via reflection and kept by TrimmerRootAssembly.")]
+    [UnconditionalSuppressMessage("Trimming", "IL2072", Justification = "Activator.CreateInstance is used for IMapScript/IWasmModule types rooted for trimming.")]
     public static void Initialize()
     {
         try

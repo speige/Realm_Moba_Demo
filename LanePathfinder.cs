@@ -48,8 +48,10 @@ public sealed class LanePathfinder
 
             if (_attackCooldown <= 0)
             {
+                var damage = _unit.Damage > 0 ? _unit.Damage : 18f;
                 _unit.Attack(target);
-                api.DealDamage(_unit, target, _unit.Damage > 0 ? _unit.Damage : 18f);
+                // Prefer Health write over IGameAPI.DealDamage — not all MapAPI builds expose DealDamage (CS1061).
+                target.Health = MathF.Max(0f, target.Health - damage);
                 _attackCooldown = DefaultAttackCooldown;
             }
 

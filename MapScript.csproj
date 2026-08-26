@@ -21,6 +21,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="example\**\*.cs" />
+    <None Remove="example\**\*" />
+  </ItemGroup>
+  <ItemGroup>
     <TrimmerRootAssembly Include="$(AssemblyName)" />
   </ItemGroup>
   <ItemGroup>

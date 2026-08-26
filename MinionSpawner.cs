@@ -61,7 +61,7 @@ public sealed class MinionSpawner
             {
                 var offset = new Vector3((member - 1) * SpawnOffset, 0, (lane - 1) * SpawnOffset);
                 var unit = api.SpawnUnit(
-                    player == 0 ? "moba_minion_team1" : "orc_warrior_7",
+                    player == 0 ? "moba_minion_team1" : "moba_minion_team2",
                     spawnStart + offset,
                     player == 1,
                     true);

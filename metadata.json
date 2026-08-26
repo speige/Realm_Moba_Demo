@@ -25,7 +25,7 @@
           "standard_walk___standard_walk.ranim"
         ]
       },
-      "Description": "",
+      "Description": "Demo hero",
       "ModelPath": "fantasy_warrior_unit_1.glb",
       "Name": "Kevin",
       "PathingType": 9,
@@ -43,7 +43,9 @@
       "ArmorType": "light",
       "IsHero": true,
       "GoldBounty": 200,
-      "XpBounty": 100
+      "XpBounty": 100,
+      "CollisionCircle": 0.4,
+      "ScanRadius": 8
     },
     {
       "Animations": {
@@ -69,7 +71,7 @@
           "standard_walk___standard_walk.ranim"
         ]
       },
-      "Description": "",
+      "Description": "Team 1 lane minion",
       "ModelPath": "fantasy_warrior_unit_1.glb",
       "Name": "Team 1 Minion",
       "PathingType": 9,
@@ -86,7 +88,10 @@
       "AttackType": "melee",
       "ArmorType": "light",
       "GoldBounty": 25,
-      "XpBounty": 40
+      "XpBounty": 40,
+      "IsHero": false,
+      "CollisionCircle": 0.4,
+      "ScanRadius": 8
     },
     {
       "Animations": {
@@ -112,12 +117,12 @@
           "standard_walk___standard_walk.ranim"
         ]
       },
-      "Description": "",
+      "Description": "Team 2 lane minion",
       "ModelPath": "orc_warrior_7.glb",
-      "Name": "Chad",
+      "Name": "Team 2 Minion",
       "PathingType": 9,
       "RecalculateNormals": true,
-      "UnitId": "orc_warrior_7",
+      "UnitId": "moba_minion_team2",
       "NormalMode": "Flat",
       "MaxHp": 280,
       "Damage": 18,
@@ -129,13 +134,62 @@
       "AttackType": "melee",
       "ArmorType": "light",
       "GoldBounty": 25,
-      "XpBounty": 40
+      "XpBounty": 40,
+      "IsHero": false,
+      "CollisionCircle": 0.4,
+      "ScanRadius": 8
+    },
+    {
+      "Animations": {
+        "Attack": [
+          "upward_thrust___upward_weapon_thrust.ranim"
+        ],
+        "Dance": [
+          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
+        ],
+        "Death": [
+          "death___death_from_standing_idle.ranim"
+        ],
+        "Idle": [
+          "bored___standing_around_bored_idle.ranim"
+        ],
+        "Labor": [
+          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
+        ],
+        "Spell_Cast": [
+          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
+        ],
+        "Walk": [
+          "standard_walk___standard_walk.ranim"
+        ]
+      },
+      "Description": "Alternate demo hero",
+      "ModelPath": "orc_warrior_7.glb",
+      "Name": "Chad",
+      "PathingType": 9,
+      "RecalculateNormals": true,
+      "UnitId": "orc_warrior_7",
+      "NormalMode": "Flat",
+      "MaxHp": 600,
+      "Damage": 35,
+      "Range": 1.5,
+      "Armor": 3,
+      "Speed": 4.5,
+      "AttackCooldown": 1.1,
+      "PopCost": 1,
+      "AttackType": "melee",
+      "ArmorType": "light",
+      "GoldBounty": 200,
+      "XpBounty": 100,
+      "IsHero": true,
+      "CollisionCircle": 0.4,
+      "ScanRadius": 8
     }
   ],
   "CustomBuildings": [
     {
       "Animations": {},
-      "Description": "",
+      "Description": "MOBA tower / base",
       "ModelPath": "ice_castle_1.glb",
       "Name": "Castle",
       "PathingType": 32,
@@ -151,7 +205,9 @@
       "AttackType": "ranged",
       "ArmorType": "building",
       "GoldBounty": 150,
-      "XpBounty": 120
+      "XpBounty": 120,
+      "ScanRadius": 12,
+      "CollisionCircle": 1.5
     },
     {
       "Animations": {},

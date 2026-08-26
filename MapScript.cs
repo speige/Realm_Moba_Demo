@@ -72,11 +72,15 @@ public class MapScript : IWasmModule
 
         var position = unit.Position;
         if (api.IsPositionInCoordinate(position, "Base_Team1") ||
-            api.IsPositionInCoordinate(position, "Mid_Team1_Tower"))
+            api.IsPositionInCoordinate(position, "Mid_Team1_Tower") ||
+            api.IsPositionInCoordinate(position, "Side_Team1_Tower") ||
+            api.IsPositionInCoordinate(position, "Bot_Team1_Tower"))
             return 0;
 
         if (api.IsPositionInCoordinate(position, "Base_Team2") ||
-            api.IsPositionInCoordinate(position, "Mid_Team2_Tower"))
+            api.IsPositionInCoordinate(position, "Mid_Team2_Tower") ||
+            api.IsPositionInCoordinate(position, "Side_Team2_Tower") ||
+            api.IsPositionInCoordinate(position, "Top_Team2_Tower"))
             return 1;
 
         return position.Z > 0 || position.Z == 0 && position.X < 0 ? 0 : 1;

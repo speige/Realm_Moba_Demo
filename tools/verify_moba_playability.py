@@ -9,8 +9,9 @@ REQUIRED_STATS = ("MaxHp", "Damage", "Range", "Speed", "AttackCooldown")
 REQUIRED_COORDS = (
     "Base_Team1", "Base_Team2", "Top_Corner", "Bot_Corner", "Middle",
     "Spawn_Team1", "Spawn_Team2", "Mid_Team1_Tower", "Mid_Team2_Tower",
+    "Side_Team1_Tower", "Side_Team2_Tower", "Bot_Team1_Tower", "Top_Team2_Tower",
 )
-TEAM1_MINION_STATS = {
+MINION_STATS = {
     "MaxHp": 280,
     "Damage": 18,
     "Range": 1.5,
@@ -20,6 +21,15 @@ TEAM1_MINION_STATS = {
     "GoldBounty": 25,
     "XpBounty": 40,
 }
+HERO_STATS = {
+    "MaxHp": 600,
+    "Damage": 35,
+    "Range": 1.5,
+    "Armor": 3,
+    "Speed": 4.5,
+    "AttackCooldown": 1.1,
+}
+
 
 def main() -> int:
     meta = json.loads((ROOT / "metadata.json").read_text())
@@ -29,26 +39,37 @@ def main() -> int:
     units = {u["UnitId"]: u for u in meta.get("CustomUnits", [])}
     buildings = {b["UnitId"]: b for b in meta.get("CustomBuildings", [])}
 
-    for uid in ("fantasy_warrior_unit_1", "orc_warrior_7"):
+    for uid, model in (
+        ("fantasy_warrior_unit_1", "fantasy_warrior_unit_1.glb"),
+        ("orc_warrior_7", "orc_warrior_7.glb"),
+    ):
+        u = units.get(uid)
+        if not u:
+            errors.append(f"missing hero unit {uid}")
+            continue
+        if u.get("ModelPath") != model:
+            errors.append(f"{uid} ModelPath must be {model}")
+        if not u.get("IsHero"):
+            errors.append(f"{uid} must be IsHero true")
+        for key, expected in HERO_STATS.items():
+            if u.get(key) != expected:
+                errors.append(f"{uid} {key} must be {expected}")
+
+    for uid, model in (
+        ("moba_minion_team1", "fantasy_warrior_unit_1.glb"),
+        ("moba_minion_team2", "orc_warrior_7.glb"),
+    ):
         u = units.get(uid)
         if not u:
             errors.append(f"missing unit {uid}")
             continue
-        for key in REQUIRED_STATS:
-            if key not in u or u[key] in (None, 0):
-                errors.append(f"{uid} missing/zero {key}")
-
-    team1_minion = units.get("moba_minion_team1")
-    if not team1_minion:
-        errors.append("missing unit moba_minion_team1")
-    else:
-        if team1_minion.get("ModelPath") != "fantasy_warrior_unit_1.glb":
-            errors.append("moba_minion_team1 must reuse fantasy warrior model")
-        if team1_minion.get("IsHero", False):
-            errors.append("moba_minion_team1 must not be a hero")
-        for key, expected in TEAM1_MINION_STATS.items():
-            if team1_minion.get(key) != expected:
-                errors.append(f"moba_minion_team1 {key} must be {expected}")
+        if u.get("ModelPath") != model:
+            errors.append(f"{uid} must reuse {model}")
+        if u.get("IsHero", False):
+            errors.append(f"{uid} must not be a hero")
+        for key, expected in MINION_STATS.items():
+            if u.get(key) != expected:
+                errors.append(f"{uid} {key} must be {expected}")
 
     castle = buildings.get("ice_castle_1")
     if not castle:
@@ -58,9 +79,9 @@ def main() -> int:
             if key not in castle or castle[key] in (None, 0):
                 errors.append(f"ice_castle_1 missing/zero {key}")
 
-    names = {c["Name"] for c in terrain.get("Coordinates", [])}
+    coords = {c["Name"]: c for c in terrain.get("Coordinates", [])}
     for name in REQUIRED_COORDS:
-        if name not in names:
+        if name not in coords:
             errors.append(f"missing coordinate {name}")
 
     castles = [u for u in terrain.get("Units", []) if u.get("UnitId") == "ice_castle_1"]
@@ -68,6 +89,22 @@ def main() -> int:
         errors.append(f"expected 8 authored castles, found {len(castles)}")
     if any(castle.get("Player") not in (0, 1) for castle in castles):
         errors.append("all authored castles must have player 0 or 1 ownership")
+    if any(bool(castle.get("IsEnemy")) != (castle.get("Player") == 1) for castle in castles):
+        errors.append("castle IsEnemy must match Player (P1 => enemy)")
+
+    def in_box(x: float, z: float, name: str) -> bool:
+        c = coords[name]
+        return c["MinX"] <= x <= c["MaxX"] and c["MinZ"] <= z <= c["MaxZ"]
+
+    ownership_zones = [
+        "Base_Team1", "Base_Team2", "Mid_Team1_Tower", "Mid_Team2_Tower",
+        "Side_Team1_Tower", "Side_Team2_Tower", "Bot_Team1_Tower", "Top_Team2_Tower",
+    ]
+    for castle in castles:
+        x, z = castle["PosX"], castle["PosZ"]
+        if not any(in_box(x, z, name) for name in ownership_zones if name in coords):
+            errors.append(f"castle at ({x:.1f},{z:.1f}) has no ownership zone")
+
     east_tower = min(
         castles,
         key=lambda castle: (castle["PosX"] - 90.15632) ** 2 + (castle["PosZ"] - 0.61254096) ** 2,
@@ -84,6 +121,8 @@ def main() -> int:
         errors.append("tower claiming must consider authored unit ownership")
     if '"moba_minion_team1"' not in sources["MinionSpawner.cs"]:
         errors.append("Team 1 waves must spawn moba_minion_team1")
+    if '"moba_minion_team2"' not in sources["MinionSpawner.cs"]:
+        errors.append("Team 2 waves must spawn moba_minion_team2")
     if "HorizontalDistanceSquared" not in sources["LanePathfinder.cs"]:
         errors.append("waypoint arrival must use horizontal distance")
 

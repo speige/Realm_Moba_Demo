@@ -8,8 +8,14 @@ public sealed class MinionSpawner
     private const float WaveInterval = 30f;
     private const float SpawnOffset = 1.5f;
     private readonly List<LanePathfinder> _minions = [];
-    private float _elapsed = WaveInterval;
+    private float _elapsed;
     private bool _reportedSpawnFailure;
+
+    public void SpawnInitialWave(IGameAPI api)
+    {
+        _elapsed = 0f;
+        SpawnWave(api);
+    }
 
     public void Update(IGameAPI api, float delta)
     {

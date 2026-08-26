@@ -9,6 +9,7 @@ public class MapScript : IWasmModule
     private readonly MinionSpawner _minionSpawner = new();
     private IUnit? _hero;
     private HeroProgression? _progression;
+    private bool _gameEnded;
 
     public void Initialize(IGameAPI api)
     {
@@ -28,12 +29,18 @@ public class MapScript : IWasmModule
         }
 
         SpawnPlayerHero(api);
+        _minionSpawner.SpawnInitialWave(api);
+        api.SendMessageToPlayer(0, "First minion wave deployed.");
     }
 
     private void SpawnPlayerHero(IGameAPI api)
     {
-        if (!CoordinateResolver.TryGetCenter(api, "Spawn_Team1", out var spawn) &&
-            !CoordinateResolver.TryGetCenter(api, "Base_Team1", out spawn))
+        Vector3 spawn;
+        if (api.TryGetCoordinate("Spawn_Team1", out var spawnCoord))
+            spawn = spawnCoord.Center;
+        else if (api.TryGetCoordinate("Base_Team1", out var baseCoord))
+            spawn = baseCoord.Center;
+        else
         {
             api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");
             return;
@@ -58,11 +65,48 @@ public class MapScript : IWasmModule
 
     public void Update(IGameAPI api, float delta)
     {
+        CheckBaseWinLose(api);
+        if (_gameEnded)
+            return;
+
         foreach (var tower in _towers)
             tower.Update(api, delta);
 
         _minionSpawner.Update(api, delta);
         _progression?.Update(api, delta);
+    }
+
+    private void CheckBaseWinLose(IGameAPI api)
+    {
+        if (_gameEnded)
+            return;
+
+        IUnit? team1Base = null;
+        IUnit? team2Base = null;
+
+        foreach (var unit in api.GetAllUnits())
+        {
+            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding || unit.IsDead)
+                continue;
+
+            if (api.IsPositionInCoordinate(unit.Position, "Base_Team1"))
+                team1Base = unit;
+            else if (api.IsPositionInCoordinate(unit.Position, "Base_Team2"))
+                team2Base = unit;
+        }
+
+        if (team1Base == null || team1Base.IsDead)
+        {
+            _gameEnded = true;
+            api.TriggerDefeat();
+            return;
+        }
+
+        if (team2Base == null || team2Base.IsDead)
+        {
+            _gameEnded = true;
+            api.TriggerVictory();
+        }
     }
 
     private static int GetTowerOwner(IUnit unit, IGameAPI api)

@@ -33,7 +33,6 @@ public sealed class LanePathfinder
         _attackCooldown = MathF.Max(0, _attackCooldown - delta);
 
         var attackRange = _unit.Range > 0 ? _unit.Range : 1.5f;
-        // Only peel for fights near the current lane push — don't abandon the lane to chase.
         var target = api.GetUnitsInRadius(_unit.Position, attackRange + 1.25f)
             .Where(candidate => !candidate.IsDead && candidate.Player != _unit.Player)
             .OrderBy(candidate => HorizontalDistanceSquared(candidate.Position, _unit.Position))
@@ -47,16 +46,13 @@ public sealed class LanePathfinder
             var distSq = HorizontalDistanceSquared(_unit.Position, target.Position);
             if (distSq > attackRange * attackRange)
             {
-                // Keep lane intent: attack-move toward the next waypoint while closing.
-                IssueLanePush();
+                IssueLanePush(api);
                 return;
             }
 
             if (_attackCooldown <= 0)
             {
-                var damage = _unit.Damage > 0 ? _unit.Damage : 18f;
                 _unit.Attack(target);
-                target.Health = MathF.Max(0f, target.Health - damage);
                 _attackCooldown = DefaultAttackCooldown;
             }
 
@@ -65,10 +61,9 @@ public sealed class LanePathfinder
 
         AdvanceWaypointIfReached();
 
-        // After a fight clears, always re-issue the lane push toward the main objective.
         if (!_hasMovementOrder || _wasFighting)
         {
-            IssueLanePush();
+            IssueLanePush(api);
             _wasFighting = false;
         }
     }
@@ -83,16 +78,16 @@ public sealed class LanePathfinder
         _hasMovementOrder = false;
     }
 
-    private void IssueLanePush()
+    private void IssueLanePush(IGameAPI api)
     {
         if (_waypointIndex >= _waypoints.Count)
         {
-            _unit.AttackMove(_finalDestination);
+            api.IssueAttackMoveOrder(_unit, _finalDestination);
             _hasMovementOrder = true;
             return;
         }
 
-        _unit.AttackMove(_waypoints[_waypointIndex]);
+        api.IssueAttackMoveOrder(_unit, _waypoints[_waypointIndex]);
         _hasMovementOrder = true;
     }
 

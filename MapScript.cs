@@ -15,6 +15,7 @@ public class MapScript : IWasmModule
     private IUnit? _hero;
     private HeroProgression? _progression;
     private bool _gameEnded;
+    private float _cameraFocusTimer;
 
     public void Initialize(IGameAPI api)
     {
@@ -54,8 +55,9 @@ public class MapScript : IWasmModule
             return;
         }
 
-        _hero = api.SpawnUnitForPlayer("fantasy_warrior_unit_1", spawn, 0)
-                ?? api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
+        _hero = api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
+        if (_hero == null)
+            _hero = api.SpawnUnitForPlayer("fantasy_warrior_unit_1", spawn, 0);
 
         if (_hero == null)
         {
@@ -64,8 +66,11 @@ public class MapScript : IWasmModule
         }
 
         api.SetUnitOwner(_hero, 0);
+        _hero.Scale = 1.35f;
+        _hero.HoldPosition();
         api.SelectUnit(_hero);
         api.PanCameraTo(_hero.Position, 0.35f);
+        _cameraFocusTimer = 2f;
         _progression = new HeroProgression(_hero);
         _progression.Attach(api);
         api.SendMessageToPlayer(0, "Kevin ready. Waves every 30s.");
@@ -82,6 +87,13 @@ public class MapScript : IWasmModule
 
         _minionSpawner.Update(api, delta);
         _progression?.Update(api, delta);
+
+        if (_cameraFocusTimer > 0f && _hero is { IsDead: false })
+        {
+            _cameraFocusTimer -= delta;
+            api.SelectUnit(_hero);
+            api.PanCameraTo(_hero.Position, 0.35f);
+        }
     }
 
     private void CheckBaseWinLose(IGameAPI api)

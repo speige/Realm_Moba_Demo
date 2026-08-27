@@ -1,6 +1,7 @@
 {
   "MapProperties": {
     "ShroudType": "ExplorationShroud",
+    "FogOfWarType": "visible",
     "MapName": "Realm MOBA Demo",
     "MapDescription": "Three-lane MOBA demo with towers, waves, and a hero."
   },

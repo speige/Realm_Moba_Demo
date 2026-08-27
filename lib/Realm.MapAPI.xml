@@ -1,4 +1,4 @@
-53026HEADER
+54558HEADER
 <?xml version="1.0"?>
 <doc>
     <assembly>
@@ -921,6 +921,24 @@
         <member name="E:Realm.MapAPI.IGameAPI.OnItemSold">
             <summary>
             Triggered when a unit buys or receives an item from a shop or altar.
+            </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.RegisterItem(Realm.MapAPI.ItemDefinition)">
+            <summary>
+            Registers a shop item definition (host / non-WASM scripts).
+            WASM maps should use the flattened <see cref="M:Realm.MapAPI.IGameAPI.RegisterItem(System.String,System.String,System.String,System.Single,System.Single,System.Single,System.Single,System.Single)"/> overload.
+            </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.RegisterItem(System.String,System.String,System.String,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Registers a shop item using primitive fields so WASM maps can bind via WIT.
+            </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.GetAvailableItems(System.Int32)">
+            <summary>
+            Returns registered shop catalog entries for the host HUD / editor scripts.
+            Not currently exposed to WASM (<see cref="T:Realm.MapAPI.ItemDefinition"/> is not bindgen-friendly);
+            maps mainly need RegisterItem, SetShopBuyZone, and PurchaseItem.
             </summary>
         </member>
         <member name="E:Realm.MapAPI.IGameAPI.OnConstructionFinished">

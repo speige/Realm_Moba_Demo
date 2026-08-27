@@ -29,10 +29,18 @@ public sealed class HeroProgression
         _api = api;
         _trackedGold = MathF.Max(api.GetPlayerGold(0), 300f);
         api.SetPlayerGold(0, _trackedGold);
-        api.SetLeaderboardVisible("MOBA", true);
-        api.ClearLeaderboard();
-        api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
-        api.AddLeaderboardRow("Level", "1", null);
+        try
+        {
+            api.SetLeaderboardVisible("MOBA", true);
+            api.ClearLeaderboard();
+            api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
+            api.AddLeaderboardRow("Level", "1", null);
+        }
+        catch (Exception ex)
+        {
+            api.BroadcastMessage($"HeroProgression leaderboard setup failed: {ex.Message}");
+        }
+
         api.SendMessageToPlayer(0, $"Starting gold: {(int)_trackedGold}");
         api.OnUnitDied += HandleUnitDied;
     }

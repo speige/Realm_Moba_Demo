@@ -19,8 +19,11 @@ public class MapScript : IWasmModule
         api.SetPlayerMaxPopulation(0, 200);
         api.SetPlayerMaxPopulation(1, 200);
 
-        foreach (var unit in api.GetAllUnits().Where(unit => unit.UnitId == "ice_castle_1" && unit.IsBuilding))
+        foreach (var unit in api.GetAllUnits())
         {
+            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding)
+                continue;
+
             var owner = GetTowerOwner(unit, api);
             var expectedEnemy = owner != 0;
             if (unit.IsEnemy != expectedEnemy)

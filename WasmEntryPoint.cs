@@ -5,6 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using System.Runtime.InteropServices;
 using Realm.MapAPI;
+using Realm.Maps;
 
 public class WasmEntryPoint
 {
@@ -27,36 +28,22 @@ public class WasmEntryPoint
             _gameApi = new GameAPI_WasmModule();
             _gameApi.BroadcastMessage("Guest Initialize started");
 
-            foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
-            {
-                try
-                {
-                    foreach (var type in assembly.GetTypes())
-                    {
-                        if ((typeof(IWasmModule).IsAssignableFrom(type) || typeof(IMapScript).IsAssignableFrom(type)) && !type.IsInterface && !type.IsAbstract)
-                        {
-                            _mapScript = (IMapScript)Activator.CreateInstance(type)!;
-                        }
-                    }
-                }
-                catch (Exception ex)
-                {
-                    _gameApi.BroadcastMessage($"Error loading types from {assembly.GetName().Name}: {ex.Message}");
-                }
-            }
+            // Direct reference survives WASM trimming better than reflection-only discovery.
+            _mapScript = new MapScript();
 
-            if (_mapScript != null)
+            try
             {
                 _mapScript.Initialize(_gameApi);
                 _gameApi.BroadcastMessage("Guest WasmModule initialized successfully");
             }
-            else
+            catch (Exception ex)
             {
-                _gameApi.BroadcastMessage("Error: No WasmModule class implementing IWasmModule was found in any assembly!");
+                _gameApi.BroadcastMessage($"MapScript.Initialize failed: {ex.Message}");
             }
         }
         catch (Exception ex)
         {
+            _gameApi?.BroadcastMessage($"WasmEntryPoint.Initialize failed: {ex.Message}");
             Console.WriteLine($"Error in initialize: {ex}");
         }
     }

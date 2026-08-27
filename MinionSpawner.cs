@@ -83,7 +83,6 @@ public sealed class MinionSpawner
                 }
 
                 api.SetUnitOwner(unit, player);
-                api.IssueAttackMoveOrder(unit, waypoints[1]);
                 _minions.Add(new LanePathfinder(unit, waypoints));
                 spawned++;
             }

@@ -22,7 +22,8 @@ public class MapScript : IWasmModule
         foreach (var unit in api.GetAllUnits().Where(unit => unit.UnitId == "ice_castle_1" && unit.IsBuilding))
         {
             var owner = GetTowerOwner(unit, api);
-            if (unit.Player != owner)
+            var expectedEnemy = owner != 0;
+            if (unit.IsEnemy != expectedEnemy)
                 api.SetUnitOwner(unit, owner);
 
             _towers.Add(new TowerAI(unit));
@@ -50,12 +51,8 @@ public class MapScript : IWasmModule
 
     private void SpawnPlayerHero(IGameAPI api)
     {
-        Vector3 spawn;
-        if (api.TryGetCoordinateCenter("Spawn_Team1", out spawn))
-            ;
-        else if (api.TryGetCoordinateCenter("Base_Team1", out spawn))
-            ;
-        else
+        if (!api.TryGetCoordinateCenter("Spawn_Team1", out Vector3 spawn) &&
+            !api.TryGetCoordinateCenter("Base_Team1", out spawn))
         {
             api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");
             return;
@@ -126,9 +123,6 @@ public class MapScript : IWasmModule
 
     private static int GetTowerOwner(IUnit unit, IGameAPI api)
     {
-        if (unit.Player is 0 or 1)
-            return unit.Player;
-
         var position = unit.Position;
         if (api.IsPositionInCoordinate(position, "Base_Team1") ||
             api.IsPositionInCoordinate(position, "Mid_Team1_Tower") ||

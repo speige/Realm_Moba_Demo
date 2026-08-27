@@ -31,6 +31,21 @@ public class MapScript : IWasmModule
         SpawnPlayerHero(api);
         _minionSpawner.SpawnInitialWave(api);
         api.SendMessageToPlayer(0, "First minion wave deployed.");
+        // Shop: call TryRegisterShop(api) only when running Realm core with feat/lol-like-shop-items.
+    }
+
+    /// <summary>
+    /// Shop APIs require a game build with feat/lol-like-shop-items (or newer main).
+    /// Runs after hero + waves so a missing host shop does not break the demo loop.
+    /// </summary>
+    private static void TryRegisterShop(IGameAPI api)
+    {
+        api.RegisterItem("demo_blade", "Demo Blade", "+12 damage", 150f, 12f, 0f, 0f, 0f);
+        api.RegisterItem("demo_armor", "Demo Armor", "+120 max health, +3 armor", 175f, 0f, 120f, 3f, 0f);
+        api.RegisterItem("demo_boots", "Demo Boots", "+0.75 movement speed", 125f, 0f, 0f, 0f, 0.75f);
+        api.SetShopBuyZone(0, "Base_Team1");
+        api.SetShopBuyZone(1, "Base_Team2");
+        api.SendMessageToPlayer(0, "Shop ready: buy at your base (Shop button).");
     }
 
     private void SpawnPlayerHero(IGameAPI api)
@@ -95,14 +110,14 @@ public class MapScript : IWasmModule
                 team2Base = unit;
         }
 
-        if (team1Base == null || team1Base.IsDead)
+        if (team1Base != null && team1Base.IsDead)
         {
             _gameEnded = true;
             api.TriggerDefeat();
             return;
         }
 
-        if (team2Base == null || team2Base.IsDead)
+        if (team2Base != null && team2Base.IsDead)
         {
             _gameEnded = true;
             api.TriggerVictory();

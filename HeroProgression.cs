@@ -34,15 +34,6 @@ public sealed class HeroProgression
         api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
         api.AddLeaderboardRow("Level", "1", null);
         api.SendMessageToPlayer(0, $"Starting gold: {(int)_trackedGold}");
-
-        // Flattened RegisterItem overload (WASM-safe); order: id, displayName, description, costGold, damageBonus, maxHealthBonus, armorBonus, speedBonus
-        api.RegisterItem("demo_blade", "Demo Blade", "+12 damage", 150f, 12f, 0f, 0f, 0f);
-        api.RegisterItem("demo_armor", "Demo Armor", "+120 max health, +3 armor", 175f, 0f, 120f, 3f, 0f);
-        api.RegisterItem("demo_boots", "Demo Boots", "+0.75 movement speed", 125f, 0f, 0f, 0f, 0.75f);
-        api.SetShopBuyZone(0, "Base_Team1");
-        api.SetShopBuyZone(1, "Base_Team2");
-        api.SendMessageToPlayer(0, "Shop ready: buy at your base (Shop button).");
-
         api.OnUnitDied += HandleUnitDied;
     }
 
@@ -54,7 +45,7 @@ public sealed class HeroProgression
 
     private void HandleUnitDied(IUnit dead, IUnit? killer)
     {
-        if (_api == null || dead.Player == _hero.Player || _hero.IsDead)
+        if (_api == null || dead.IsEnemy == _hero.IsEnemy || _hero.IsDead)
             return;
         if (!_rewardedDeaths.Add(dead.UniqueId))
             return;

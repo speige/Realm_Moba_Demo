@@ -3,6 +3,11 @@ namespace Realm.Maps;
 using System.Numerics;
 using Realm.MapAPI;
 
+internal static class MapScriptUnits
+{
+    public static IEnumerable<IUnit> All(IGameAPI api) => api.GetAllUnits() ?? [];
+}
+
 public class MapScript : IWasmModule
 {
     private readonly List<TowerAI> _towers = [];
@@ -19,21 +24,9 @@ public class MapScript : IWasmModule
         api.SetPlayerMaxPopulation(0, 200);
         api.SetPlayerMaxPopulation(1, 200);
 
-        foreach (var unit in api.GetAllUnits())
-        {
-            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding)
-                continue;
-
-            var owner = GetTowerOwner(unit, api);
-            var expectedEnemy = owner != 0;
-            if (unit.IsEnemy != expectedEnemy)
-                api.SetUnitOwner(unit, owner);
-
-            _towers.Add(new TowerAI(unit));
-        }
-
         SpawnPlayerHero(api);
         _minionSpawner.SpawnInitialWave(api);
+        ConfigureTowers(api);
         api.SendMessageToPlayer(0, "First minion wave deployed.");
         // Shop: call TryRegisterShop(api) only when running Realm core with feat/lol-like-shop-items.
     }
@@ -99,7 +92,7 @@ public class MapScript : IWasmModule
         IUnit? team1Base = null;
         IUnit? team2Base = null;
 
-        foreach (var unit in api.GetAllUnits())
+        foreach (var unit in MapScriptUnits.All(api))
         {
             if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding || unit.IsDead)
                 continue;
@@ -121,6 +114,22 @@ public class MapScript : IWasmModule
         {
             _gameEnded = true;
             api.TriggerVictory();
+        }
+    }
+
+    private void ConfigureTowers(IGameAPI api)
+    {
+        foreach (var unit in MapScriptUnits.All(api))
+        {
+            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding)
+                continue;
+
+            var owner = GetTowerOwner(unit, api);
+            var expectedEnemy = owner != 0;
+            if (unit.IsEnemy != expectedEnemy)
+                api.SetUnitOwner(unit, owner);
+
+            _towers.Add(new TowerAI(unit));
         }
     }
 

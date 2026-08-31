@@ -7,8 +7,8 @@ public sealed class LanePathfinder
 {
     private readonly WaypointMarcher _marcher;
 
-    public LanePathfinder(IUnit unit, IReadOnlyList<Vector3> waypoints) =>
-        _marcher = new WaypointMarcher(unit, waypoints);
+    public LanePathfinder(IUnit unit, IReadOnlyList<Vector3> waypoints, WaypointMarchConfig config) =>
+        _marcher = new WaypointMarcher(unit, waypoints, config);
 
     public bool IsAlive => _marcher.IsAlive;
 

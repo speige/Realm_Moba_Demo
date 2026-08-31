@@ -8,6 +8,7 @@ public sealed class MinionSpawner
     private const float WaveInterval = 30f;
     private const float SpawnOffset = 1.5f;
     private static readonly string[] LaneCorners = ["Top_Corner", "Middle", "Bot_Corner"];
+    private static readonly WaypointMarchConfig MarchConfig = WaypointMarchConfig.Default;
     private readonly List<LanePathfinder> _minions = [];
     private float _elapsed;
     private bool _reportedSpawnFailure;
@@ -58,7 +59,12 @@ public sealed class MinionSpawner
         var spawned = 0;
         foreach (var cornerName in LaneCorners)
         {
-            if (!TryBuildLanePath(api, spawnStart, cornerName, destination, out var waypoints))
+            if (!CoordinateResolver.TryBuildThreePointPath(
+                    name => api.TryGetCoordinateCenter(name, out var corner) ? corner : null,
+                    spawnStart,
+                    cornerName,
+                    destination,
+                    out var waypoints))
             {
                 api.BroadcastMessage($"MinionSpawner: skipping lane {cornerName}");
                 continue;
@@ -83,28 +89,11 @@ public sealed class MinionSpawner
                 }
 
                 api.SetUnitOwner(unit, player);
-                _minions.Add(new LanePathfinder(unit, waypoints));
+                _minions.Add(new LanePathfinder(unit, waypoints, MarchConfig));
                 spawned++;
             }
         }
 
         return spawned;
-    }
-
-    private static bool TryBuildLanePath(
-        IGameAPI api,
-        Vector3 spawnStart,
-        string cornerName,
-        Vector3 destination,
-        out Vector3[] waypoints)
-    {
-        if (!api.TryGetCoordinateCenter(cornerName, out var corner))
-        {
-            waypoints = [];
-            return false;
-        }
-
-        waypoints = [spawnStart, corner, destination];
-        return true;
     }
 }

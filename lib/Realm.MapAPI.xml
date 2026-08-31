@@ -1,4 +1,4 @@
-38680HEADER
+10480HEADER
 <?xml version="1.0"?>
 <doc>
     <assembly>
@@ -31,6 +31,11 @@
             </summary>
             <param name="min">The minimum corner of the bounding region.</param>
             <param name="max">The maximum corner of the bounding region.</param>
+        </member>
+        <member name="T:Realm.MapAPI.CoordinateResolver">
+            <summary>
+            Generic named-point lookup. Maps pass coordinate names; this type does not know MOBA lanes.
+            </summary>
         </member>
         <member name="T:Realm.MapAPI.IGameAPI">
             <summary>

@@ -10,6 +10,15 @@ internal static class MapScriptUnits
 
 public class MapScript : IWasmModule
 {
+    private static readonly TowerDefenseConfig MobaTowerConfig = new(12f, 20f, 1.25f, "lightning");
+    private static readonly HeroProgressionConfig MobaHeroProgression = new(
+        xpPerLevel: 100f,
+        killGold: 25f,
+        killXp: 40f,
+        playerIndex: 0,
+        minStartingGold: 300f,
+        leaderboardId: "MOBA");
+
     private readonly List<TowerAI> _towers = [];
     private readonly MinionSpawner _minionSpawner = new();
     private IUnit? _hero;
@@ -47,12 +56,17 @@ public class MapScript : IWasmModule
 
     private void SpawnPlayerHero(IGameAPI api)
     {
-        if (!api.TryGetCoordinateCenter("Spawn_Team1", out Vector3 spawn) &&
-            !api.TryGetCoordinateCenter("Base_Team1", out spawn))
+        Vector3? Lookup(string name) =>
+            api.TryGetCoordinateCenter(name, out Vector3 center) ? center : null;
+
+        if (!CoordinateResolver.TryGetCenters(Lookup, ["Spawn_Team1"], out var spawnCenters, out _) &&
+            !CoordinateResolver.TryGetCenters(Lookup, ["Base_Team1"], out spawnCenters, out _))
         {
             api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");
             return;
         }
+
+        var spawn = spawnCenters.Values.First();
 
         _hero = api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
         if (_hero == null)
@@ -69,7 +83,7 @@ public class MapScript : IWasmModule
         _hero.HoldPosition();
         api.SelectUnit(_hero);
         api.PanCameraTo(_hero.Position, 0.35f);
-        _progression = new HeroProgression(_hero);
+        _progression = new HeroProgression(_hero, MobaHeroProgression);
         _progression.Attach(api);
         api.SendMessageToPlayer(0, "Kevin ready. Waves every 30s.");
     }
@@ -132,7 +146,7 @@ public class MapScript : IWasmModule
             if (unit.IsEnemy != expectedEnemy)
                 api.SetUnitOwner(unit, owner);
 
-            _towers.Add(new TowerAI(unit));
+            _towers.Add(new TowerAI(unit, MobaTowerConfig));
         }
     }
 

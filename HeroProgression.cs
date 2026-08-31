@@ -4,10 +4,7 @@ using Realm.MapAPI;
 
 public sealed class HeroProgression
 {
-    private const float XpPerLevel = 100f;
-    private const float KillGold = 25f;
-    private const float KillXp = 40f;
-
+    private readonly HeroProgressionConfig _config;
     private readonly IUnit _hero;
     private readonly HashSet<int> _rewardedDeaths = [];
     private IGameAPI? _api;
@@ -15,9 +12,10 @@ public sealed class HeroProgression
     private float _trackedGold;
     private bool _attached;
 
-    public HeroProgression(IUnit hero)
+    public HeroProgression(IUnit hero, HeroProgressionConfig config)
     {
         _hero = hero;
+        _config = config;
     }
 
     public void Attach(IGameAPI api)
@@ -27,36 +25,47 @@ public sealed class HeroProgression
 
         _attached = true;
         _api = api;
-        _trackedGold = MathF.Max(api.GetPlayerGold(0), 300f);
-        api.SetPlayerGold(0, _trackedGold);
-        api.SetLeaderboardVisible("MOBA", true);
-        api.ClearLeaderboard();
-        api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
-        api.AddLeaderboardRow("Level", "1", null);
-        api.SendMessageToPlayer(0, $"Starting gold: {(int)_trackedGold}");
+        _trackedGold = MathF.Max(api.GetPlayerGold(_config.PlayerIndex), _config.MinStartingGold);
+        api.SetPlayerGold(_config.PlayerIndex, _trackedGold);
+        try
+        {
+            api.SetLeaderboardVisible(_config.LeaderboardId, true);
+            api.ClearLeaderboard();
+            api.AddLeaderboardRow("Gold", $"{(int)_trackedGold}", null);
+            api.AddLeaderboardRow("Level", "1", null);
+        }
+        catch (Exception ex)
+        {
+            api.BroadcastMessage($"HeroProgression leaderboard setup failed: {ex.Message}");
+        }
+
+        api.SendMessageToPlayer(_config.PlayerIndex, $"Starting gold: {(int)_trackedGold}");
         api.OnUnitDied += HandleUnitDied;
     }
 
     public void Update(IGameAPI api, float delta)
     {
-        // Reserved for polling-based UI results after core handoff lands.
+        _trackedGold = api.GetPlayerGold(_config.PlayerIndex);
+        api.SetLeaderboardValue("Gold", $"{(int)_trackedGold}");
     }
 
     private void HandleUnitDied(IUnit dead, IUnit? killer)
     {
-        if (_api == null || dead.Player == _hero.Player || _hero.IsDead)
+        if (_api == null || dead.IsEnemy == _hero.IsEnemy || _hero.IsDead)
             return;
         if (!_rewardedDeaths.Add(dead.UniqueId))
             return;
 
         _ = killer?.UniqueId;
-        _trackedGold += KillGold;
-        _api.SetPlayerGold(0, _trackedGold);
-        _trackedXp += KillXp;
-        var level = 1 + (int)(_trackedXp / XpPerLevel);
-        _api.SetUnitLevel(_hero, level);
+        var reward = HeroKillReward.AfterKill(_config, _trackedGold, _trackedXp);
+        _trackedGold = reward.Gold;
+        _trackedXp = reward.Xp;
+        _api.SetPlayerGold(_config.PlayerIndex, _trackedGold);
+        _api.SetUnitLevel(_hero, reward.Level);
         _api.SetLeaderboardValue("Gold", $"{(int)_trackedGold}");
-        _api.SetLeaderboardValue("Level", $"{level}");
-        _api.SendMessageToPlayer(0, $"+{(int)KillGold} gold (total {(int)_trackedGold}) | Level {level}");
+        _api.SetLeaderboardValue("Level", $"{reward.Level}");
+        _api.SendMessageToPlayer(
+            _config.PlayerIndex,
+            $"+{(int)_config.KillGold} gold (total {(int)_trackedGold}) | Level {reward.Level}");
     }
 }

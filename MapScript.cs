@@ -3,12 +3,27 @@ namespace Realm.Maps;
 using System.Numerics;
 using Realm.MapAPI;
 
+internal static class MapScriptUnits
+{
+    public static IEnumerable<IUnit> All(IGameAPI api) => api.GetAllUnits() ?? [];
+}
+
 public class MapScript : IWasmModule
 {
+    private static readonly TowerDefenseConfig MobaTowerConfig = new(12f, 20f, 1.25f, "lightning");
+    private static readonly HeroProgressionConfig MobaHeroProgression = new(
+        xpPerLevel: 100f,
+        killGold: 25f,
+        killXp: 40f,
+        playerIndex: 0,
+        minStartingGold: 300f,
+        leaderboardId: "MOBA");
+
     private readonly List<TowerAI> _towers = [];
     private readonly MinionSpawner _minionSpawner = new();
     private IUnit? _hero;
     private HeroProgression? _progression;
+    private bool _gameEnded;
 
     public void Initialize(IGameAPI api)
     {
@@ -18,29 +33,28 @@ public class MapScript : IWasmModule
         api.SetPlayerMaxPopulation(0, 200);
         api.SetPlayerMaxPopulation(1, 200);
 
-        foreach (var unit in api.GetAllUnits().Where(unit => unit.UnitId == "ice_castle_1" && unit.IsBuilding))
-        {
-            var owner = GetTowerOwner(unit, api);
-            if (unit.Player != owner)
-                api.SetUnitOwner(unit, owner);
-
-            _towers.Add(new TowerAI(unit));
-        }
-
         SpawnPlayerHero(api);
+        _minionSpawner.SpawnInitialWave(api);
+        ConfigureTowers(api);
+        api.SendMessageToPlayer(0, "First minion wave deployed.");
     }
 
     private void SpawnPlayerHero(IGameAPI api)
     {
-        if (!CoordinateResolver.TryGetCenter(api, "Spawn_Team1", out var spawn) &&
-            !CoordinateResolver.TryGetCenter(api, "Base_Team1", out spawn))
+        Vector3? Lookup(string name) => NamedPoints.Center(api, name);
+
+        if (!CoordinateResolver.TryGetCenters(Lookup, ["Spawn_Team1"], out var spawnCenters, out _) &&
+            !CoordinateResolver.TryGetCenters(Lookup, ["Base_Team1"], out spawnCenters, out _))
         {
             api.BroadcastMessage("Hero spawn failed: Spawn_Team1/Base_Team1 missing");
             return;
         }
 
-        _hero = api.SpawnUnitForPlayer("fantasy_warrior_unit_1", spawn, 0)
-                ?? api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
+        var spawn = spawnCenters.Values.First();
+
+        _hero = api.SpawnUnit("fantasy_warrior_unit_1", spawn, false, true);
+        if (_hero == null)
+            _hero = api.SpawnUnitForPlayer("fantasy_warrior_unit_1", spawn, 0);
 
         if (_hero == null)
         {
@@ -49,15 +63,21 @@ public class MapScript : IWasmModule
         }
 
         api.SetUnitOwner(_hero, 0);
+        _hero.Scale = 1.35f;
+        _hero.HoldPosition();
         api.SelectUnit(_hero);
         api.PanCameraTo(_hero.Position, 0.35f);
-        _progression = new HeroProgression(_hero);
+        _progression = new HeroProgression(_hero, MobaHeroProgression);
         _progression.Attach(api);
         api.SendMessageToPlayer(0, "Kevin ready. Waves every 30s.");
     }
 
     public void Update(IGameAPI api, float delta)
     {
+        CheckBaseWinLose(api);
+        if (_gameEnded)
+            return;
+
         foreach (var tower in _towers)
             tower.Update(api, delta);
 
@@ -65,11 +85,57 @@ public class MapScript : IWasmModule
         _progression?.Update(api, delta);
     }
 
+    private void CheckBaseWinLose(IGameAPI api)
+    {
+        if (_gameEnded)
+            return;
+
+        IUnit? team1Base = null;
+        IUnit? team2Base = null;
+
+        foreach (var unit in MapScriptUnits.All(api))
+        {
+            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding || unit.IsDead)
+                continue;
+
+            if (api.IsPositionInCoordinate(unit.Position, "Base_Team1"))
+                team1Base = unit;
+            else if (api.IsPositionInCoordinate(unit.Position, "Base_Team2"))
+                team2Base = unit;
+        }
+
+        if (team1Base != null && team1Base.IsDead)
+        {
+            _gameEnded = true;
+            api.TriggerDefeat();
+            return;
+        }
+
+        if (team2Base != null && team2Base.IsDead)
+        {
+            _gameEnded = true;
+            api.TriggerVictory();
+        }
+    }
+
+    private void ConfigureTowers(IGameAPI api)
+    {
+        foreach (var unit in MapScriptUnits.All(api))
+        {
+            if (unit.UnitId != "ice_castle_1" || !unit.IsBuilding)
+                continue;
+
+            var owner = GetTowerOwner(unit, api);
+            var expectedEnemy = owner != 0;
+            if (unit.IsEnemy != expectedEnemy)
+                api.SetUnitOwner(unit, owner);
+
+            _towers.Add(new TowerAI(unit, MobaTowerConfig));
+        }
+    }
+
     private static int GetTowerOwner(IUnit unit, IGameAPI api)
     {
-        if (unit.Player is 0 or 1)
-            return unit.Player;
-
         var position = unit.Position;
         if (api.IsPositionInCoordinate(position, "Base_Team1") ||
             api.IsPositionInCoordinate(position, "Mid_Team1_Tower") ||

@@ -41,7 +41,7 @@ public class MapScript : IWasmModule
 
     private void SpawnPlayerHero(IGameAPI api)
     {
-        Vector3? Lookup(string name) => CoordinateResolver.TryCenter(api, name);
+        Vector3? Lookup(string name) => NamedPoints.Center(api, name);
 
         if (!CoordinateResolver.TryGetCenters(Lookup, ["Spawn_Team1"], out var spawnCenters, out _) &&
             !CoordinateResolver.TryGetCenters(Lookup, ["Base_Team1"], out spawnCenters, out _))

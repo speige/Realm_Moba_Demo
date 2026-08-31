@@ -36,8 +36,8 @@ public sealed class MinionSpawner
 
     private void SpawnWave(IGameAPI api)
     {
-        if (CoordinateResolver.TryCenter(api, "Base_Team1") is not { } baseTeam1 ||
-            CoordinateResolver.TryCenter(api, "Base_Team2") is not { } baseTeam2)
+        if (NamedPoints.Center(api, "Base_Team1") is not { } baseTeam1 ||
+            NamedPoints.Center(api, "Base_Team2") is not { } baseTeam2)
         {
             api.BroadcastMessage("MinionSpawner: Base_Team1/Base_Team2 missing; skipping wave");
             return;
@@ -52,14 +52,14 @@ public sealed class MinionSpawner
     private int SpawnTeam(IGameAPI api, int player, Vector3 start, Vector3 destination)
     {
         var spawnPad = player == 0 ? "Spawn_Team1" : "Spawn_Team2";
-        var spawnStart = CoordinateResolver.TryCenter(api, spawnPad)
+        var spawnStart = NamedPoints.Center(api, spawnPad)
             ?? start + (player == 0 ? new Vector3(5f, 0f, -5f) : new Vector3(-5f, 0f, 5f));
 
         var spawned = 0;
         foreach (var cornerName in LaneCorners)
         {
             if (!CoordinateResolver.TryBuildThreePointPath(
-                    name => CoordinateResolver.TryCenter(api, name),
+                    name => NamedPoints.Center(api, name),
                     spawnStart,
                     cornerName,
                     destination,

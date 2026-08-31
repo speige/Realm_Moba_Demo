@@ -1,4 +1,4 @@
-10480HEADER
+50589HEADER
 <?xml version="1.0"?>
 <doc>
     <assembly>
@@ -844,6 +844,11 @@
             <param name="coordinate">The resulting coordinate box if found.</param>
             <returns>True if the coordinate box exists, false otherwise.</returns>
         </member>
+        <member name="M:Realm.MapAPI.IGameAPI.TryGetCoordinateCenter(System.String,System.Numerics.Vector3@)">
+            <summary>
+            Gets the center of a named coordinate box if it exists.
+            </summary>
+        </member>
         <member name="M:Realm.MapAPI.IGameAPI.IsPositionInCoordinate(System.Numerics.Vector3,Realm.MapAPI.Coordinate)">
             <summary>
             Checks if a 3D position is inside a coordinate bounding box.
@@ -851,21 +856,6 @@
             <param name="position">The position to check.</param>
             <param name="coordinate">The coordinate box to check against.</param>
             <returns>True if the position is inside the coordinate box, false otherwise.</returns>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.TryGetCoordinateCenter(System.String,System.Numerics.Vector3@)">
-            <summary>
-            Gets the center of a named coordinate box if it exists.
-            </summary>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.TryBuildWaypointPath(System.Numerics.Vector3,System.String,System.Numerics.Vector3,System.Numerics.Vector3[]@)">
-            <summary>
-            Builds a 3-point lane path: start → corner → destination using a named corner coordinate.
-            </summary>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.TryBuildWaypointPath(System.String,System.String,System.String,System.Numerics.Vector3[]@)">
-            <summary>
-            Builds a 3-point lane path using named coordinates for start, corner, and destination.
-            </summary>
         </member>
         <member name="M:Realm.MapAPI.IGameAPI.SpawnUnit(System.String,Realm.MapAPI.Coordinate,System.Boolean,System.Boolean)">
             <summary>
@@ -928,24 +918,6 @@
             Triggered when a unit buys or receives an item from a shop or altar.
             </summary>
         </member>
-        <member name="M:Realm.MapAPI.IGameAPI.RegisterItem(Realm.MapAPI.ItemDefinition)">
-            <summary>
-            Registers a shop item definition (host / non-WASM scripts).
-            WASM maps should use the flattened <see cref="M:Realm.MapAPI.IGameAPI.RegisterItem(System.String,System.String,System.String,System.Single,System.Single,System.Single,System.Single,System.Single)"/> overload.
-            </summary>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.RegisterItem(System.String,System.String,System.String,System.Single,System.Single,System.Single,System.Single,System.Single)">
-            <summary>
-            Registers a shop item using primitive fields so WASM maps can bind via WIT.
-            </summary>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.GetAvailableItems(System.Int32)">
-            <summary>
-            Returns registered shop catalog entries for the host HUD / editor scripts.
-            Not currently exposed to WASM (<see cref="T:Realm.MapAPI.ItemDefinition"/> is not bindgen-friendly);
-            maps mainly need RegisterItem, SetShopBuyZone, and PurchaseItem.
-            </summary>
-        </member>
         <member name="E:Realm.MapAPI.IGameAPI.OnConstructionFinished">
             <summary>
             Triggered when a structure finishes construction.
@@ -970,6 +942,30 @@
             <summary>
             Adds to the research level of a technology upgrade for the specified player slot.
             </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.RegisterAbility(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Registers an ability with display metadata and execution behavior.
+            </summary>
+            <param name="abilityId">Unique identifier of the ability.</param>
+            <param name="displayName">User-facing name of the ability.</param>
+            <param name="tooltip">Detailed description displayed on hover.</param>
+            <param name="iconPath">Resource path to the ability icon texture.</param>
+            <param name="isInstant">True if the ability executes immediately without ground targeting.</param>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.SetAbilityInstant(System.String,System.Boolean)">
+            <summary>
+            Sets whether an ability executes immediately without requiring ground targeting.
+            </summary>
+            <param name="abilityId">Unique identifier of the ability.</param>
+            <param name="isInstant">True if instant cast, false for ground targeting.</param>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.SetAbilityIcon(System.String,System.String)">
+            <summary>
+            Sets the visual icon texture path for an ability.
+            </summary>
+            <param name="abilityId">Unique identifier of the ability.</param>
+            <param name="iconPath">Resource path to the icon texture.</param>
         </member>
         <member name="M:Realm.MapAPI.IGameAPI.SetAbilityTooltip(System.String,System.String)">
             <summary>
@@ -1024,12 +1020,18 @@
             Spawns a replacement unit of the same type at <paramref name="position"/> for the given player.
             Use this when the previous instance may already be destroyed (typical hero respawn).
             </summary>
+            <param name="unitTypeId">The type identifier of the unit to spawn.</param>
+            <param name="position">The spawn coordinates in 3D world space.</param>
+            <param name="playerIndex">The zero-based player index to own the revived unit.</param>
+            <returns>The revived unit instance.</returns>
         </member>
         <member name="M:Realm.MapAPI.IGameAPI.ReviveUnit(Realm.MapAPI.IUnit,System.Numerics.Vector3)">
             <summary>
-            Destroys <paramref name="unit"/> and spawns a new copy of its type at <paramref name="position"/>.
-            Player 0 owns friendly units; any other owner is treated as player 1.
+            Destroys <paramref name="unit"/> and spawns a new copy of its type at <paramref name="position"/> with the same owner player index.
             </summary>
+            <param name="unit">The existing unit to replace.</param>
+            <param name="position">The spawn coordinates in 3D world space.</param>
+            <returns>The revived unit instance.</returns>
         </member>
         <member name="T:Realm.MapAPI.IMapScript">
             <summary>
@@ -1107,6 +1109,11 @@
         <member name="P:Realm.MapAPI.IUnit.IsEnemy">
             <summary>
             Gets or sets a value indicating whether the unit is owned by an enemy player.
+            </summary>
+        </member>
+        <member name="P:Realm.MapAPI.IUnit.Player">
+            <summary>
+            Gets or sets the zero-based player slot index (0-24) that owns this unit.
             </summary>
         </member>
         <member name="P:Realm.MapAPI.IUnit.IsBuilding">

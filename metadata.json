@@ -1,78 +1,191 @@
 {
 	"Assets": {
 		"animations": {
-			"Bored - Standing Around Bored Idle.ranim": "18f12b05e4fec0ea63d87859b85f21cd5a2b24f202eb688ee919881a45a5f999",
-			"Death - Death From Standing Idle.ranim": "e3359b33a523e7256861e32639056ff0edbf441979a4ccc200ec9f9de6a5a482",
-			"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim": "e5cd8587cc810ee7c42ab6274c86592ca30376aead1dc78d5bf75c3469c540a3",
-			"Magic Spell Casting - Casting A Spell With One Hand.ranim": "c34fedc5df2e49885453bc20e2199a4f1924e25cfe1460781eab5022abeb7813",
-			"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim": "193a74c2f1246ca1b6411efd722e281bdc012cc791a96a59210f6c8607ba772f",
-			"Standard Walk - Standard Walk.ranim": "5941c8332db13407e3f0edbd47884fc773ddc6b89678360f7637f0b1f050f004",
-			"Upward Thrust - Upward Weapon Thrust.ranim": "fbbefae0cc7b6d156a4e1eed936f73bf668fdf79fb7b714443e15c9677aa7639"
+			"Bored - Standing Around Bored Idle.ranim": "979a642d48705fc903a1c2e98ac71660cf1399ad462dc0d3add505b7f919ea84",
+			"Death - Death From Standing Idle.ranim": "7454fae0c375bc391a9f807f21f7edfd6d09e26b146ada81311b80c4972b1568",
+			"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim": "4c389cdf83c9eb5e8bc342486ace70c759e34897ef8a41c73ac4bc3cb8888568",
+			"Magic Spell Casting - Casting A Spell With One Hand.ranim": "396b0033881d3dc63a27f772c19d272fb152a056dd861af67059e9d8ce693d41",
+			"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim": "5422fe09e49b7c1b5c43bfe93e7197f105bf9900bf2bb4c3360330558b371ab9",
+			"Standard Walk - Standard Walk.ranim": "5c48f7b2c6ad1e735d1e3644361007dc4175a7c716f83817797ed572c6819b22",
+			"Upward Thrust - Upward Weapon Thrust.ranim": "19c2fc338a0d52ee36cab89f730245999368d239a662f84383a0a9f2adebe083"
 		},
 		"decals": {},
 		"glb": {
 			"buildings": {
+				"ancient_altar.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "a1a6ea38123655e1e835ebae6bba43bf0106274d269a640e6d4aadf924f28b5d",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
 				"bell_tower.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "f8606fd78464fcf32a34a1c1278debeeabea3b49257bcfde6129119b73519599",
+					"hash": "9e653eda44607d824b8e3dd11538c378d32bb302b0826e5678dd161d982e4974",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"castle.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "3f849a5087309942a984fbeacde1f79a964efc34ba5213e1d9f1b3515cd9ef57",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"castle_gate.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "06e0715a7cca52857fe915e92aa8fd277bb426de4f775c0451d72621b6f178a3",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				},
 				"castle_gate_tower.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "c435611230608145b1a0af59359a502ed20c3dcd17aa213e0469de50750ed446",
+					"hash": "bc6aed4f269715c69020052b9dc25284e0e722fee70e8f476b9c787b2d194e48",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"cottage_house.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "d978e6ec55b78cb46dca9d1f4c00fafcbb7be2125f0f274c47b1befa866467ec",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				},
 				"fantasy_archway.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "822b5b0a2176ed2bd98eda2a93c604f39ef3b88ba05c6c90550bd08c272e1ed8",
+					"hash": "3da0359c653a3ce1c75ff91ed253c4bd2f024ca974448c886e563e2dea2b5eef",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"fantasy_castle.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "2a12897a3732284109b41ddd471ff0356c13a1db5dd3aa9669c4218709d79e90",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				},
 				"fantasy_cottage.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "3cdd065788cd6e1e6bdf102c7f0c27704e47fc982a5b1e0d5fedc1930edd6cf7",
+					"hash": "59b3c521d258621157ddda92005e75c0160bab419c71d929592e248c27620378",
 					"normal_mode": "Flat",
 					"scale": 1.5
+				},
+				"fantasy_tower.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "2d999ad93edf1d2d5d78597f8b7c786d594ab0a1c0f1ee59872a4b70c157ae6a",
+					"normal_mode": "Flat",
+					"scale": 1.2
 				},
 				"fantasy_tower_1.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "cb4f937daef1c9ccb0759660f8de5db0210181b9663b6f00cfb3e2d690aa3f5a",
+					"hash": "66981550a846928e8c70d6027c5e4c317a5e8a8047c2a07c7df3898f4740d0d8",
 					"normal_mode": "Flat",
 					"scale": 1.2,
 					"y_offset": -0.09999985
 				},
+				"fantasy_tower_2.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "280a7efed3f86bf63a72692552c186355df62ed3d635ed3eb603d97d260502be",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
 				"ice_castle_1.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "6153728e812b772ac086b6d22cb07ea9f87cdc9cc52eb62ada4d090d8bf1b4f1",
+					"hash": "efd142cb31c7fe5e5e851b66ff2db338d065860438d05e0ef0e2dbe17d3d5825",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"mossy_stone_tower.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "9910dea9a74e575f1db4c7cf7b1e95f3cc17969d5e1f76b26bf47168948f8854",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"stone_arch_gate.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "7567ebcbfa6a895495cf959df0d7ae6a716c5facab7754d8d22967bfdadda6ec",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"stone_gate.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "44127b71196e3e8d12ff69b788e9f764a920ce5ef0e67856417e4fff27f4ccae",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"stone_tower_2.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "ebcb6ddc370305b721c10bde32b097b8f0ce1b186b4ef81fedc5dc574561c164",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"stone_tower_3.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "94cdfb3bae7cca4c07ff8c0578d416cc6fcb1375551ca437e10b9c58781b7a68",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"stone_watchtower_1.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "f3219e3b33494ca2bf4ceb68a24e7d30a7979971db5930b02cbd39a318978d93",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"thatch_hut.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "38e1284ffea19cf7b311040583d098cae4d0072761ed14c909cde420a650d555",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				},
 				"timber_framed_house.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "dd58a81a89ef134f1f98c28359b3795171bef705e768aab3fcb5ac694fb5c8c0",
+					"hash": "51c7ca3dca4d5be14f3a0023f123c7005060b838acf5151032967ebfe60dee3c",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				},
 				"treehouse_structure.glb": {
 					"default_asset_type": "buildings",
 					"generate_normals": true,
-					"hash": "8b54a452c1b511fb907287c588bb133bf2755567c7482dbb65f2244663001698",
+					"hash": "94f5920485c7bef8794b5cc03cacce054ee13c99aeca1324678c0718755f859a",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"wooden_hut.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "bf24bf55d67fcfdb6bc2ec1b7e665e24a46f5e63cd92954e46b4809b01b7b7a6",
 					"normal_mode": "Flat",
 					"scale": 1.2
 				}
 			},
 			"props": {
+				"architectural_components.glb": {
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "6613de0ddd591c82337c5f20ec7f47487c4a7a8163c4466cd99112f0f83cc5c8",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.25
+				},
 				"banner_pole_1.glb": {
-					"hash": "3a3306e6424cc8853c427160c45dda0f2b0c7b3d91c1e048ac58d91fcc04397c",
+					"hash": "0f950d23effa798e5d91753cbdcdea2543118d392f4e378637d2cd53cbdaf268",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -80,7 +193,7 @@
 					"y_offset": 1.8500001
 				},
 				"cauldron_prop.glb": {
-					"hash": "ac462da36167a152f4bc75e8cfbade4e4e97fbe681185540bde159faacbb622c",
+					"hash": "c57319df438e1031c033f50ed7ed45ec7616f998ef5f3030f9db476699eefa6e",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -91,30 +204,46 @@
 					"collision_circle_ratio": 0.75,
 					"default_asset_type": "props",
 					"generate_normals": true,
-					"hash": "53418845f3799c8a0a7c777705a73e956509289b66c8dedeec4aabb989951de8",
+					"hash": "f845c8e555ed684c16e711d868018e5f1369f23434152611c19d7ea207e337de",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 1,
 					"y_offset": 1.0500002
 				},
 				"heraldry_banner_stand.glb": {
-					"hash": "aa02da54dc78cdafc92cf8b114c9110bc5be8ee5e3410293aaa6bd560bca172d",
+					"hash": "f3c93e7745f7e4d2d8fe4d0e07257fb2c540219b2d092d889abab6e7b9c57928",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
 					"scale": 1.25,
 					"y_offset": 1.3000002
 				},
+				"magic_crystal_pedestal.glb": {
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "32b3f69b2f4cc702d113073c1f20c3e1fef56a339df8944a5b20e2ac5f8b69d2",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.25
+				},
 				"merchant_stall.glb": {
-					"hash": "8253a9094275fe7d9e6395625eda2dd66ee7dcd5597f1cd31b8c7f624f384a1e",
+					"hash": "9696b5312ba2aebaeb8b56542bd972da9d056162f3ad382ed905aa34c1d60189",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
 					"scale": 1.25,
 					"y_offset": 0
 				},
+				"mystic_tree_altar.glb": {
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "a46965965685459b731b6bb1214893b46e91c4cc62274782cad3985a2e6c2c34",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.25
+				},
 				"siege_cannon.glb": {
-					"hash": "d7d53ef6ffcbf76080e38ef93126750aa738ed044898141f5f46dd8009020480",
+					"hash": "7b380e57de4e5e9ed53a2db1fa294e6d9595649e520c81e59529512ef627d5cd",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -122,7 +251,7 @@
 					"y_offset": 2.1000001
 				},
 				"skull_altar_pedestal.glb": {
-					"hash": "8a57176b506ece693ff5db0f0a80f15e0921283e558caca5fc87727d18bc468c",
+					"hash": "c587e1530200040d68e023755a2c0108f55fbbc9915f65c971718e1a1b6279f6",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -130,7 +259,7 @@
 					"y_offset": 2.7000003
 				},
 				"skull_totem_prop.glb": {
-					"hash": "4b70174451ea32160444d4ab80bcd23c2b2a74431d6ab780d8d46e9c1aff0b65",
+					"hash": "afbdc3217580dcc5e411243a4086dc7239ff6d8758966c941db2fd91adbcaf93",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -138,7 +267,7 @@
 					"y_offset": 0
 				},
 				"spiked_gate.glb": {
-					"hash": "0851e7d27a10070253d73cd065a49dee21de72064bfaded32490bc150682c75c",
+					"hash": "6ef0cb7e7854db0dc8d8bd171b26c802f258f090852fb086c45c1da5c3731260",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -149,14 +278,14 @@
 					"collision_circle_ratio": 0.4,
 					"default_asset_type": "props",
 					"generate_normals": true,
-					"hash": "d7dd84bb67daa08f1263d6187293753fbf75b0f95299f07b63ff0180b5c9dbfd",
+					"hash": "fa7d5c666ce503572618ba6f2a5e2aaadc12f626aa0ccf44ba21e9d7eb4749c5",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 1,
 					"y_offset": 0.7500002
 				},
 				"stone_well.glb": {
-					"hash": "ed00277fe30f07f39d8f7405731990dbad2c509b4d7392be18fbef635a197523",
+					"hash": "7534684b6c5a97e12338e57fadd938966c6873f53c9b98ccb40eaecbbaf0a84f",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -166,7 +295,7 @@
 				"tattered_banner_pole.glb": {
 					"brightness": 0.5,
 					"collision_circle_ratio": 1,
-					"hash": "9303b45028dbe5db00f799f97ce7ff3d193fef26cf4b0afbcaba58af0114bf83",
+					"hash": "0b2c09c189496f7fdb40ad50c6c7e8bad729da5febf79e8ebd364da3c7747179",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -174,15 +303,23 @@
 					"y_offset": 1.6000001
 				},
 				"wooden_barrel_prop.glb": {
-					"hash": "fed5365c1c2a79e1c917b5c1d4399316c8f435f192b119b4419a3cff21ab8766",
+					"hash": "3e37739859160ecc2e0e7962963f536a49dd7ac8e400ba66b4a272ae04d4f81c",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
 					"scale": 1.25,
 					"y_offset": 1.7500001
 				},
+				"wooden_box.glb": {
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "4888170c0d7ea93e2e62d42f2ac4211966415a3faeef4dfef85f59aaff4be437",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1.25
+				},
 				"wooden_cart.glb": {
-					"hash": "43fc2a3a48f3af5cd1893edf657bd876cdfc30d049cf9f51ffc460bff8833f5f",
+					"hash": "ffb21ac033af0414acc69b1a78126e0399c35b6b787eda24679a6ee83b014f02",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -194,7 +331,7 @@
 				"birch_tree.glb": {
 					"default_asset_type": "resources",
 					"generate_normals": true,
-					"hash": "e6210b368d6afa99307670bca947be7a4a5f144434d91f7e6f7048830a727069",
+					"hash": "9f1da74f0db352d357e109768f2acff2d1431904382e81d8d339f3ca258368c4",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 2.75
@@ -202,7 +339,7 @@
 				"bush.glb": {
 					"default_asset_type": "resources",
 					"generate_normals": true,
-					"hash": "360a64cf7e5f73ce5a89958480eb8c3b14a14390c823200020c5509c12fa5367",
+					"hash": "55a4e7ac7adecdf2227c781d4a3ee0d5649c5787f6cca0af7af46369ff788146",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 2.75
@@ -210,7 +347,7 @@
 				"cattail_plant.glb": {
 					"brightness": 0.5,
 					"collision_circle_ratio": 1,
-					"hash": "33218dcb3f662be700ed6d85e68958389ff9574ece73b3f11d269a88cef833d8",
+					"hash": "9f869bbb8608656383300cfcbb970cfaa09b6a81746ee9f99d0aa9294a6a0f20",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
@@ -222,17 +359,33 @@
 					"collision_circle_ratio": 0.3,
 					"default_asset_type": "resources",
 					"generate_normals": true,
-					"hash": "defc40fba4132896832fd08fac6208a180816d8e8e718906de3450e9859b2830",
+					"hash": "c72fb6d8d015dd1c40cad8b4e88296ba0c34dff3c0148b873a274cc368213900",
 					"ignore_player_color": false,
 					"normal_mode": "Flat",
 					"normalize_luminance": true,
 					"scale": 2.75,
 					"y_offset": 2.0500002
 				},
+				"crystal_peak.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "af46d9483c709b59a14510d5379f46b74e23d1bc5b55bc99089bafa8ed8b7378",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
 				"crystal_tree.glb": {
 					"brightness": 0.37,
 					"default_asset_type": "resources",
-					"hash": "05285c87144d01ee4e3674dd84b2f9f7dff32ef0cdc1a3d2338d2b47792b097b",
+					"hash": "5096874ef5d1a3598bccc736808f664ceda42154652145ba52e4886c99211dfe",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
+				"mossy_rock_cluster.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "140999ca411249c0e3504274381871010873fdadf32c08d3073dbae824003a08",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 2.75
@@ -242,28 +395,52 @@
 					"collision_circle_ratio": 0.55,
 					"default_asset_type": "resources",
 					"generate_normals": true,
-					"hash": "83a3bae8c36e0944e8443766b768670c37d6a754de9616052709ef198ccb37f5",
+					"hash": "fa90d93377cc4c0e0c7a6b52160cd86ffc82d67e3a5aa4ca4dce88c87a4d91a1",
 					"ignore_player_color": false,
 					"normal_mode": "Flat",
 					"scale": 2.75,
 					"y_offset": 0.45000017
 				},
+				"mountain_rock_outcrop.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "f1a79ba5a182d32d3130590419b0ead5aec65f1d38acd53e958cd710c774677f",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
 				"palm_tree.glb": {
 					"collision_circle_ratio": 0.25,
 					"default_asset_type": "resources",
 					"generate_normals": true,
-					"hash": "c0b9710bc566c869d9310b59c34060f6cf414e1e31bd03a9f642b5f7ee30238a",
+					"hash": "ccace9f0c587abec8fe9f960b08f9f57cee96bbe2a909ae437961e87c00b1db8",
 					"ignore_player_color": true,
 					"normal_mode": "Flat",
 					"scale": 2.75,
 					"y_offset": 3.15
+				},
+				"twisted_tree_stump.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "52c77046d079049c68e2b92f92567e93dbc6160b79d2ec62b3500552db177c3b",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
+				"willow_tree.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "71f4feeab9469def5f042759ce39cca168dc2ed6b2bbaa78f790f2aec40c1be8",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
 				}
 			},
 			"units": {
 				"fantasy_cottage.glb": {
 					"default_asset_type": "units",
 					"generate_normals": true,
-					"hash": "3cdd065788cd6e1e6bdf102c7f0c27704e47fc982a5b1e0d5fedc1930edd6cf7",
+					"hash": "59b3c521d258621157ddda92005e75c0160bab419c71d929592e248c27620378",
 					"normal_mode": "Flat",
 					"scale": 1.5
 				},
@@ -271,7 +448,7 @@
 					"collision_circle_ratio": 0.4,
 					"default_asset_type": "units",
 					"generate_normals": true,
-					"hash": "1f895936b0e876e306bf1d0dad9a913bfe5dbae596d5d9c7eb2f0c980c0cc5ed",
+					"hash": "0c7152b3f74139bd9dac2fcd73a82c91294ea0b56226acf960bf233d06b549a7",
 					"normal_mode": "Flat",
 					"scale": 1.5
 				},
@@ -279,14 +456,14 @@
 					"collision_circle_ratio": 0.4,
 					"default_asset_type": "units",
 					"generate_normals": true,
-					"hash": "ec54ee3128eae41161f745e19a556851ba22ff4aea13869020b9e87af47d853b",
+					"hash": "4069dca49195ccbc52e1ee4c36f228bded3b095b80d53c1b9f11e97514e97e18",
 					"normal_mode": "Flat",
 					"scale": 1.5
 				},
 				"warrior_armor.glb": {
 					"default_asset_type": "units",
 					"generate_normals": true,
-					"hash": "36d312e2b24231f7fce61bbec5fbb69d98c94efca3028f756115b467130fdebd",
+					"hash": "3163dbc2fd705a6e7d085f34d696626d93bb58e655f67f2d1b833a47f3dffd40",
 					"normal_mode": "Flat",
 					"scale": 1.5
 				}
@@ -294,7 +471,7 @@
 		},
 		"icons": {},
 		"skyboxes": {
-			"jade_shrine.rtex": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed"
+			"jade_shrine.rtex": "e731a047f223e140a15463ecd247f89829df3faa5f061927116c66db1c52e751"
 		},
 		"textures": {
 			"ancient_jungle_mossy_stone.rtex": {
@@ -303,7 +480,7 @@
 				"Height_Scale": 1,
 				"brightness": 1,
 				"cross_fade": 0,
-				"hash": "8ce9002a1e6d4d802e5ddf2f537e1a705abbef3c580ff0aaeb8cb0966e00f190",
+				"hash": "e9f4a3903186dfe759ade9528c2d826860398890c2125b1d6156f823011f43eb",
 				"stochastic_tile_size": 1,
 				"swatchIndex": 0,
 				"tile_mode": "Grid",
@@ -311,16 +488,16 @@
 				"uv_scale": 0.35
 			},
 			"ancient_jungle_overgrown_path.rtex": {
-				"hash": "82817a46e4f4ad1fde83c2b3ce852a052e544a3926f8f6143d4b9dba5ebd8424",
+				"hash": "69c003d1c7b4eda35f084a55f11ded32faa398c6332cd06a141957b3a99f17ef",
 				"swatchIndex": 1
 			},
 			"dead_grass.rtex": {
-				"hash": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
+				"hash": "e37be23dd0498d1ced301e3c39688b748eb3e27c8df8e185e45d84ce94313b72",
 				"scale_factor": 2.4235,
 				"swatchIndex": 2
 			},
 			"deep_trench_dense_mud.rtex": {
-				"hash": "27bd88d3c661a25f068f8b253ba2eb1c49051f77a12173e92b395c78fb12e291",
+				"hash": "00fc0efc56dd8bccaa9f4efea85c23b5a59c7d0ac0f87dc519e4fa3794a6faea",
 				"swatchIndex": 3
 			},
 			"dusty_canyon_scarce_soil.rtex": {
@@ -329,7 +506,7 @@
 				"Height_Scale": 1,
 				"brightness": 1,
 				"cross_fade": 0,
-				"hash": "018b8a6f2374d080d22a9ea49cad869707d193f5571241a696a4b7cc3fc1958a",
+				"hash": "5a7151a1c6f0dd74cb9400570735290842b0b64a3fdc7438a49aa8ca2983623b",
 				"stochastic_tile_size": 1,
 				"swatchIndex": 4,
 				"tile_mode": "Grid",
@@ -337,11 +514,11 @@
 				"uv_scale": 0.4
 			},
 			"frozen_tundra_mud.rtex": {
-				"hash": "223a936936e7de901eb618a081d46e2296c0c9681b41794c3094f31d31e57107",
+				"hash": "095454997cd08bc59f3e01763874f1c3c47e4ee38cfe8d9183e9a43ee3101698",
 				"swatchIndex": 5
 			},
 			"holy_stone.rtex": {
-				"hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
+				"hash": "c96d6d78b59dd6842cec0571ff57461304653bb9a37c7be48bbafa60bfff0aa3",
 				"scale_factor": 0.2665,
 				"stochastic_tile_size": 0.5,
 				"swatchIndex": 6,
@@ -349,16 +526,20 @@
 				"uv_scale": 1.45
 			},
 			"mangrove_swamp_bog_grass.rtex": {
-				"hash": "dbfeb5a3c6d9deac441f1944eb7eecef4b085a8123a4d9db7b97e6165d07e0ee",
+				"hash": "6780340139be005bdf716626999453dd9517ced2938882c32a9087e12a9f6ed8",
 				"swatchIndex": 7
 			},
 			"rocky_cliff.rtex": {
-				"hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
+				"hash": "5abcff60f95a315c91f866eec8047c2213b8dfd00cffa85ec2247241d51a306c",
 				"scale_factor": 3.3215,
 				"stochastic_tile_size": 0.5,
 				"swatchIndex": 8,
 				"tile_mode": "Stochastic",
 				"uv_scale": 1.3
+			},
+			"sunken_reef_crusted_stone.rtex": {
+				"hash": "90e70844811752a532dafb35b995067d862c6bf6c0a7c34672bf01bf50b65ef9",
+				"swatchIndex": 14
 			},
 			"sunken_ruins_mossy_stone.rtex": {
 				"Crevice_Power": 1,
@@ -366,7 +547,7 @@
 				"Height_Scale": 1,
 				"brightness": 1,
 				"cross_fade": 1.75,
-				"hash": "bd3b13cf2dd187275f48b76e0742d34eaaa17812d6a4cd95a7cceed99e611646",
+				"hash": "a1d7251d3a134274dabe25a2c8438c337793f152bf8a33aa1f9e80c1774f7992",
 				"stochastic_tile_size": 1,
 				"swatchIndex": 9,
 				"tile_mode": "Grid",
@@ -374,16 +555,16 @@
 				"uv_scale": 0.45000002
 			},
 			"tundra_frost.rtex": {
-				"hash": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
+				"hash": "8f1700ab5a6357311a1433ad91aaae606fcc8f3aee07213d365e32d1d88ca824",
 				"scale_factor": 0.2368,
 				"swatchIndex": 10
 			},
 			"whispering_woods_shaded_root.rtex": {
-				"hash": "ed08cd98e088a96909ba474d8427c5308c6ecfd3777b27ad41bc0634839c9ad3",
+				"hash": "8ae0d9db8b3a4ae42e08454085c676eee29c86163c7e0b857379db50ebdc8d2e",
 				"swatchIndex": 11
 			},
 			"whispering_woods_soft_grass.rtex": {
-				"hash": "2db615712c6bff191d48f97428e3e9bc80c74cdb8ff9f63ab41fdae6a8d1d33a",
+				"hash": "54dcc56db933a8ad7fe195deab9727fc373623d242865021b01295f94c8483a1",
 				"swatchIndex": 12
 			},
 			"wild_grass.rtex": {
@@ -392,7 +573,7 @@
 				"Height_Scale": 1,
 				"brightness": 1,
 				"cross_fade": 0,
-				"hash": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
+				"hash": "00c19e6d04b8bb19a9e438cf2fa6c34d466a175d9e278be8407fbaf787a5e4dd",
 				"scale_factor": 1.8065,
 				"stochastic_tile_size": 1,
 				"swatchIndex": 13,

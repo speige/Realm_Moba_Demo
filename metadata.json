@@ -1,565 +1,1174 @@
 {
-  "MapProperties": {
-    "ShroudType": "ExplorationShroud",
-    "FogOfWarType": "visible",
-    "MapName": "Realm MOBA Demo",
-    "MapDescription": "Three-lane MOBA demo with towers, waves, and a hero."
-  },
-  "CustomUnits": [
-    {
-      "Animations": {
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Dance": [
-          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
-        ],
-        "Death": [
-          "death___death_from_standing_idle.ranim"
-        ],
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Labor": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Spell_Cast": [
-          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ]
-      },
-      "Description": "Demo hero",
-      "ModelPath": "fantasy_warrior_unit_1.glb",
-      "Name": "Kevin",
-      "PathingType": 9,
-      "RecalculateNormals": true,
-      "UnitId": "fantasy_warrior_unit_1",
-      "NormalMode": "Flat",
-      "MaxHp": 600,
-      "Damage": 35,
-      "Range": 1.5,
-      "Armor": 3,
-      "Speed": 4.5,
-      "AttackCooldown": 1.1,
-      "PopCost": 1,
-      "AttackType": "melee",
-      "ArmorType": "light",
-      "IsHero": true,
-      "GoldBounty": 200,
-      "XpBounty": 100,
-      "CollisionCircle": 0.4,
-      "ScanRadius": 14
-    },
-    {
-      "Animations": {
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Dance": [
-          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
-        ],
-        "Death": [
-          "death___death_from_standing_idle.ranim"
-        ],
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Labor": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Spell_Cast": [
-          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ]
-      },
-      "Description": "Team 1 lane minion",
-      "ModelPath": "fantasy_warrior_unit_1.glb",
-      "Name": "Team 1 Minion",
-      "PathingType": 9,
-      "RecalculateNormals": true,
-      "UnitId": "moba_minion_team1",
-      "NormalMode": "Flat",
-      "MaxHp": 280,
-      "Damage": 18,
-      "Range": 1.5,
-      "Armor": 1,
-      "Speed": 3.8,
-      "AttackCooldown": 1.2,
-      "PopCost": 1,
-      "AttackType": "melee",
-      "ArmorType": "light",
-      "GoldBounty": 25,
-      "XpBounty": 40,
-      "IsHero": false,
-      "CollisionCircle": 0.4,
-      "ScanRadius": 14
-    },
-    {
-      "Animations": {
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Dance": [
-          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
-        ],
-        "Death": [
-          "death___death_from_standing_idle.ranim"
-        ],
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Labor": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Spell_Cast": [
-          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ]
-      },
-      "Description": "Team 2 lane minion",
-      "ModelPath": "orc_warrior_7.glb",
-      "Name": "Team 2 Minion",
-      "PathingType": 9,
-      "RecalculateNormals": true,
-      "UnitId": "moba_minion_team2",
-      "NormalMode": "Flat",
-      "MaxHp": 280,
-      "Damage": 18,
-      "Range": 1.5,
-      "Armor": 1,
-      "Speed": 3.8,
-      "AttackCooldown": 1.2,
-      "PopCost": 1,
-      "AttackType": "melee",
-      "ArmorType": "light",
-      "GoldBounty": 25,
-      "XpBounty": 40,
-      "IsHero": false,
-      "CollisionCircle": 0.4,
-      "ScanRadius": 14
-    },
-    {
-      "Animations": {
-        "Attack": [
-          "upward_thrust___upward_weapon_thrust.ranim"
-        ],
-        "Dance": [
-          "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim"
-        ],
-        "Death": [
-          "death___death_from_standing_idle.ranim"
-        ],
-        "Idle": [
-          "bored___standing_around_bored_idle.ranim"
-        ],
-        "Labor": [
-          "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim"
-        ],
-        "Spell_Cast": [
-          "magic_spell_casting___casting_a_spell_with_one_hand.ranim"
-        ],
-        "Walk": [
-          "standard_walk___standard_walk.ranim"
-        ]
-      },
-      "Description": "Alternate demo hero",
-      "ModelPath": "orc_warrior_7.glb",
-      "Name": "Chad",
-      "PathingType": 9,
-      "RecalculateNormals": true,
-      "UnitId": "orc_warrior_7",
-      "NormalMode": "Flat",
-      "MaxHp": 600,
-      "Damage": 35,
-      "Range": 1.5,
-      "Armor": 3,
-      "Speed": 4.5,
-      "AttackCooldown": 1.1,
-      "PopCost": 1,
-      "AttackType": "melee",
-      "ArmorType": "light",
-      "GoldBounty": 200,
-      "XpBounty": 100,
-      "IsHero": true,
-      "CollisionCircle": 0.4,
-      "ScanRadius": 14
-    }
-  ],
-  "CustomBuildings": [
-    {
-      "Animations": {},
-      "Description": "MOBA tower / base",
-      "ModelPath": "ice_castle_1.glb",
-      "Name": "Castle",
-      "PathingType": 32,
-      "RecalculateNormals": true,
-      "UnitId": "ice_castle_1",
-      "NormalMode": "Flat",
-      "MaxHp": 2500,
-      "Damage": 45,
-      "Range": 12,
-      "Armor": 8,
-      "Speed": 0,
-      "AttackCooldown": 1.25,
-      "AttackType": "ranged",
-      "ArmorType": "building",
-      "GoldBounty": 150,
-      "XpBounty": 120,
-      "ScanRadius": 16,
-      "CollisionCircle": 1.5
-    },
-    {
-      "Animations": {},
-      "Description": "",
-      "ModelPath": "timber_framed_house.glb",
-      "Name": "House",
-      "PathingType": 32,
-      "RecalculateNormals": true,
-      "UnitId": "timber_framed_house",
-      "NormalMode": "Flat"
-    }
-  ],
-  "CustomResources": [
-    {
-      "Animations": {},
-      "CollisionCircle": 0.3,
-      "Description": "",
-      "ModelPath": "coniferous_tree_1.glb",
-      "Name": "Tree",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "UnitId": "coniferous_tree_1",
-      "YOffset": 3.0000002,
-      "NormalMode": "Flat",
-      "IgnorePlayerColor": true
-    },
-    {
-      "Animations": {},
-      "CollisionCircle": 0.25,
-      "Description": "",
-      "ModelPath": "palm_tree.glb",
-      "Name": "Palm Tree",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "UnitId": "palm_tree",
-      "YOffset": 3.15,
-      "NormalMode": "Flat",
-      "IgnorePlayerColor": true
-    },
-    {
-      "Brightness": 0.37,
-      "Description": "",
-      "ModelPath": "bleached_dead_tree.glb",
-      "Name": "bleached_dead_tree",
-      "PathingType": 255,
-      "UnitId": "bleached_dead_tree",
-      "NormalMode": "Flat",
-      "IgnorePlayerColor": true
-    },
-    {
-      "Brightness": 0.1,
-      "CollisionCircle": 0.3,
-      "Description": "",
-      "IgnorePlayerColor": false,
-      "ModelPath": "fantasy_tree_1.glb",
-      "Name": "fantasy_tree_1",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "Tint": "#ffffff",
-      "UnitId": "fantasy_tree_1",
-      "YOffset": 2.0500002,
-      "NormalMode": "Flat"
-    },
-    {
-      "Brightness": 1,
-      "CollisionCircle": 0.55,
-      "Description": "",
-      "IgnorePlayerColor": false,
-      "ModelPath": "mossy_rock_ore.glb",
-      "Name": "mossy_rock_ore",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "Tint": "#ffffff",
-      "UnitId": "mossy_rock_ore",
-      "YOffset": 0.45000017,
-      "NormalMode": "Flat"
-    }
-  ],
-  "CustomProps": [
-    {
-      "Animations": {},
-      "CollisionCircle": 0.75,
-      "Description": "",
-      "ModelPath": "crystal_cluster_5.glb",
-      "Name": "Crystals",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "UnitId": "crystal_cluster_5",
-      "YOffset": 1.0500002,
-      "NormalMode": "Flat",
-      "IgnorePlayerColor": true
-    },
-    {
-      "Animations": {},
-      "CollisionCircle": 0.4,
-      "Description": "",
-      "ModelPath": "spiked_wooden_stake.glb",
-      "Name": "Spike Pole",
-      "PathingType": 255,
-      "RecalculateNormals": true,
-      "UnitId": "spiked_wooden_stake",
-      "YOffset": 0.7500002,
-      "NormalMode": "Flat",
-      "IgnorePlayerColor": true
-    }
-  ],
-  "CustomAbilities": [],
-  "CustomUpgrades": [],
-  "CustomItems": [],
-  "CustomWeapons": [],
-  "Assets": {
-    "animations": {
-      "bored___standing_around_bored_idle.ranim": "18f12b05e4fec0ea63d87859b85f21cd5a2b24f202eb688ee919881a45a5f999",
-      "death___death_from_standing_idle.ranim": "e3359b33a523e7256861e32639056ff0edbf441979a4ccc200ec9f9de6a5a482",
-      "heavy_weapon_swing___two_handed_heavy_weapon_swing.ranim": "e5cd8587cc810ee7c42ab6274c86592ca30376aead1dc78d5bf75c3469c540a3",
-      "magic_spell_casting___casting_a_spell_with_one_hand.ranim": "c34fedc5df2e49885453bc20e2199a4f1924e25cfe1460781eab5022abeb7813",
-      "northern_soul_floor_spin___northern_soul_dance_spin_on_floor.ranim": "193a74c2f1246ca1b6411efd722e281bdc012cc791a96a59210f6c8607ba772f",
-      "standard_walk___standard_walk.ranim": "5941c8332db13407e3f0edbd47884fc773ddc6b89678360f7637f0b1f050f004",
-      "upward_thrust___upward_weapon_thrust.ranim": "fbbefae0cc7b6d156a4e1eed936f73bf668fdf79fb7b714443e15c9677aa7639"
-    },
-    "decals": {
-      "acid_drip.png": "e1ae4c43637d45fdfc0a927f1ca214ee7a030e464939219bd2170141600f3c64",
-      "arcane_spark.png": "b44e0bbea2ed1d70380381a37bec49db7881509c38225688c70b2539de58ad4f"
-    },
-    "glb": {
-      "buildings": {
-        "ice_castle_1.glb": {
-          "default_asset_type": "buildings",
-          "generate_normals": true,
-          "hash": "6153728e812b772ac086b6d22cb07ea9f87cdc9cc52eb62ada4d090d8bf1b4f1",
-          "normal_mode": "Flat"
-        },
-        "timber_framed_house.glb": {
-          "default_asset_type": "buildings",
-          "generate_normals": true,
-          "hash": "dd58a81a89ef134f1f98c28359b3795171bef705e768aab3fcb5ac694fb5c8c0",
-          "normal_mode": "Flat"
-        }
-      },
-      "props": {
-        "crystal_cluster_5.glb": {
-          "collision_circle_ratio": 0.75,
-          "default_asset_type": "props",
-          "generate_normals": true,
-          "hash": "53418845f3799c8a0a7c777705a73e956509289b66c8dedeec4aabb989951de8",
-          "y_offset": 1.0500002,
-          "normal_mode": "Flat",
-          "ignore_player_color": true
-        },
-        "spiked_wooden_stake.glb": {
-          "collision_circle_ratio": 0.4,
-          "default_asset_type": "props",
-          "generate_normals": true,
-          "hash": "d7dd84bb67daa08f1263d6187293753fbf75b0f95299f07b63ff0180b5c9dbfd",
-          "y_offset": 0.7500002,
-          "normal_mode": "Flat",
-          "ignore_player_color": true
-        }
-      },
-      "resources": {
-        "coniferous_tree_1.glb": {
-          "collision_circle_ratio": 0.3,
-          "default_asset_type": "resources",
-          "generate_normals": true,
-          "hash": "24bdd1861be0ab7090d23b397e2cfca51c794edcbf2811ff8cc0ce8372dbe9ed",
-          "y_offset": 3.0000002,
-          "normal_mode": "Flat",
-          "ignore_player_color": true
-        },
-        "palm_tree.glb": {
-          "collision_circle_ratio": 0.25,
-          "default_asset_type": "resources",
-          "generate_normals": true,
-          "hash": "c0b9710bc566c869d9310b59c34060f6cf414e1e31bd03a9f642b5f7ee30238a",
-          "y_offset": 3.15,
-          "normal_mode": "Flat",
-          "ignore_player_color": true
-        },
-        "bleached_dead_tree.glb": {
-          "brightness": 0.37,
-          "default_asset_type": "resources",
-          "hash": "05285c87144d01ee4e3674dd84b2f9f7dff32ef0cdc1a3d2338d2b47792b097b",
-          "normal_mode": "Flat",
-          "ignore_player_color": true
-        },
-        "fantasy_tree_1.glb": {
-          "brightness": 0.1,
-          "collision_circle_ratio": 0.3,
-          "default_asset_type": "resources",
-          "generate_normals": true,
-          "hash": "defc40fba4132896832fd08fac6208a180816d8e8e718906de3450e9859b2830",
-          "ignore_player_color": false,
-          "y_offset": 2.0500002,
-          "normal_mode": "Flat"
-        },
-        "mossy_rock_ore.glb": {
-          "brightness": 1,
-          "collision_circle_ratio": 0.55,
-          "default_asset_type": "resources",
-          "hash": "83a3bae8c36e0944e8443766b768670c37d6a754de9616052709ef198ccb37f5",
-          "y_offset": 0.45000017,
-          "generate_normals": true,
-          "ignore_player_color": false,
-          "normal_mode": "Flat"
-        }
-      },
-      "units": {
-        "fantasy_warrior_unit_1.glb": {
-          "default_asset_type": "units",
-          "generate_normals": true,
-          "hash": "1f895936b0e876e306bf1d0dad9a913bfe5dbae596d5d9c7eb2f0c980c0cc5ed",
-          "normal_mode": "Flat"
-        },
-        "orc_warrior_7.glb": {
-          "default_asset_type": "units",
-          "generate_normals": true,
-          "hash": "ec54ee3128eae41161f745e19a556851ba22ff4aea13869020b9e87af47d853b",
-          "normal_mode": "Flat"
-        }
-      }
-    },
-    "icons": {
-      "victory_flag.png": "9229018b139ea0e269a8e1cb2c1f5130107056ddde81bacbd759a7f74eee51e1",
-      "wood_logs.png": "9282ac3b62682d82e3139f30a384823058b3423ade551a53edcf14092c076d51"
-    },
-    "skyboxes": {
-      "jade_shrine.png": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed",
-      "star_reach.png": "48cb6f7411f929a3d06d602bb525536894bc5a19681d72282760d359c1af97d0"
-    },
-    "textures": {
-      "dead_grass.ktx2": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
-      "hard_granite.ktx2": {
-        "hash": "aed15ffe3315649d09b9671a015a1ed2a1eb9363d1511f10e8315824e4038871",
-        "stochastic_tile_size": 3,
-        "tile_mode": "Grid",
-        "uv_scale": 0.6
-      },
-      "holy_stone.ktx2": {
-        "hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Grid",
-        "uv_scale": 1.45
-      },
-      "rocky_cliff.ktx2": {
-        "hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Stochastic",
-        "uv_scale": 1.3
-      },
-      "stone_path.ktx2": {
-        "hash": "9e23595e473b17d2f4163191d70d1aeb506490c09479151da187fcbe3609ae3b",
-        "stochastic_tile_size": 0.95,
-        "tile_mode": "Stochastic",
-        "uv_scale": 0.75
-      },
-      "tundra_frost.ktx2": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
-      "wild_grass.ktx2": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
-      "wild_thicket.ktx2": {
-        "hash": "8be1a5b647ea1b8772d4b4a7ce39a2c10a3dbb7a5fd68698bd2d0e5f427526a5",
-        "stochastic_tile_size": 0.5,
-        "tile_mode": "Stochastic",
-        "uv_scale": 1.25
-      },
-      "whispering_woods_soft_grass.ktx2": "2db615712c6bff191d48f97428e3e9bc80c74cdb8ff9f63ab41fdae6a8d1d33a",
-      "ancient_jungle_mossy_stone.ktx2": "8ce9002a1e6d4d802e5ddf2f537e1a705abbef3c580ff0aaeb8cb0966e00f190",
-      "ancient_jungle_overgrown_path.ktx2": "82817a46e4f4ad1fde83c2b3ce852a052e544a3926f8f6143d4b9dba5ebd8424",
-      "deep_trench_dense_mud.ktx2": "27bd88d3c661a25f068f8b253ba2eb1c49051f77a12173e92b395c78fb12e291",
-      "dusty_canyon_granite_basin.ktx2": "476933287507388fac7c5823cd4089a4e1913a87d9fe7d1a30d1d6ab77447996",
-      "frozen_tundra_mud.ktx2": "223a936936e7de901eb618a081d46e2296c0c9681b41794c3094f31d31e57107",
-      "mangrove_swamp_bog_grass.ktx2": "dbfeb5a3c6d9deac441f1944eb7eecef4b085a8123a4d9db7b97e6165d07e0ee",
-      "petrified_forest_gray_granite.ktx2": "4f2cc6d36258a2ee8bdc4225b707d8cb5dc09938e1d95391c8482d4a25c40f40",
-      "sunken_ruins_crushed_granite.ktx2": "3ce20b1553713a2c1482e6dcb66f93447fc6472458d053bdaba7232a1484c7a8",
-      "sunken_ruins_mossy_stone.ktx2": "bd3b13cf2dd187275f48b76e0742d34eaaa17812d6a4cd95a7cceed99e611646",
-      "sunken_ruins_reef_stone.ktx2": "30772f8d743d3ded66c572aa5b81b3e57e54079a9622159b5c8b807105682660",
-      "dusty_canyon_scarce_soil.ktx2": "018b8a6f2374d080d22a9ea49cad869707d193f5571241a696a4b7cc3fc1958a"
-    },
-    "vfx_spritesheets": {
-      "arcane_surge_sheet.png": {
-        "columns": 4,
-        "hash": "5dc4b22b6c5f4c5c40f91cf4929d04667bae13e642f0ad4813b6b83dd4255059",
-        "rows": 4
-      },
-      "solar_flare_sheet.png": {
-        "columns": 4,
-        "hash": "9dc2f9b91f8af2eee0d174fa246ab818fc626201f629a175f173e9b01d9147c1",
-        "rows": 4
-      }
-    }
-  },
-  "ModelOffsets": {
-    "coniferous_tree_1.glb": 3.0000002,
-    "palm_tree.glb": 3.15,
-    "crystal_cluster_5.glb": 1.0500002,
-    "spiked_wooden_stake.glb": 0.7500002,
-    "fantasy_tree_1.glb": 2.0500002,
-    "mossy_rock_ore.glb": 0.45000017
-  },
-  "ModelCollisionCircleRatios": {
-    "coniferous_tree_1.glb": 0.3,
-    "palm_tree.glb": 0.25,
-    "crystal_cluster_5.glb": 0.75,
-    "spiked_wooden_stake.glb": 0.4,
-    "fantasy_tree_1.glb": 0.3,
-    "mossy_rock_ore.glb": 0.55
-  },
-  "ModelObstacleRadii": {},
-  "ModelBrightness": {
-    "bleached_dead_tree.glb": 0.37,
-    "fantasy_tree_1.glb": 0.1,
-    "frost_pine_tree.glb": 1,
-    "mossy_rock_ore.glb": 1,
-    "rock_formation.glb": 0.39,
-    "rock_terrain.glb": 1
-  },
-  "ModelGenerateNormals": {
-    "fantasy_warrior_unit_1.glb": true,
-    "orc_warrior_7.glb": true,
-    "ice_castle_1.glb": true,
-    "timber_framed_house.glb": true,
-    "coniferous_tree_1.glb": true,
-    "palm_tree.glb": true,
-    "crystal_cluster_5.glb": true,
-    "spiked_wooden_stake.glb": true,
-    "fantasy_tree_1.glb": true,
-    "mossy_rock_ore.glb": true
-  },
-  "ModelIgnorePlayerColor": {
-    "fantasy_tree_1.glb": false,
-    "mossy_rock_ore.glb": false,
-    "coniferous_tree_1.glb": true,
-    "palm_tree.glb": true,
-    "bleached_dead_tree.glb": true,
-    "crystal_cluster_5.glb": true,
-    "spiked_wooden_stake.glb": true
-  },
-  "ModelNormalModes": {
-    "fantasy_warrior_unit_1.glb": "Flat",
-    "orc_warrior_7.glb": "Flat",
-    "ice_castle_1.glb": "Flat",
-    "timber_framed_house.glb": "Flat",
-    "coniferous_tree_1.glb": "Flat",
-    "palm_tree.glb": "Flat",
-    "bleached_dead_tree.glb": "Flat",
-    "fantasy_tree_1.glb": "Flat",
-    "mossy_rock_ore.glb": "Flat",
-    "crystal_cluster_5.glb": "Flat",
-    "spiked_wooden_stake.glb": "Flat"
-  },
-  "ModelNormalizeLuminance": {}
+	"Assets": {
+		"animations": {
+			"Bored - Standing Around Bored Idle.ranim": "18f12b05e4fec0ea63d87859b85f21cd5a2b24f202eb688ee919881a45a5f999",
+			"Death - Death From Standing Idle.ranim": "e3359b33a523e7256861e32639056ff0edbf441979a4ccc200ec9f9de6a5a482",
+			"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim": "e5cd8587cc810ee7c42ab6274c86592ca30376aead1dc78d5bf75c3469c540a3",
+			"Magic Spell Casting - Casting A Spell With One Hand.ranim": "c34fedc5df2e49885453bc20e2199a4f1924e25cfe1460781eab5022abeb7813",
+			"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim": "193a74c2f1246ca1b6411efd722e281bdc012cc791a96a59210f6c8607ba772f",
+			"Standard Walk - Standard Walk.ranim": "5941c8332db13407e3f0edbd47884fc773ddc6b89678360f7637f0b1f050f004",
+			"Upward Thrust - Upward Weapon Thrust.ranim": "fbbefae0cc7b6d156a4e1eed936f73bf668fdf79fb7b714443e15c9677aa7639"
+		},
+		"decals": {},
+		"glb": {
+			"buildings": {
+				"bell_tower.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "f8606fd78464fcf32a34a1c1278debeeabea3b49257bcfde6129119b73519599",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"castle_gate_tower.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "c435611230608145b1a0af59359a502ed20c3dcd17aa213e0469de50750ed446",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"fantasy_archway.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "822b5b0a2176ed2bd98eda2a93c604f39ef3b88ba05c6c90550bd08c272e1ed8",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"fantasy_cottage.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "3cdd065788cd6e1e6bdf102c7f0c27704e47fc982a5b1e0d5fedc1930edd6cf7",
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"fantasy_tower_1.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "cb4f937daef1c9ccb0759660f8de5db0210181b9663b6f00cfb3e2d690aa3f5a",
+					"normal_mode": "Flat",
+					"scale": 1.2,
+					"y_offset": -0.09999985
+				},
+				"ice_castle_1.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "6153728e812b772ac086b6d22cb07ea9f87cdc9cc52eb62ada4d090d8bf1b4f1",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"timber_framed_house.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "dd58a81a89ef134f1f98c28359b3795171bef705e768aab3fcb5ac694fb5c8c0",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				},
+				"treehouse_structure.glb": {
+					"default_asset_type": "buildings",
+					"generate_normals": true,
+					"hash": "8b54a452c1b511fb907287c588bb133bf2755567c7482dbb65f2244663001698",
+					"normal_mode": "Flat",
+					"scale": 1.2
+				}
+			},
+			"props": {
+				"banner_pole_1.glb": {
+					"hash": "3a3306e6424cc8853c427160c45dda0f2b0c7b3d91c1e048ac58d91fcc04397c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.8500001
+				},
+				"cauldron_prop.glb": {
+					"hash": "ac462da36167a152f4bc75e8cfbade4e4e97fbe681185540bde159faacbb622c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 0.95000017
+				},
+				"crystal_cluster_29.glb": {
+					"collision_circle_ratio": 0.75,
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "53418845f3799c8a0a7c777705a73e956509289b66c8dedeec4aabb989951de8",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1,
+					"y_offset": 1.0500002
+				},
+				"heraldry_banner_stand.glb": {
+					"hash": "aa02da54dc78cdafc92cf8b114c9110bc5be8ee5e3410293aaa6bd560bca172d",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.3000002
+				},
+				"merchant_stall.glb": {
+					"hash": "8253a9094275fe7d9e6395625eda2dd66ee7dcd5597f1cd31b8c7f624f384a1e",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 0
+				},
+				"siege_cannon.glb": {
+					"hash": "d7d53ef6ffcbf76080e38ef93126750aa738ed044898141f5f46dd8009020480",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 2.1000001
+				},
+				"skull_altar_pedestal.glb": {
+					"hash": "8a57176b506ece693ff5db0f0a80f15e0921283e558caca5fc87727d18bc468c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 2.7000003
+				},
+				"skull_totem_prop.glb": {
+					"hash": "4b70174451ea32160444d4ab80bcd23c2b2a74431d6ab780d8d46e9c1aff0b65",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 0
+				},
+				"spiked_gate.glb": {
+					"hash": "0851e7d27a10070253d73cd065a49dee21de72064bfaded32490bc150682c75c",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.6000001
+				},
+				"spiked_wooden_stake.glb": {
+					"collision_circle_ratio": 0.4,
+					"default_asset_type": "props",
+					"generate_normals": true,
+					"hash": "d7dd84bb67daa08f1263d6187293753fbf75b0f95299f07b63ff0180b5c9dbfd",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 1,
+					"y_offset": 0.7500002
+				},
+				"stone_well.glb": {
+					"hash": "ed00277fe30f07f39d8f7405731990dbad2c509b4d7392be18fbef635a197523",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 2.4500003
+				},
+				"tattered_banner_pole.glb": {
+					"brightness": 0.5,
+					"collision_circle_ratio": 1,
+					"hash": "9303b45028dbe5db00f799f97ce7ff3d193fef26cf4b0afbcaba58af0114bf83",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.6000001
+				},
+				"wooden_barrel_prop.glb": {
+					"hash": "fed5365c1c2a79e1c917b5c1d4399316c8f435f192b119b4419a3cff21ab8766",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.7500001
+				},
+				"wooden_cart.glb": {
+					"hash": "43fc2a3a48f3af5cd1893edf657bd876cdfc30d049cf9f51ffc460bff8833f5f",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 1.25,
+					"y_offset": 1.6000001
+				}
+			},
+			"resources": {
+				"birch_tree.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "e6210b368d6afa99307670bca947be7a4a5f144434d91f7e6f7048830a727069",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
+				"bush.glb": {
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "360a64cf7e5f73ce5a89958480eb8c3b14a14390c823200020c5509c12fa5367",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
+				"cattail_plant.glb": {
+					"brightness": 0.5,
+					"collision_circle_ratio": 1,
+					"hash": "33218dcb3f662be700ed6d85e68958389ff9574ece73b3f11d269a88cef833d8",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 2.75,
+					"y_offset": 1.4500002
+				},
+				"coniferous_tree_2.glb": {
+					"brightness": 0.91999996,
+					"collision_circle_ratio": 0.3,
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "defc40fba4132896832fd08fac6208a180816d8e8e718906de3450e9859b2830",
+					"ignore_player_color": false,
+					"normal_mode": "Flat",
+					"normalize_luminance": true,
+					"scale": 2.75,
+					"y_offset": 2.0500002
+				},
+				"crystal_tree.glb": {
+					"brightness": 0.37,
+					"default_asset_type": "resources",
+					"hash": "05285c87144d01ee4e3674dd84b2f9f7dff32ef0cdc1a3d2338d2b47792b097b",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75
+				},
+				"mossy_rock_ore.glb": {
+					"brightness": 1,
+					"collision_circle_ratio": 0.55,
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "83a3bae8c36e0944e8443766b768670c37d6a754de9616052709ef198ccb37f5",
+					"ignore_player_color": false,
+					"normal_mode": "Flat",
+					"scale": 2.75,
+					"y_offset": 0.45000017
+				},
+				"palm_tree.glb": {
+					"collision_circle_ratio": 0.25,
+					"default_asset_type": "resources",
+					"generate_normals": true,
+					"hash": "c0b9710bc566c869d9310b59c34060f6cf414e1e31bd03a9f642b5f7ee30238a",
+					"ignore_player_color": true,
+					"normal_mode": "Flat",
+					"scale": 2.75,
+					"y_offset": 3.15
+				}
+			},
+			"units": {
+				"fantasy_cottage.glb": {
+					"default_asset_type": "units",
+					"generate_normals": true,
+					"hash": "3cdd065788cd6e1e6bdf102c7f0c27704e47fc982a5b1e0d5fedc1930edd6cf7",
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"fantasy_warrior_unit_1.glb": {
+					"collision_circle_ratio": 0.4,
+					"default_asset_type": "units",
+					"generate_normals": true,
+					"hash": "1f895936b0e876e306bf1d0dad9a913bfe5dbae596d5d9c7eb2f0c980c0cc5ed",
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"orc_warrior_7.glb": {
+					"collision_circle_ratio": 0.4,
+					"default_asset_type": "units",
+					"generate_normals": true,
+					"hash": "ec54ee3128eae41161f745e19a556851ba22ff4aea13869020b9e87af47d853b",
+					"normal_mode": "Flat",
+					"scale": 1.5
+				},
+				"warrior_armor.glb": {
+					"default_asset_type": "units",
+					"generate_normals": true,
+					"hash": "36d312e2b24231f7fce61bbec5fbb69d98c94efca3028f756115b467130fdebd",
+					"normal_mode": "Flat",
+					"scale": 1.5
+				}
+			}
+		},
+		"icons": {},
+		"skyboxes": {
+			"jade_shrine.rtex": "07d819f01cbbada5d711ca37c3041ecbdf4e91f9db99a0e6348ab7e575a038ed"
+		},
+		"textures": {
+			"ancient_jungle_mossy_stone.rtex": {
+				"Crevice_Power": 1,
+				"Height_Offset": 0,
+				"Height_Scale": 1,
+				"brightness": 1,
+				"cross_fade": 0,
+				"hash": "8ce9002a1e6d4d802e5ddf2f537e1a705abbef3c580ff0aaeb8cb0966e00f190",
+				"stochastic_tile_size": 1,
+				"swatchIndex": 0,
+				"tile_mode": "Grid",
+				"tint": "#ffffff",
+				"uv_scale": 0.35
+			},
+			"ancient_jungle_overgrown_path.rtex": {
+				"hash": "82817a46e4f4ad1fde83c2b3ce852a052e544a3926f8f6143d4b9dba5ebd8424",
+				"swatchIndex": 1
+			},
+			"dead_grass.rtex": {
+				"hash": "3ca7998ba2426fee350ef5e52ca9e541dfbe9939cc2bfe86e2e6c3879f8a02d3",
+				"scale_factor": 2.4235,
+				"swatchIndex": 2
+			},
+			"deep_trench_dense_mud.rtex": {
+				"hash": "27bd88d3c661a25f068f8b253ba2eb1c49051f77a12173e92b395c78fb12e291",
+				"swatchIndex": 3
+			},
+			"dusty_canyon_scarce_soil.rtex": {
+				"Crevice_Power": 1,
+				"Height_Offset": 0,
+				"Height_Scale": 1,
+				"brightness": 1,
+				"cross_fade": 0,
+				"hash": "018b8a6f2374d080d22a9ea49cad869707d193f5571241a696a4b7cc3fc1958a",
+				"stochastic_tile_size": 1,
+				"swatchIndex": 4,
+				"tile_mode": "Grid",
+				"tint": "#ffffff",
+				"uv_scale": 0.4
+			},
+			"frozen_tundra_mud.rtex": {
+				"hash": "223a936936e7de901eb618a081d46e2296c0c9681b41794c3094f31d31e57107",
+				"swatchIndex": 5
+			},
+			"holy_stone.rtex": {
+				"hash": "4b3761259a544cbf8b0a298fa6622e77c6142148284bd552a589da243339d96b",
+				"scale_factor": 0.2665,
+				"stochastic_tile_size": 0.5,
+				"swatchIndex": 6,
+				"tile_mode": "Grid",
+				"uv_scale": 1.45
+			},
+			"mangrove_swamp_bog_grass.rtex": {
+				"hash": "dbfeb5a3c6d9deac441f1944eb7eecef4b085a8123a4d9db7b97e6165d07e0ee",
+				"swatchIndex": 7
+			},
+			"rocky_cliff.rtex": {
+				"hash": "a2a9aa83fe022c3a56e2ecb558dff3ab5725a7edc05f8b13434fe865755c50b0",
+				"scale_factor": 3.3215,
+				"stochastic_tile_size": 0.5,
+				"swatchIndex": 8,
+				"tile_mode": "Stochastic",
+				"uv_scale": 1.3
+			},
+			"sunken_ruins_mossy_stone.rtex": {
+				"Crevice_Power": 1,
+				"Height_Offset": 0,
+				"Height_Scale": 1,
+				"brightness": 1,
+				"cross_fade": 1.75,
+				"hash": "bd3b13cf2dd187275f48b76e0742d34eaaa17812d6a4cd95a7cceed99e611646",
+				"stochastic_tile_size": 1,
+				"swatchIndex": 9,
+				"tile_mode": "Grid",
+				"tint": "#ffffff",
+				"uv_scale": 0.45000002
+			},
+			"tundra_frost.rtex": {
+				"hash": "4e4a13e9e2d379f83cbb78abbb005d84a3b181a4b5871a8f22ea99705b051ffe",
+				"scale_factor": 0.2368,
+				"swatchIndex": 10
+			},
+			"whispering_woods_shaded_root.rtex": {
+				"hash": "ed08cd98e088a96909ba474d8427c5308c6ecfd3777b27ad41bc0634839c9ad3",
+				"swatchIndex": 11
+			},
+			"whispering_woods_soft_grass.rtex": {
+				"hash": "2db615712c6bff191d48f97428e3e9bc80c74cdb8ff9f63ab41fdae6a8d1d33a",
+				"swatchIndex": 12
+			},
+			"wild_grass.rtex": {
+				"Crevice_Power": 1,
+				"Height_Offset": 0,
+				"Height_Scale": 1,
+				"brightness": 1,
+				"cross_fade": 0,
+				"hash": "7c444060c97144e7fae78c10dc13a86f5c58745acbbfef7a40cfb36876801b54",
+				"scale_factor": 1.8065,
+				"stochastic_tile_size": 1,
+				"swatchIndex": 13,
+				"tile_mode": "Stochastic",
+				"tint": "#ffffff",
+				"uv_scale": 1
+			}
+		},
+		"vfx_spritesheets": {}
+	},
+	"CustomAbilities": [],
+	"CustomBuildings": [
+		{
+			"Description": "",
+			"ModelPath": "bell_tower.glb",
+			"Name": "bell_tower",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "bell_tower"
+		},
+		{
+			"Description": "",
+			"ModelPath": "castle_gate_tower.glb",
+			"Name": "castle_gate_tower",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "castle_gate_tower"
+		},
+		{
+			"Description": "",
+			"ModelPath": "fantasy_archway.glb",
+			"Name": "fantasy_archway",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "fantasy_archway"
+		},
+		{
+			"Description": "",
+			"ModelPath": "fantasy_cottage.glb",
+			"Name": "fantasy_cottage",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"UnitId": "fantasy_cottage"
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"ModelPath": "ice_castle_1.glb",
+			"Name": "Castle",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "ice_castle_1"
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"ModelPath": "timber_framed_house.glb",
+			"Name": "House",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"Tint": "#ffffff",
+			"UnitId": "timber_framed_house"
+		},
+		{
+			"Description": "",
+			"ModelPath": "treehouse_structure.glb",
+			"Name": "treehouse_structure",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "treehouse_structure"
+		},
+		{
+			"Description": "",
+			"ModelPath": "fantasy_tower_1.glb",
+			"Name": "fantasy_tower_1",
+			"NormalMode": "Flat",
+			"PathingType": 32,
+			"RecalculateNormals": true,
+			"Scale": 1.2,
+			"UnitId": "fantasy_tower_1",
+			"YOffset": -0.09999985
+		}
+	],
+	"CustomItems": [],
+	"CustomProps": [
+		{
+			"Animations": {},
+			"CollisionCircle": 0.75,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "crystal_cluster_29.glb",
+			"Name": "Crystals",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 1,
+			"Tint": "#ffffff",
+			"UnitId": "crystal_cluster_29",
+			"YOffset": 1.0500002
+		},
+		{
+			"Animations": {},
+			"CollisionCircle": 0.4,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "spiked_wooden_stake.glb",
+			"Name": "Spike Pole",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 1,
+			"Tint": "#ffffff",
+			"UnitId": "spiked_wooden_stake",
+			"YOffset": 0.7500002
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "wooden_cart.glb",
+			"Name": "wooden_cart",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "wooden_cart",
+			"YOffset": 1.6000001
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "wooden_barrel_prop.glb",
+			"Name": "wooden_barrel_prop",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "wooden_barrel_prop",
+			"YOffset": 1.7500001
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "stone_well.glb",
+			"Name": "stone_well",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "stone_well",
+			"YOffset": 2.4500003
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "spiked_gate.glb",
+			"Name": "spiked_gate",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "spiked_gate",
+			"YOffset": 1.6000001
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "skull_altar_pedestal.glb",
+			"Name": "skull_altar_pedestal",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "skull_altar_pedestal",
+			"YOffset": 2.7000003
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "siege_cannon.glb",
+			"Name": "siege_cannon",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "siege_cannon",
+			"YOffset": 2.1000001
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "merchant_stall.glb",
+			"Name": "merchant_stall",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "merchant_stall",
+			"YOffset": 0
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "banner_pole_1.glb",
+			"Name": "banner_pole_1",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "banner_pole_1",
+			"YOffset": 1.8500001
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "cauldron_prop.glb",
+			"Name": "cauldron_prop",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "cauldron_prop",
+			"YOffset": 0.95000017
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "heraldry_banner_stand.glb",
+			"Name": "heraldry_banner_stand",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "heraldry_banner_stand",
+			"YOffset": 1.3000002
+		},
+		{
+			"Animations": {},
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "skull_totem_prop.glb",
+			"Name": "skull_totem_prop",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"UnitId": "skull_totem_prop",
+			"YOffset": 0
+		},
+		{
+			"Animations": {},
+			"Brightness": 0.5,
+			"CollisionCircle": 1,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "tattered_banner_pole.glb",
+			"Name": "tattered_banner_pole",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 1.25,
+			"Tint": "#ffffff",
+			"UnitId": "tattered_banner_pole",
+			"YOffset": 1.6000001
+		}
+	],
+	"CustomResources": [
+		{
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "birch_tree.glb",
+			"Name": "birch_tree",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 2.75,
+			"UnitId": "birch_tree"
+		},
+		{
+			"Brightness": 0.37,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "crystal_tree.glb",
+			"Name": "crystal_tree",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"Scale": 2.75,
+			"UnitId": "crystal_tree"
+		},
+		{
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "bush.glb",
+			"Name": "bush",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 2.75,
+			"UnitId": "bush"
+		},
+		{
+			"Brightness": 0.91999996,
+			"CollisionCircle": 0.3,
+			"Description": "",
+			"IgnorePlayerColor": false,
+			"ModelPath": "coniferous_tree_2.glb",
+			"Name": "coniferous_tree_2",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 2.75,
+			"Tint": "#9fff40",
+			"UnitId": "coniferous_tree_2",
+			"YOffset": 2.0500002
+		},
+		{
+			"Brightness": 1,
+			"CollisionCircle": 0.55,
+			"Description": "",
+			"IgnorePlayerColor": false,
+			"ModelPath": "mossy_rock_ore.glb",
+			"Name": "mossy_rock_ore",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 2.75,
+			"Tint": "#ffffff",
+			"UnitId": "mossy_rock_ore",
+			"YOffset": 0.45000017
+		},
+		{
+			"Animations": {},
+			"CollisionCircle": 0.25,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "palm_tree.glb",
+			"Name": "Palm Tree",
+			"NormalMode": "Flat",
+			"PathingType": 255,
+			"RecalculateNormals": true,
+			"Scale": 2.75,
+			"Tint": "#ffffff",
+			"UnitId": "palm_tree",
+			"YOffset": 3.15
+		},
+		{
+			"Animations": {},
+			"Brightness": 0.5,
+			"CollisionCircle": 1,
+			"Description": "",
+			"IgnorePlayerColor": true,
+			"ModelPath": "cattail_plant.glb",
+			"Name": "cattail_plant",
+			"NormalMode": "Flat",
+			"NormalizeLuminance": true,
+			"PathingType": 255,
+			"Scale": 2.75,
+			"Tint": "#ffffff",
+			"UnitId": "cattail_plant",
+			"YOffset": 1.4500002
+		}
+	],
+	"CustomUnits": [
+		{
+			"Animations": {
+				"Attack": [
+					"Upward Thrust - Upward Weapon Thrust.ranim"
+				],
+				"Dance": [
+					"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim"
+				],
+				"Death": [
+					"Death - Death From Standing Idle.ranim"
+				],
+				"Idle": [
+					"Bored - Standing Around Bored Idle.ranim"
+				],
+				"Labor": [
+					"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim"
+				],
+				"Spell_Cast": [
+					"Magic Spell Casting - Casting A Spell With One Hand.ranim"
+				],
+				"Walk": [
+					"Standard Walk - Standard Walk.ranim"
+				]
+			},
+			"Armor": 3,
+			"ArmorType": "light",
+			"AttackCooldown": 1.1,
+			"AttackType": "melee",
+			"CollisionCircle": 0.4,
+			"Damage": 35,
+			"Description": "Demo hero",
+			"GoldBounty": 200,
+			"IsHero": true,
+			"MaxHp": 600,
+			"ModelPath": "fantasy_warrior_unit_1.glb",
+			"Name": "Kevin",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"PopCost": 1,
+			"Range": 1.5,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"ScanRadius": 14,
+			"Speed": 4.5,
+			"UnitId": "fantasy_warrior_unit_1",
+			"XpBounty": 100
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"Upward Thrust - Upward Weapon Thrust.ranim"
+				],
+				"Dance": [
+					"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim"
+				],
+				"Death": [
+					"Death - Death From Standing Idle.ranim"
+				],
+				"Idle": [
+					"Bored - Standing Around Bored Idle.ranim"
+				],
+				"Labor": [
+					"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim"
+				],
+				"Spell_Cast": [
+					"Magic Spell Casting - Casting A Spell With One Hand.ranim"
+				],
+				"Walk": [
+					"Standard Walk - Standard Walk.ranim"
+				]
+			},
+			"Armor": 1,
+			"ArmorType": "light",
+			"AttackCooldown": 1.2,
+			"AttackType": "melee",
+			"CollisionCircle": 0.4,
+			"Damage": 18,
+			"Description": "Team 2 lane minion",
+			"GoldBounty": 25,
+			"IsHero": false,
+			"MaxHp": 280,
+			"ModelPath": "orc_warrior_7.glb",
+			"Name": "Team 2 Minion",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"PopCost": 1,
+			"Range": 1.5,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"ScanRadius": 14,
+			"Speed": 3.8,
+			"UnitId": "moba_minion_team2",
+			"XpBounty": 40
+		},
+		{
+			"Description": "",
+			"ModelPath": "warrior_armor.glb",
+			"Name": "warrior_armor",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"UnitId": "warrior_armor"
+		},
+		{
+			"Description": "",
+			"ModelPath": "fantasy_cottage.glb",
+			"Name": "fantasy_cottage",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"UnitId": "fantasy_cottage"
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"Upward Thrust - Upward Weapon Thrust.ranim"
+				],
+				"Dance": [
+					"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim"
+				],
+				"Death": [
+					"Death - Death From Standing Idle.ranim"
+				],
+				"Idle": [
+					"Bored - Standing Around Bored Idle.ranim"
+				],
+				"Labor": [
+					"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim"
+				],
+				"Spell_Cast": [
+					"Magic Spell Casting - Casting A Spell With One Hand.ranim"
+				],
+				"Walk": [
+					"Standard Walk - Standard Walk.ranim"
+				]
+			},
+			"Armor": 1,
+			"ArmorType": "light",
+			"AttackCooldown": 1.2,
+			"AttackType": "melee",
+			"CollisionCircle": 0.4,
+			"Damage": 18,
+			"Description": "Team 1 lane minion",
+			"GoldBounty": 25,
+			"IsHero": false,
+			"MaxHp": 280,
+			"ModelPath": "fantasy_warrior_unit_1.glb",
+			"Name": "Team 1 Minion",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"PopCost": 1,
+			"Range": 1.5,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"ScanRadius": 14,
+			"Speed": 3.8,
+			"UnitId": "moba_minion_team1",
+			"XpBounty": 40
+		},
+		{
+			"Animations": {
+				"Attack": [
+					"Upward Thrust - Upward Weapon Thrust.ranim"
+				],
+				"Dance": [
+					"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim"
+				],
+				"Death": [
+					"Death - Death From Standing Idle.ranim"
+				],
+				"Idle": [
+					"Bored - Standing Around Bored Idle.ranim"
+				],
+				"Labor": [
+					"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim"
+				],
+				"Spell_Cast": [
+					"Magic Spell Casting - Casting A Spell With One Hand.ranim"
+				],
+				"Walk": [
+					"Standard Walk - Standard Walk.ranim"
+				]
+			},
+			"Armor": 3,
+			"ArmorType": "light",
+			"AttackCooldown": 1.1,
+			"AttackType": "melee",
+			"CollisionCircle": 0.4,
+			"Damage": 35,
+			"Description": "Alternate demo hero",
+			"GoldBounty": 200,
+			"IsHero": true,
+			"MaxHp": 600,
+			"ModelPath": "orc_warrior_7.glb",
+			"Name": "Chad",
+			"NormalMode": "Flat",
+			"PathingType": 9,
+			"PopCost": 1,
+			"Range": 1.5,
+			"RecalculateNormals": true,
+			"Scale": 1.5,
+			"ScanRadius": 14,
+			"Speed": 4.5,
+			"Tint": "#ffffff",
+			"UnitId": "orc_warrior_7",
+			"XpBounty": 100
+		}
+	],
+	"CustomUpgrades": [],
+	"CustomWeapons": [],
+	"MapProperties": {
+		"FogOfWarType": "visible",
+		"MapDescription": "Three-lane MOBA demo with towers, waves, and a hero.",
+		"MapName": "Realm MOBA Demo",
+		"ShroudType": "ExplorationShroud"
+	},
+	"ModelBrightness": {
+		"cattail_plant.glb": 0.5,
+		"coniferous_tree_2.glb": 0.91999996,
+		"crystal_tree.glb": 0.37,
+		"mossy_rock_ore.glb": 1,
+		"tattered_banner_pole.glb": 0.5
+	},
+	"ModelCollisionCircleRatios": {
+		"cattail_plant.glb": 1,
+		"coniferous_tree_2.glb": 0.3,
+		"crystal_cluster_29.glb": 0.75,
+		"fantasy_warrior_unit_1.glb": 0.4,
+		"moba_minion_team1.glb": 0.4,
+		"moba_minion_team2.glb": 0.4,
+		"mossy_rock_ore.glb": 0.55,
+		"orc_warrior_7.glb": 0.4,
+		"palm_tree.glb": 0.25,
+		"spiked_wooden_stake.glb": 0.4,
+		"tattered_banner_pole.glb": 1
+	},
+	"ModelGenerateNormals": {
+		"bell_tower.glb": true,
+		"birch_tree.glb": true,
+		"bush.glb": true,
+		"castle_gate_tower.glb": true,
+		"coniferous_tree_2.glb": true,
+		"crystal_cluster_29.glb": true,
+		"fantasy_archway.glb": true,
+		"fantasy_cottage.glb": true,
+		"fantasy_tower_1.glb": true,
+		"fantasy_warrior_unit_1.glb": true,
+		"ice_castle_1.glb": true,
+		"mossy_rock_ore.glb": true,
+		"orc_warrior_7.glb": true,
+		"palm_tree.glb": true,
+		"spiked_wooden_stake.glb": true,
+		"timber_framed_house.glb": true,
+		"treehouse_structure.glb": true,
+		"warrior_armor.glb": true
+	},
+	"ModelIgnorePlayerColor": {
+		"banner_pole_1.glb": true,
+		"birch_tree.glb": true,
+		"bush.glb": true,
+		"cattail_plant.glb": true,
+		"cauldron_prop.glb": true,
+		"coniferous_tree_2.glb": false,
+		"crystal_cluster_29.glb": true,
+		"crystal_tree.glb": true,
+		"heraldry_banner_stand.glb": true,
+		"merchant_stall.glb": true,
+		"mossy_rock_ore.glb": false,
+		"palm_tree.glb": true,
+		"siege_cannon.glb": true,
+		"skull_altar_pedestal.glb": true,
+		"skull_totem_prop.glb": true,
+		"spiked_gate.glb": true,
+		"spiked_wooden_stake.glb": true,
+		"stone_well.glb": true,
+		"tattered_banner_pole.glb": true,
+		"wooden_barrel_prop.glb": true,
+		"wooden_cart.glb": true
+	},
+	"ModelNormalModes": {
+		"banner_pole_1.glb": "Flat",
+		"bell_tower.glb": "Flat",
+		"birch_tree.glb": "Flat",
+		"bush.glb": "Flat",
+		"castle_gate_tower.glb": "Flat",
+		"cattail_plant.glb": "Flat",
+		"cauldron_prop.glb": "Flat",
+		"coniferous_tree_2.glb": "Flat",
+		"crystal_cluster_29.glb": "Flat",
+		"crystal_tree.glb": "Flat",
+		"fantasy_archway.glb": "Flat",
+		"fantasy_cottage.glb": "Flat",
+		"fantasy_tower_1.glb": "Flat",
+		"fantasy_warrior_unit_1.glb": "Flat",
+		"heraldry_banner_stand.glb": "Flat",
+		"ice_castle_1.glb": "Flat",
+		"merchant_stall.glb": "Flat",
+		"moba_minion_team1.glb": "Flat",
+		"moba_minion_team2.glb": "Flat",
+		"mossy_rock_ore.glb": "Flat",
+		"orc_warrior_7.glb": "Flat",
+		"palm_tree.glb": "Flat",
+		"siege_cannon.glb": "Flat",
+		"skull_altar_pedestal.glb": "Flat",
+		"skull_totem_prop.glb": "Flat",
+		"spiked_gate.glb": "Flat",
+		"spiked_wooden_stake.glb": "Flat",
+		"stone_well.glb": "Flat",
+		"tattered_banner_pole.glb": "Flat",
+		"timber_framed_house.glb": "Flat",
+		"treehouse_structure.glb": "Flat",
+		"warrior_armor.glb": "Flat",
+		"wooden_barrel_prop.glb": "Flat",
+		"wooden_cart.glb": "Flat"
+	},
+	"ModelNormalizeLuminance": {
+		"banner_pole_1.glb": true,
+		"cattail_plant.glb": true,
+		"cauldron_prop.glb": true,
+		"coniferous_tree_2.glb": true,
+		"heraldry_banner_stand.glb": true,
+		"merchant_stall.glb": true,
+		"siege_cannon.glb": true,
+		"skull_altar_pedestal.glb": true,
+		"skull_totem_prop.glb": true,
+		"spiked_gate.glb": true,
+		"stone_well.glb": true,
+		"tattered_banner_pole.glb": true,
+		"wooden_barrel_prop.glb": true,
+		"wooden_cart.glb": true
+	},
+	"ModelObstacleRadii": {},
+	"ModelOffsets": {
+		"banner_pole_1.glb": 1.8500001,
+		"cattail_plant.glb": 1.4500002,
+		"cauldron_prop.glb": 0.95000017,
+		"coniferous_tree_2.glb": 2.0500002,
+		"crystal_cluster_29.glb": 1.0500002,
+		"fantasy_tower_1.glb": -0.09999985,
+		"heraldry_banner_stand.glb": 1.3000002,
+		"merchant_stall.glb": 0,
+		"mossy_rock_ore.glb": 0.45000017,
+		"palm_tree.glb": 3.15,
+		"siege_cannon.glb": 2.1000001,
+		"skull_altar_pedestal.glb": 2.7000003,
+		"skull_totem_prop.glb": 0,
+		"spiked_gate.glb": 1.6000001,
+		"spiked_wooden_stake.glb": 0.7500002,
+		"stone_well.glb": 2.4500003,
+		"tattered_banner_pole.glb": 1.6000001,
+		"wooden_barrel_prop.glb": 1.7500001,
+		"wooden_cart.glb": 1.6000001
+	},
+	"ModelScales": {
+		"banner_pole_1.glb": 1.25,
+		"bell_tower.glb": 1.2,
+		"birch_tree.glb": 2.75,
+		"bush.glb": 2.75,
+		"castle_gate_tower.glb": 1.2,
+		"cattail_plant.glb": 2.75,
+		"cauldron_prop.glb": 1.25,
+		"coniferous_tree_2.glb": 2.75,
+		"crystal_cluster_29.glb": 1,
+		"crystal_tree.glb": 2.75,
+		"fantasy_archway.glb": 1.2,
+		"fantasy_cottage.glb": 1.5,
+		"fantasy_tower_1.glb": 1.2,
+		"fantasy_warrior_unit_1.glb": 1.5,
+		"heraldry_banner_stand.glb": 1.25,
+		"ice_castle_1.glb": 1.2,
+		"merchant_stall.glb": 1.25,
+		"moba_minion_team1.glb": 1.5,
+		"moba_minion_team2.glb": 1.5,
+		"mossy_rock_ore.glb": 2.75,
+		"orc_warrior_7.glb": 1.5,
+		"palm_tree.glb": 2.75,
+		"siege_cannon.glb": 1.25,
+		"skull_altar_pedestal.glb": 1.25,
+		"skull_totem_prop.glb": 1.25,
+		"spiked_gate.glb": 1.25,
+		"spiked_wooden_stake.glb": 1,
+		"stone_well.glb": 1.25,
+		"tattered_banner_pole.glb": 1.25,
+		"timber_framed_house.glb": 1.2,
+		"treehouse_structure.glb": 1.2,
+		"warrior_armor.glb": 1.5,
+		"wooden_barrel_prop.glb": 1.25,
+		"wooden_cart.glb": 1.25
+	}
 }

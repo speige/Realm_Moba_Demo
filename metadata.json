@@ -993,7 +993,6 @@
 	"CustomUpgrades": [],
 	"CustomWeapons": [],
 	"MapProperties": {
-		"FogOfWarType": "visible",
 		"MapDescription": "Three-lane MOBA demo with towers, waves, and a hero.",
 		"MapName": "Realm MOBA Demo",
 		"ShroudType": "ExplorationShroud"

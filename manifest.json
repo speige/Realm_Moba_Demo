@@ -1,0 +1,109 @@
+{
+	"Assets": {
+		"animations": {
+			"Bored - Standing Around Bored Idle.ranim": "979a642d48705fc903a1c2e98ac71660cf1399ad462dc0d3add505b7f919ea84",
+			"Death - Death From Standing Idle.ranim": "7454fae0c375bc391a9f807f21f7edfd6d09e26b146ada81311b80c4972b1568",
+			"Heavy Weapon Swing - Two Handed Heavy Weapon Swing.ranim": "4c389cdf83c9eb5e8bc342486ace70c759e34897ef8a41c73ac4bc3cb8888568",
+			"Magic Spell Casting - Casting A Spell With One Hand.ranim": "396b0033881d3dc63a27f772c19d272fb152a056dd861af67059e9d8ce693d41",
+			"Northern Soul Floor Spin - Northern Soul Dance Spin On Floor.ranim": "5422fe09e49b7c1b5c43bfe93e7197f105bf9900bf2bb4c3360330558b371ab9",
+			"Standard Walk - Standard Walk.ranim": "5c48f7b2c6ad1e735d1e3644361007dc4175a7c716f83817797ed572c6819b22",
+			"Upward Thrust - Upward Weapon Thrust.ranim": "19c2fc338a0d52ee36cab89f730245999368d239a662f84383a0a9f2adebe083"
+		},
+		"glb": {
+			"buildings": {
+				"ancient_altar.glb": "a1a6ea38123655e1e835ebae6bba43bf0106274d269a640e6d4aadf924f28b5d",
+				"bell_tower.glb": "9e653eda44607d824b8e3dd11538c378d32bb302b0826e5678dd161d982e4974",
+				"castle.glb": "3f849a5087309942a984fbeacde1f79a964efc34ba5213e1d9f1b3515cd9ef57",
+				"castle_gate.glb": "06e0715a7cca52857fe915e92aa8fd277bb426de4f775c0451d72621b6f178a3",
+				"castle_gate_tower.glb": "bc6aed4f269715c69020052b9dc25284e0e722fee70e8f476b9c787b2d194e48",
+				"cottage_house.glb": "d978e6ec55b78cb46dca9d1f4c00fafcbb7be2125f0f274c47b1befa866467ec",
+				"fantasy_archway.glb": "3da0359c653a3ce1c75ff91ed253c4bd2f024ca974448c886e563e2dea2b5eef",
+				"fantasy_castle.glb": "2a12897a3732284109b41ddd471ff0356c13a1db5dd3aa9669c4218709d79e90",
+				"fantasy_cottage.glb": "59b3c521d258621157ddda92005e75c0160bab419c71d929592e248c27620378",
+				"fantasy_tower.glb": "2d999ad93edf1d2d5d78597f8b7c786d594ab0a1c0f1ee59872a4b70c157ae6a",
+				"fantasy_tower_1.glb": "66981550a846928e8c70d6027c5e4c317a5e8a8047c2a07c7df3898f4740d0d8",
+				"fantasy_tower_2.glb": "280a7efed3f86bf63a72692552c186355df62ed3d635ed3eb603d97d260502be",
+				"ice_castle_1.glb": "efd142cb31c7fe5e5e851b66ff2db338d065860438d05e0ef0e2dbe17d3d5825",
+				"mossy_stone_tower.glb": "9910dea9a74e575f1db4c7cf7b1e95f3cc17969d5e1f76b26bf47168948f8854",
+				"stone_arch_gate.glb": "7567ebcbfa6a895495cf959df0d7ae6a716c5facab7754d8d22967bfdadda6ec",
+				"stone_gate.glb": "44127b71196e3e8d12ff69b788e9f764a920ce5ef0e67856417e4fff27f4ccae",
+				"stone_tower_2.glb": "ebcb6ddc370305b721c10bde32b097b8f0ce1b186b4ef81fedc5dc574561c164",
+				"stone_tower_3.glb": "94cdfb3bae7cca4c07ff8c0578d416cc6fcb1375551ca437e10b9c58781b7a68",
+				"stone_watchtower_1.glb": "f3219e3b33494ca2bf4ceb68a24e7d30a7979971db5930b02cbd39a318978d93",
+				"thatch_hut.glb": "38e1284ffea19cf7b311040583d098cae4d0072761ed14c909cde420a650d555",
+				"timber_framed_house.glb": "51c7ca3dca4d5be14f3a0023f123c7005060b838acf5151032967ebfe60dee3c",
+				"treehouse_structure.glb": "94f5920485c7bef8794b5cc03cacce054ee13c99aeca1324678c0718755f859a",
+				"wooden_hut.glb": "bf24bf55d67fcfdb6bc2ec1b7e665e24a46f5e63cd92954e46b4809b01b7b7a6"
+			},
+			"props": {
+				"architectural_components.glb": "6613de0ddd591c82337c5f20ec7f47487c4a7a8163c4466cd99112f0f83cc5c8",
+				"banner_pole_1.glb": "0f950d23effa798e5d91753cbdcdea2543118d392f4e378637d2cd53cbdaf268",
+				"cauldron_prop.glb": "c57319df438e1031c033f50ed7ed45ec7616f998ef5f3030f9db476699eefa6e",
+				"crystal_cluster_29.glb": "f845c8e555ed684c16e711d868018e5f1369f23434152611c19d7ea207e337de",
+				"heraldry_banner_stand.glb": "f3c93e7745f7e4d2d8fe4d0e07257fb2c540219b2d092d889abab6e7b9c57928",
+				"magic_crystal_pedestal.glb": "32b3f69b2f4cc702d113073c1f20c3e1fef56a339df8944a5b20e2ac5f8b69d2",
+				"merchant_stall.glb": "9696b5312ba2aebaeb8b56542bd972da9d056162f3ad382ed905aa34c1d60189",
+				"moba_minion_team1.glb": "feba0dff6752c706e909ec3529feda679fe4b753e1d1baec8a1dd9fac42b1b5c",
+				"moba_minion_team2.glb": "9b9e79b906376625b99f815292799ac8d7c7365fafc326001f1e54b854c70611",
+				"mystic_tree_altar.glb": "a46965965685459b731b6bb1214893b46e91c4cc62274782cad3985a2e6c2c34",
+				"siege_cannon.glb": "7b380e57de4e5e9ed53a2db1fa294e6d9595649e520c81e59529512ef627d5cd",
+				"skull_altar_pedestal.glb": "c587e1530200040d68e023755a2c0108f55fbbc9915f65c971718e1a1b6279f6",
+				"skull_totem_prop.glb": "afbdc3217580dcc5e411243a4086dc7239ff6d8758966c941db2fd91adbcaf93",
+				"spiked_gate.glb": "6ef0cb7e7854db0dc8d8bd171b26c802f258f090852fb086c45c1da5c3731260",
+				"spiked_wooden_stake.glb": "fa7d5c666ce503572618ba6f2a5e2aaadc12f626aa0ccf44ba21e9d7eb4749c5",
+				"stone_well.glb": "7534684b6c5a97e12338e57fadd938966c6873f53c9b98ccb40eaecbbaf0a84f",
+				"tattered_banner_pole.glb": "0b2c09c189496f7fdb40ad50c6c7e8bad729da5febf79e8ebd364da3c7747179",
+				"wooden_barrel_prop.glb": "3e37739859160ecc2e0e7962963f536a49dd7ac8e400ba66b4a272ae04d4f81c",
+				"wooden_box.glb": "4888170c0d7ea93e2e62d42f2ac4211966415a3faeef4dfef85f59aaff4be437",
+				"wooden_cart.glb": "ffb21ac033af0414acc69b1a78126e0399c35b6b787eda24679a6ee83b014f02"
+			},
+			"resources": {
+				"birch_tree.glb": "9f1da74f0db352d357e109768f2acff2d1431904382e81d8d339f3ca258368c4",
+				"bush.glb": "55a4e7ac7adecdf2227c781d4a3ee0d5649c5787f6cca0af7af46369ff788146",
+				"cattail_plant.glb": "9f869bbb8608656383300cfcbb970cfaa09b6a81746ee9f99d0aa9294a6a0f20",
+				"coniferous_tree_2.glb": "c72fb6d8d015dd1c40cad8b4e88296ba0c34dff3c0148b873a274cc368213900",
+				"crystal_peak.glb": "af46d9483c709b59a14510d5379f46b74e23d1bc5b55bc99089bafa8ed8b7378",
+				"crystal_tree.glb": "5096874ef5d1a3598bccc736808f664ceda42154652145ba52e4886c99211dfe",
+				"mossy_rock_cluster.glb": "140999ca411249c0e3504274381871010873fdadf32c08d3073dbae824003a08",
+				"mossy_rock_ore.glb": "fa90d93377cc4c0e0c7a6b52160cd86ffc82d67e3a5aa4ca4dce88c87a4d91a1",
+				"mountain_rock_outcrop.glb": "f1a79ba5a182d32d3130590419b0ead5aec65f1d38acd53e958cd710c774677f",
+				"palm_tree.glb": "ccace9f0c587abec8fe9f960b08f9f57cee96bbe2a909ae437961e87c00b1db8",
+				"twisted_tree_stump.glb": "52c77046d079049c68e2b92f92567e93dbc6160b79d2ec62b3500552db177c3b",
+				"willow_tree.glb": "71f4feeab9469def5f042759ce39cca168dc2ed6b2bbaa78f790f2aec40c1be8"
+			},
+			"units": {
+				"fantasy_cottage.glb": "59b3c521d258621157ddda92005e75c0160bab419c71d929592e248c27620378",
+				"fantasy_warrior_unit_1.glb": "0c7152b3f74139bd9dac2fcd73a82c91294ea0b56226acf960bf233d06b549a7",
+				"orc_warrior_7.glb": "4069dca49195ccbc52e1ee4c36f228bded3b095b80d53c1b9f11e97514e97e18",
+				"warrior_armor.glb": "3163dbc2fd705a6e7d085f34d696626d93bb58e655f67f2d1b833a47f3dffd40"
+			}
+		},
+		"skyboxes": {
+			"jade_shrine.rtex": "e731a047f223e140a15463ecd247f89829df3faa5f061927116c66db1c52e751"
+		},
+		"textures": {
+			"ancient_jungle_mossy_stone.rtex": "e9f4a3903186dfe759ade9528c2d826860398890c2125b1d6156f823011f43eb",
+			"ancient_jungle_overgrown_path.rtex": "69c003d1c7b4eda35f084a55f11ded32faa398c6332cd06a141957b3a99f17ef",
+			"dead_grass.rtex": "e37be23dd0498d1ced301e3c39688b748eb3e27c8df8e185e45d84ce94313b72",
+			"deep_trench_dense_mud.rtex": "00fc0efc56dd8bccaa9f4efea85c23b5a59c7d0ac0f87dc519e4fa3794a6faea",
+			"dusty_canyon_scarce_soil.rtex": "5a7151a1c6f0dd74cb9400570735290842b0b64a3fdc7438a49aa8ca2983623b",
+			"frozen_tundra_mud.rtex": "095454997cd08bc59f3e01763874f1c3c47e4ee38cfe8d9183e9a43ee3101698",
+			"holy_stone.rtex": "c96d6d78b59dd6842cec0571ff57461304653bb9a37c7be48bbafa60bfff0aa3",
+			"mangrove_swamp_bog_grass.rtex": "6780340139be005bdf716626999453dd9517ced2938882c32a9087e12a9f6ed8",
+			"rocky_cliff.rtex": "5abcff60f95a315c91f866eec8047c2213b8dfd00cffa85ec2247241d51a306c",
+			"sunken_reef_crusted_stone.rtex": "90e70844811752a532dafb35b995067d862c6bf6c0a7c34672bf01bf50b65ef9",
+			"sunken_ruins_mossy_stone.rtex": "a1d7251d3a134274dabe25a2c8438c337793f152bf8a33aa1f9e80c1774f7992",
+			"tundra_frost.rtex": "8f1700ab5a6357311a1433ad91aaae606fcc8f3aee07213d365e32d1d88ca824",
+			"whispering_woods_shaded_root.rtex": "8ae0d9db8b3a4ae42e08454085c676eee29c86163c7e0b857379db50ebdc8d2e",
+			"whispering_woods_soft_grass.rtex": "54dcc56db933a8ad7fe195deab9727fc373623d242865021b01295f94c8483a1",
+			"wild_grass.rtex": "00c19e6d04b8bb19a9e438cf2fa6c34d466a175d9e278be8407fbaf787a5e4dd"
+		}
+	},
+	"Author": "Realm",
+	"Description": "Three-lane MOBA demo with towers, waves, and a hero.",
+	"MapName": "Realm MOBA Demo",
+	"Tags": [
+		"MOBA"
+	],
+	"Version": "1.0.0"
+}

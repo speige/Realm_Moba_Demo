@@ -100,6 +100,198 @@
 	"Depth": 128,
 	"Props": [
 		{
+			"PosX": -82.3478,
+			"PosY": -4.2146826,
+			"PosZ": -55.877235,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -82.95037,
+			"PosY": -4.2146826,
+			"PosZ": -54.09887,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -83.99429,
+			"PosY": -4.214683,
+			"PosZ": -48.462,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -56.387043,
+			"PosY": -4.2146826,
+			"PosZ": -28.294598,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.7
+		},
+		{
+			"PosX": -55.005314,
+			"PosY": -4.2146826,
+			"PosZ": -27.25039,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.7
+		},
+		{
+			"PosX": -115.95704,
+			"PosY": -4.282608,
+			"PosZ": -69.75921,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.95
+		},
+		{
+			"PosX": -117.84124,
+			"PosY": -4.282608,
+			"PosZ": -68.75224,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -117.85008,
+			"PosY": -4.282608,
+			"PosZ": -69.6864,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -34.203403,
+			"PosY": -4.2146826,
+			"PosZ": -12.64506,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": -34.827774,
+			"PosY": -4.2146826,
+			"PosZ": -11.21718,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.8
+		},
+		{
+			"PosX": -32.780293,
+			"PosY": -4.2146826,
+			"PosZ": -11.955017,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.45
+		},
+		{
+			"PosX": 13.09123,
+			"PosY": -4.282608,
+			"PosZ": 35.96519,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.6999999
+		},
+		{
+			"PosX": 33.62409,
+			"PosY": -4.282608,
+			"PosZ": 47.57295,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.79999995
+		},
+		{
+			"PosX": 36.451797,
+			"PosY": -4.282608,
+			"PosZ": 46.544765,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 34.180145,
+			"PosY": -4.282608,
+			"PosZ": 49.334908,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 66.45776,
+			"PosY": -4.282608,
+			"PosZ": 47.921875,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 67.15467,
+			"PosY": -4.282608,
+			"PosZ": 49.412094,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 68.38033,
+			"PosY": -4.282608,
+			"PosZ": 49.18013,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 85.89437,
+			"PosY": -4.282608,
+			"PosZ": 62.18577,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 87.24355,
+			"PosY": -4.282608,
+			"PosZ": 61.10211,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 84.16291,
+			"PosY": -4.282608,
+			"PosZ": 65.36144,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 86.92863,
+			"PosY": -4.282608,
+			"PosZ": 63.23884,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.55
+		},
+		{
+			"PosX": 116.47342,
+			"PosY": -4.282608,
+			"PosZ": 54.877728,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.65
+		},
+		{
+			"PosX": 116.84054,
+			"PosY": -4.282608,
+			"PosZ": 55.990986,
+			"PropId": "bush",
+			"RotationY": 0,
+			"Scale": 0.4
+		},
+		{
 			"PosX": -92.91826,
 			"PosY": 0,
 			"PosZ": -13.949398,
@@ -4588,14 +4780,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 11.777647,
-			"PosY": 0,
-			"PosZ": -96.01213,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
 			"PosX": 13.42033,
 			"PosY": 0,
 			"PosZ": -35.553284,
@@ -4700,14 +4884,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 13.967838,
-			"PosY": 0,
-			"PosZ": -94.36949,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -7.466036,
 			"PosY": 6,
 			"PosZ": -126.01957,
@@ -4780,9 +4956,25 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 17.379423,
+			"PosY": 0,
+			"PosZ": -86.87932,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 20.157108,
 			"PosY": 0,
 			"PosZ": -55.746643,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 16.107426,
+			"PosY": 0,
+			"PosZ": -91.371185,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -4802,14 +4994,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 0.5
-		},
-		{
-			"PosX": 17.116238,
-			"PosY": 0,
-			"PosZ": -88.57049,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": -45.234367,
@@ -4844,14 +5028,6 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 16.106846,
-			"PosY": 0,
-			"PosZ": -92.776115,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 19.306461,
 			"PosY": 0,
 			"PosZ": -45.54603,
@@ -4884,17 +5060,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 15.199821,
+			"PosX": 18.139069,
 			"PosY": 0,
-			"PosZ": -96.970345,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
-			"PosX": 17.554544,
-			"PosY": 0,
-			"PosZ": -91.029236,
+			"PosZ": -89.33949,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -5100,14 +5268,6 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 23.686817,
-			"PosY": 0,
-			"PosZ": -77.57757,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 21.026264,
 			"PosY": 0,
 			"PosZ": -38.372147,
@@ -5140,17 +5300,17 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 25.507565,
+			"PosX": 21.647755,
 			"PosY": 0,
-			"PosZ": -60.65531,
+			"PosZ": -89.510284,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 25.585125,
+			"PosX": 25.507565,
 			"PosY": 0,
-			"PosZ": -72.78688,
+			"PosZ": -60.65531,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -5324,12 +5484,12 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 27.29229,
+			"PosX": 28.19875,
 			"PosY": 0,
-			"PosZ": -77.189186,
+			"PosZ": -70.28141,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
-			"Scale": 1.2
+			"Scale": 1
 		},
 		{
 			"PosX": -93.11029,
@@ -5460,14 +5620,6 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": 28.888515,
-			"PosY": 0,
-			"PosZ": -81.68417,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
-		},
-		{
 			"PosX": -109.87825,
 			"PosY": 0,
 			"PosZ": 18.692879,
@@ -5490,14 +5642,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": 30.071978,
-			"PosY": 0,
-			"PosZ": -77.12163,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
 		},
 		{
 			"PosX": -81.6181,
@@ -5628,25 +5772,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 30.668047,
-			"PosY": 0,
-			"PosZ": -84.96947,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
-		},
-		{
 			"PosX": -106.83014,
 			"PosY": 0,
 			"PosZ": 23.109081,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
-		},
-		{
-			"PosX": 30.120491,
-			"PosY": 0,
-			"PosZ": -88.39163,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
@@ -5711,6 +5839,14 @@
 			"PosX": 20.646812,
 			"PosY": 0,
 			"PosZ": -113.054825,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 33.247044,
+			"PosY": 0,
+			"PosZ": -76.0396,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -5788,14 +5924,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 34.25463,
-			"PosY": 0,
-			"PosZ": -77.12161,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -120.494514,
 			"PosY": 3,
 			"PosZ": 17.514378,
@@ -5820,14 +5948,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 30.936676,
-			"PosY": 0,
-			"PosZ": -94.57669,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -116.17802,
 			"PosY": 3,
 			"PosZ": 21.056747,
@@ -5844,14 +5964,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 34.500885,
-			"PosY": 0,
-			"PosZ": -80.72597,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 35.97486,
 			"PosY": 0,
 			"PosZ": -62.541298,
@@ -5860,9 +5972,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 32.44758,
+			"PosX": 35.105896,
 			"PosY": 0,
-			"PosZ": -90.8556,
+			"PosZ": -78.11445,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -5903,22 +6015,6 @@
 			"PosX": 36.903286,
 			"PosY": 0,
 			"PosZ": -55.600346,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 34.774654,
-			"PosY": 0,
-			"PosZ": -86.33833,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 35.595978,
-			"PosY": 0,
-			"PosZ": -82.64239,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -6015,6 +6111,14 @@
 			"PosX": 25.609255,
 			"PosY": 0,
 			"PosZ": -113.73125,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 37.677658,
+			"PosY": 0,
+			"PosZ": -78.26559,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -6156,20 +6260,20 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 41.212227,
+			"PosY": 0,
+			"PosZ": -59.279972,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -61.437054,
 			"PosY": 0,
 			"PosZ": 41.394367,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 0.45
-		},
-		{
-			"PosX": 41.61902,
-			"PosY": 0,
-			"PosZ": -61.835583,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": 30.53903,
@@ -6226,6 +6330,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
+		},
+		{
+			"PosX": 42.53472,
+			"PosY": 0,
+			"PosZ": -64.40639,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": 27.072378,
@@ -6356,14 +6468,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 44.24121,
-			"PosY": 0,
-			"PosZ": -60.890743,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -52.1918,
 			"PosY": 0,
 			"PosZ": 43.734344,
@@ -6375,6 +6479,14 @@
 			"PosX": -46.78207,
 			"PosY": 0,
 			"PosZ": 43.031654,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 44.430973,
+			"PosY": 0,
+			"PosZ": -64.9871,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -6495,14 +6607,6 @@
 			"PosX": 21.842657,
 			"PosY": 0,
 			"PosZ": 4.652422,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 46.136276,
-			"PosY": 0,
-			"PosZ": -65.12087,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -7164,6 +7268,14 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": -7,
+			"PosY": -0.641304,
+			"PosZ": 39,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 35.93446,
 			"PosY": 3.8513598,
 			"PosZ": -126.36084,
@@ -7178,22 +7290,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
-		},
-		{
-			"PosX": 51.00055,
-			"PosY": 0,
-			"PosZ": -37.745678,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 51.97396,
-			"PosY": 0,
-			"PosZ": -41.94768,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": -77.05754,
@@ -7300,14 +7396,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 54.260796,
-			"PosY": 0,
-			"PosZ": -44.97506,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 51.760025,
 			"PosY": 0,
 			"PosZ": -32.662712,
@@ -7378,14 +7466,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
-		},
-		{
-			"PosX": 54.697098,
-			"PosY": 0,
-			"PosZ": -42.097256,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": -18.654352,
@@ -7516,14 +7596,6 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": 56.426105,
-			"PosY": 0,
-			"PosZ": -45.449486,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 42.94313,
 			"PosY": 0,
 			"PosZ": -5.3804893,
@@ -7543,6 +7615,14 @@
 			"PosX": 28.380922,
 			"PosY": 0,
 			"PosZ": 15.950371,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -5,
+			"PosY": -1.282608,
+			"PosZ": 43,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -7804,14 +7884,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -2.1099968,
-			"PosY": -0.9066483,
-			"PosZ": 44.586243,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -65.41341,
 			"PosY": 0,
 			"PosZ": 60.98896,
@@ -7842,14 +7914,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": -5.7354355,
-			"PosY": 0,
-			"PosZ": 47.03603,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
 		},
 		{
 			"PosX": 58.672054,
@@ -7911,6 +7975,14 @@
 			"PosX": 54.068863,
 			"PosY": 0,
 			"PosZ": -20.908705,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -5,
+			"PosY": 0,
+			"PosZ": 47,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8045,7 +8117,7 @@
 		},
 		{
 			"PosX": -11.2805195,
-			"PosY": 0,
+			"PosY": 0.93872166,
 			"PosZ": 51.739616,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -8068,17 +8140,17 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -3.9948788,
-			"PosY": 0,
-			"PosZ": 48.34252,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
 			"PosX": -121.80255,
 			"PosY": 3.0000002,
 			"PosZ": 49.602715,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -92.48055,
+			"PosY": 0,
+			"PosZ": 60.667385,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8116,25 +8188,9 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": -1.2250328,
-			"PosY": -0.23106611,
-			"PosZ": 47.72151,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
 			"PosX": 50.355637,
 			"PosY": 3.8513598,
 			"PosZ": -121.92851,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -94.78813,
-			"PosY": 0,
-			"PosZ": 60.61458,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8149,7 +8205,7 @@
 		},
 		{
 			"PosX": -8.228989,
-			"PosY": 0,
+			"PosY": 2.9098206,
 			"PosZ": 51.939884,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -8188,9 +8244,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -92.56906,
+			"PosX": -91.66047,
 			"PosY": 0,
-			"PosZ": 61.872955,
+			"PosZ": 62.071724,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 0.5
@@ -8258,6 +8314,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
+		},
+		{
+			"PosX": -89.11799,
+			"PosY": 0,
+			"PosZ": 63.377052,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 0.5
 		},
 		{
 			"PosX": -22.224731,
@@ -8332,25 +8396,17 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -5.976429,
+			"PosX": -86.74445,
 			"PosY": 0,
-			"PosZ": 52.75493,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
-			"PosX": 60.43874,
-			"PosY": 0,
-			"PosZ": -25.087091,
+			"PosZ": 64.37775,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": -3.7618694,
+			"PosX": 60.43874,
 			"PosY": 0,
-			"PosZ": 51.68193,
+			"PosZ": -25.087091,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8372,9 +8428,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -10.413708,
-			"PosY": 0,
-			"PosZ": 55.077076,
+			"PosX": -8,
+			"PosY": 3,
+			"PosZ": 54,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8399,14 +8455,6 @@
 			"PosX": -35.5357,
 			"PosY": 0,
 			"PosZ": 63.646942,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -88.935356,
-			"PosY": 0,
-			"PosZ": 64.396484,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8452,30 +8500,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -98.74871,
-			"PosY": 0,
-			"PosZ": 62.57762,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -0.85463333,
-			"PosY": 0,
-			"PosZ": 51.276073,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -13.814045,
-			"PosY": 0,
-			"PosZ": 57.482826,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -125.00722,
 			"PosY": 3,
 			"PosZ": 52.48038,
@@ -8484,9 +8508,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -93.42603,
-			"PosY": 0,
-			"PosZ": 64.396484,
+			"PosX": -2,
+			"PosY": 3,
+			"PosZ": 52,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8498,22 +8522,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": -91.409546,
-			"PosY": 0,
-			"PosZ": 64.91669,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 0.5
-		},
-		{
-			"PosX": -96.48243,
-			"PosY": 0,
-			"PosZ": 63.757168,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 0.5
 		},
 		{
 			"PosX": -27.708813,
@@ -8532,12 +8540,12 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 1.2753353,
-			"PosY": 0,
-			"PosZ": 51.16787,
+			"PosX": -4,
+			"PosY": 3,
+			"PosZ": 54,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
-			"Scale": 1
+			"Scale": 1.2
 		},
 		{
 			"PosX": -23.97676,
@@ -8604,22 +8612,6 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": -8.798618,
-			"PosY": 0,
-			"PosZ": 57.657158,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -6.587471,
-			"PosY": 0,
-			"PosZ": 56.631096,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 64.07382,
 			"PosY": 0,
 			"PosZ": -25.946133,
@@ -8631,14 +8623,6 @@
 			"PosX": 64.72994,
 			"PosY": 0,
 			"PosZ": -27.887169,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -4.034912,
-			"PosY": 0,
-			"PosZ": 55.504158,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8663,14 +8647,6 @@
 			"PosX": 49.137627,
 			"PosY": 0,
 			"PosZ": 7.532467,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -1.8546333,
-			"PosY": 0,
-			"PosZ": 54.722313,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8756,9 +8732,25 @@
 			"Scale": 1.2
 		},
 		{
+			"PosX": -2,
+			"PosY": 3,
+			"PosZ": 56,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -40.4393,
 			"PosY": 0,
 			"PosZ": 69.11633,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 2,
+			"PosY": 3,
+			"PosZ": 54,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -8828,20 +8820,20 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -2.9575386,
-			"PosY": 0,
-			"PosZ": 58.224632,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -125.68977,
 			"PosY": 0,
 			"PosZ": 58.05342,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 2,
+			"PosY": 3,
+			"PosZ": 56,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1.2
 		},
 		{
 			"PosX": -29.839348,
@@ -9004,6 +8996,14 @@
 			"Scale": 1.2
 		},
 		{
+			"PosX": 6,
+			"PosY": 3,
+			"PosZ": 56,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1.2
+		},
+		{
 			"PosX": 61.27865,
 			"PosY": 3.8513598,
 			"PosZ": -124.45769,
@@ -9124,6 +9124,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 2,
+			"PosY": 3,
+			"PosZ": 60,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -113.42428,
 			"PosY": 0,
 			"PosZ": 67.77204,
@@ -9172,6 +9180,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 9,
+			"PosY": 3,
+			"PosZ": 57,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 72.46704,
 			"PosY": 0,
 			"PosZ": -26.392462,
@@ -9215,6 +9231,14 @@
 			"PosX": 65.078224,
 			"PosY": 3.85136,
 			"PosZ": -123.71767,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 6,
+			"PosY": 3,
+			"PosZ": 60,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9324,9 +9348,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 79.208496,
+			"PosX": 79.29762,
 			"PosY": 0,
-			"PosZ": -66.073,
+			"PosZ": -67.061905,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
@@ -9372,6 +9396,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 10,
+			"PosY": 3,
+			"PosZ": 60,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -38.44253,
 			"PosY": 0,
 			"PosZ": 78.30541,
@@ -9386,6 +9418,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
+		},
+		{
+			"PosX": 4,
+			"PosY": 3,
+			"PosZ": 64,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": -114.582886,
@@ -9444,9 +9484,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 81.77312,
+			"PosX": 81.773125,
 			"PosY": 0,
-			"PosZ": -69.724365,
+			"PosZ": -70.14087,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9484,9 +9524,17 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 14,
+			"PosY": 3,
+			"PosZ": 60,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1.2
+		},
+		{
 			"PosX": 82.49325,
 			"PosY": 0,
-			"PosZ": -66.01612,
+			"PosZ": -66.54264,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
@@ -9517,7 +9565,7 @@
 		},
 		{
 			"PosX": 17.711967,
-			"PosY": 0,
+			"PosY": 3,
 			"PosZ": 58.17798,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -9572,6 +9620,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 6,
+			"PosY": 3,
+			"PosZ": 66,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 74.78255,
 			"PosY": 0,
 			"PosZ": -114.80405,
@@ -9596,6 +9652,14 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 10,
+			"PosY": 3,
+			"PosZ": 64,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 55.717308,
 			"PosY": 0,
 			"PosZ": 23.008623,
@@ -9604,17 +9668,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 11.469666,
-			"PosY": 0,
-			"PosZ": 63.31714,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 83.996506,
 			"PosY": 0,
-			"PosZ": -69.31848,
+			"PosZ": -69.66256,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9626,14 +9682,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
-		},
-		{
-			"PosX": 15.554798,
-			"PosY": 0,
-			"PosZ": 61.05681,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": 67.62422,
@@ -9679,14 +9727,6 @@
 			"PosX": 49.56807,
 			"PosY": -0.47149804,
 			"PosZ": 32.6004,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 82.66651,
-			"PosY": 0,
-			"PosZ": -37.093876,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9748,6 +9788,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 82.948044,
+			"PosY": 0,
+			"PosZ": -35.81064,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 70.44687,
 			"PosY": 0,
 			"PosZ": 1.9543858,
@@ -9764,9 +9812,25 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 14,
+			"PosY": 3,
+			"PosZ": 64,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 80.42321,
 			"PosY": 0,
 			"PosZ": -22.64862,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 18,
+			"PosY": 3,
+			"PosZ": 62,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9782,7 +9846,7 @@
 		{
 			"PosX": 86.42273,
 			"PosY": 0,
-			"PosZ": -64.31386,
+			"PosZ": -64.70333,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9796,19 +9860,19 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -27.313309,
+			"PosX": 86.70415,
 			"PosY": 0,
-			"PosZ": 82.18899,
+			"PosZ": -67.37218,
 			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
+			"RotationY": 10.855249,
 			"Scale": 1
 		},
 		{
-			"PosX": 86.70414,
-			"PosY": 0,
-			"PosZ": -66.81931,
+			"PosX": -48,
+			"PosY": -0.74796987,
+			"PosZ": 86,
 			"PropId": "coniferous_tree_2",
-			"RotationY": 10.855249,
+			"RotationY": 0,
 			"Scale": 1
 		},
 		{
@@ -9821,7 +9885,7 @@
 		},
 		{
 			"PosX": 21.377493,
-			"PosY": 0,
+			"PosY": 1.4103491,
 			"PosZ": 60.461296,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -9831,6 +9895,14 @@
 			"PosX": 74.86413,
 			"PosY": 3.90244,
 			"PosZ": -123.30416,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 10,
+			"PosY": 3,
+			"PosZ": 68,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -9860,14 +9932,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 19.30083,
-			"PosY": 0,
-			"PosZ": 62.619686,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 60.380585,
 			"PosY": 0,
 			"PosZ": 22.625347,
@@ -9892,12 +9956,12 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -31.64806,
-			"PosY": 0,
-			"PosZ": 84.54648,
+			"PosX": 18,
+			"PosY": 3,
+			"PosZ": 64,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
-			"Scale": 1.2
+			"Scale": 1
 		},
 		{
 			"PosX": 80.137436,
@@ -9924,14 +9988,6 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 86.34726,
-			"PosY": 0,
-			"PosZ": -39.26886,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -39.23536,
 			"PosY": 0,
 			"PosZ": 86.422455,
@@ -9948,25 +10004,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 88.85756,
+			"PosX": 86.53722,
 			"PosY": 0,
-			"PosZ": -67.39113,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -35.526516,
-			"PosY": 0,
-			"PosZ": 86.29559,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
-			"PosX": -48.112484,
-			"PosY": -0.18352048,
-			"PosZ": 88.51615,
+			"PosZ": -36.375774,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -10012,9 +10052,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -43.99443,
-			"PosY": -0.19548827,
-			"PosZ": 88.332436,
+			"PosX": 89.57915,
+			"PosY": 0,
+			"PosZ": -68.60399,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -10052,14 +10092,6 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": -25.844082,
-			"PosY": 0,
-			"PosZ": 85.384094,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 60.57222,
 			"PosY": 0,
 			"PosZ": 26.969223,
@@ -10087,6 +10119,22 @@
 			"PosX": 74.06917,
 			"PosY": 0,
 			"PosZ": 4.9489517,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 16,
+			"PosY": 3,
+			"PosZ": 68,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 21,
+			"PosY": 3,
+			"PosZ": 65,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -10125,7 +10173,7 @@
 		},
 		{
 			"PosX": 23.323229,
-			"PosY": 0,
+			"PosY": 3,
 			"PosZ": 64.06474,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10165,7 +10213,7 @@
 		},
 		{
 			"PosX": 26.900095,
-			"PosY": 0,
+			"PosY": 1.5150636,
 			"PosZ": 61.83661,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10178,22 +10226,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": -31.739574,
-			"PosY": 0,
-			"PosZ": 88.04259,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
-			"PosX": -38.04294,
-			"PosY": 0,
-			"PosZ": 89.31253,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
 		},
 		{
 			"PosX": -124.652695,
@@ -10220,22 +10252,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -20.526768,
-			"PosY": 0,
-			"PosZ": 85.8836,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -41.145763,
-			"PosY": -0.10578585,
-			"PosZ": 90.40243,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 9.829243,
 			"PosY": 0,
 			"PosZ": 73.738884,
@@ -10250,6 +10266,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 20,
+			"PosY": 3,
+			"PosZ": 68,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": 64.97927,
@@ -10316,14 +10340,6 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": -44.438217,
-			"PosY": 0,
-			"PosZ": 92.5981,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -120.606926,
 			"PosY": 0,
 			"PosZ": 83.33892,
@@ -10372,28 +10388,12 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -32.779667,
-			"PosY": 0,
-			"PosZ": 91.2794,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
-		},
-		{
 			"PosX": 86.757385,
 			"PosY": 0,
 			"PosZ": -15.37693,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": -29.485252,
-			"PosY": 0,
-			"PosZ": 90.738525,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.2
 		},
 		{
 			"PosX": 85.52601,
@@ -10436,14 +10436,6 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -41.018944,
-			"PosY": 0,
-			"PosZ": 93.063446,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -11.666922,
 			"PosY": 0,
 			"PosZ": 85.9414,
@@ -10468,14 +10460,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -46.256786,
-			"PosY": 0,
-			"PosZ": 94.00641,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 64.66056,
 			"PosY": 0,
 			"PosZ": 29.460567,
@@ -10492,16 +10476,16 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 23.83265,
-			"PosY": 0,
-			"PosZ": 68.65167,
+			"PosX": 22,
+			"PosY": 3,
+			"PosZ": 70,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
 			"PosX": 27.524284,
-			"PosY": 0,
+			"PosY": 3,
 			"PosZ": 66.486786,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10516,9 +10500,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -36.363075,
+			"PosX": -26.837078,
 			"PosY": 0,
-			"PosZ": 93.12889,
+			"PosZ": 91.24247,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
@@ -10562,14 +10546,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
-		},
-		{
-			"PosX": 17.551483,
-			"PosY": 0,
-			"PosZ": 74.100685,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": 86.67023,
@@ -10628,20 +10604,20 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 1.1837006,
+			"PosY": 0,
+			"PosZ": 83.39416,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 15.6028385,
 			"PosY": 0,
 			"PosZ": 76.19069,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
-		},
-		{
-			"PosX": -39.11734,
-			"PosY": 0,
-			"PosZ": 95.368324,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": 7.376339,
@@ -10661,7 +10637,7 @@
 		},
 		{
 			"PosX": 30.363152,
-			"PosY": 0,
+			"PosY": 2.4552612,
 			"PosZ": 66.98837,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10714,14 +10690,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
-		},
-		{
-			"PosX": -42.431732,
-			"PosY": 0,
-			"PosZ": 97.001274,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": -114.801155,
@@ -10788,12 +10756,28 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 19.742481,
+			"PosY": 0.35955745,
+			"PosZ": 75.72487,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 70.22102,
 			"PosY": 0,
 			"PosZ": 28.417418,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 2.6704254,
+			"PosY": 0,
+			"PosZ": 84.84545,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": -26.017454,
@@ -10813,7 +10797,7 @@
 		},
 		{
 			"PosX": 28.615934,
-			"PosY": 0,
+			"PosY": 3,
 			"PosZ": 70.34833,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10821,7 +10805,7 @@
 		},
 		{
 			"PosX": 25.855341,
-			"PosY": 0,
+			"PosY": 2.584475,
 			"PosZ": 72.298615,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -10882,6 +10866,22 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
+		},
+		{
+			"PosX": 4.6208687,
+			"PosY": 0,
+			"PosZ": 85.062325,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 22.513603,
+			"PosY": 0.44478607,
+			"PosZ": 75.703476,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": 40.44173,
@@ -10948,6 +10948,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 9.792744,
+			"PosY": 0,
+			"PosZ": 83.65163,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 88.95084,
 			"PosY": 3.8513598,
 			"PosZ": -126.19581,
@@ -10967,6 +10975,14 @@
 			"PosX": -17.46354,
 			"PosY": 0,
 			"PosZ": 94.78429,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 2.7857094,
+			"PosY": 0,
+			"PosZ": 87.64276,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -10996,6 +11012,14 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": -33,
+			"PosY": 0,
+			"PosZ": 99,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -2.188263,
 			"PosY": 0,
 			"PosZ": 89.98717,
@@ -11007,6 +11031,14 @@
 			"PosX": 94.99415,
 			"PosY": 0,
 			"PosZ": -111.47891,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 13,
+			"PosY": 0,
+			"PosZ": 83,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11084,6 +11116,22 @@
 			"Scale": 1.2
 		},
 		{
+			"PosX": -25.371254,
+			"PosY": 0,
+			"PosZ": 98.32455,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 7.37195,
+			"PosY": 0,
+			"PosZ": 86.8808,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -5.9450493,
 			"PosY": 0,
 			"PosZ": 92.64581,
@@ -11140,9 +11188,25 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 25.129208,
+			"PosY": 0,
+			"PosZ": 78.456825,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -34.802555,
 			"PosY": 0,
 			"PosZ": 101.509415,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -27,
+			"PosY": 0,
+			"PosZ": 100,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11154,6 +11218,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
+		},
+		{
+			"PosX": -15,
+			"PosY": 0,
+			"PosZ": 97,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": 82.72681,
@@ -11199,14 +11271,6 @@
 			"PosX": -2.3616562,
 			"PosY": 0,
 			"PosZ": 93.165985,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -26.190844,
-			"PosY": 0,
-			"PosZ": 100.700264,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11268,6 +11332,22 @@
 			"Scale": 1
 		},
 		{
+			"PosX": -31,
+			"PosY": 0,
+			"PosZ": 103,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -18,
+			"PosY": 0,
+			"PosZ": 100,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 82.37222,
 			"PosY": 0,
 			"PosZ": 23.16536,
@@ -11276,9 +11356,33 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 27.119865,
+			"PosY": 0,
+			"PosZ": 80.26256,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1.4000001
+		},
+		{
 			"PosX": 87.61519,
 			"PosY": 0,
 			"PosZ": 14.329035,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -13,
+			"PosY": 0,
+			"PosZ": 99,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -28,
+			"PosY": 0,
+			"PosZ": 103,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11316,9 +11420,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -31.276955,
+			"PosX": -22,
 			"PosY": 0,
-			"PosZ": 104.39925,
+			"PosZ": 102,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11327,14 +11431,6 @@
 			"PosX": 100.10757,
 			"PosY": 0,
 			"PosZ": -114.12588,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 1.8575039,
-			"PosY": 0,
-			"PosZ": 94.55311,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11372,6 +11468,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 3,
+			"PosY": 0,
+			"PosZ": 95,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 51.61315,
 			"PosY": -1.1388587,
 			"PosZ": 64.22415,
@@ -11391,6 +11495,14 @@
 			"PosX": 41.209076,
 			"PosY": 6,
 			"PosZ": 73.1345,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": -1,
+			"PosY": 0,
+			"PosZ": 97,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11476,6 +11588,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 25.489452,
+			"PosY": 0,
+			"PosZ": 85.6813,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 105.64339,
 			"PosY": 0,
 			"PosZ": -104.97557,
@@ -11490,6 +11610,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
+		},
+		{
+			"PosX": 27.936995,
+			"PosY": 0,
+			"PosZ": 84.44835,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1.4000001
 		},
 		{
 			"PosX": 34.409237,
@@ -11540,9 +11668,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 27.993515,
+			"PosX": 0,
 			"PosY": 0,
-			"PosZ": 84.87997,
+			"PosZ": 99,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11620,14 +11748,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 26.876669,
-			"PosY": 0,
-			"PosZ": 87.4054,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
-		},
-		{
 			"PosX": 111.140205,
 			"PosY": 0,
 			"PosZ": -88.19169,
@@ -11652,6 +11772,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 5,
+			"PosY": 0,
+			"PosZ": 99,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -126.1936,
 			"PosY": 3,
 			"PosZ": 101.72261,
@@ -11671,14 +11799,6 @@
 			"PosX": 49.75596,
 			"PosY": 5.9794145,
 			"PosZ": 71.90848,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 112.165565,
-			"PosY": 0,
-			"PosZ": -44.04426,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11756,6 +11876,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 33,
+			"PosY": 0,
+			"PosZ": 85,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 113.704254,
 			"PosY": 0,
 			"PosZ": -58.256542,
@@ -11775,6 +11903,14 @@
 			"PosX": 109.74092,
 			"PosY": 0,
 			"PosZ": -102.4069,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 26.3255,
+			"PosY": 0,
+			"PosZ": 89.348656,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11804,6 +11940,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 8,
+			"PosY": 0,
+			"PosZ": 99,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 114.05611,
 			"PosY": 0,
 			"PosZ": -56.09928,
@@ -11823,14 +11967,6 @@
 			"PosX": 113.09209,
 			"PosY": 0,
 			"PosZ": -84.589264,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 112.90671,
-			"PosY": 0,
-			"PosZ": -41.807915,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -11948,6 +12084,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 23.941832,
+			"PosY": 0,
+			"PosZ": 92.729866,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 115.05686,
 			"PosY": 0,
 			"PosZ": -81.00645,
@@ -11959,6 +12103,14 @@
 			"PosX": -81.98673,
 			"PosY": 0,
 			"PosZ": 115.0229,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 34,
+			"PosY": 0,
+			"PosZ": 87,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12037,7 +12189,7 @@
 		},
 		{
 			"PosX": 105.634865,
-			"PosY": 3,
+			"PosY": 1.0621873,
 			"PosZ": -1.900001,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12050,6 +12202,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 29,
+			"PosY": 0,
+			"PosZ": 91,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": -112.15677,
@@ -12076,12 +12236,12 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 27.631014,
+			"PosX": 24,
 			"PosY": 0,
-			"PosZ": 92.04317,
+			"PosZ": 94,
 			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1.4000001
+			"RotationY": 173.10667,
+			"Scale": 0.45
 		},
 		{
 			"PosX": -89.67081,
@@ -12132,6 +12292,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 27,
+			"PosY": 0,
+			"PosZ": 93,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 117.22986,
 			"PosY": 0,
 			"PosZ": -53.86399,
@@ -12172,6 +12340,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 114.401924,
+			"PosY": 1.107409,
+			"PosZ": -29.445107,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -120.89726,
 			"PosY": 3,
 			"PosZ": 108.77494,
@@ -12189,7 +12365,7 @@
 		},
 		{
 			"PosX": 107.65662,
-			"PosY": 3,
+			"PosY": 1.1071172,
 			"PosZ": -3.609724,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12197,7 +12373,7 @@
 		},
 		{
 			"PosX": 109.023964,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -7.617466,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12213,7 +12389,7 @@
 		},
 		{
 			"PosX": 106.328674,
-			"PosY": 2.9237897,
+			"PosY": 1.0726966,
 			"PosZ": 0.17197418,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12269,7 +12445,7 @@
 		},
 		{
 			"PosX": 110.476585,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -11.190788,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12279,6 +12455,14 @@
 			"PosX": 117.87326,
 			"PosY": 0,
 			"PosZ": -51.237335,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 114.39372,
+			"PosY": 1.107409,
+			"PosZ": -25.993439,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12356,6 +12540,14 @@
 			"Scale": 1.2
 		},
 		{
+			"PosX": 110.61702,
+			"PosY": 1.107409,
+			"PosZ": -9.0572605,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -49.606483,
 			"PosY": 0,
 			"PosZ": 118.50872,
@@ -12372,9 +12564,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 24.294302,
-			"PosY": 0,
-			"PosZ": 96.47898,
+			"PosX": 113.129616,
+			"PosY": 1.107409,
+			"PosZ": -17.229671,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12412,9 +12604,17 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 26.370277,
+			"PosX": 37,
 			"PosY": 0,
-			"PosZ": 95.53073,
+			"PosZ": 89,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 114.46491,
+			"PosY": 1.1074091,
+			"PosZ": -21.826756,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12452,9 +12652,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 25.303125,
+			"PosX": 26,
 			"PosY": 0,
-			"PosZ": 96.46652,
+			"PosZ": 96,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 17.179007,
 			"Scale": 0.45
@@ -12476,9 +12676,33 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 112.508965,
+			"PosY": 1.107409,
+			"PosZ": -12.881821,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -82.18109,
 			"PosY": 1.3726959,
 			"PosZ": 118.91512,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 30,
+			"PosY": 0,
+			"PosZ": 94,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 104.27388,
+			"Scale": 0.45000002
+		},
+		{
+			"PosX": 35,
+			"PosY": 0,
+			"PosZ": 91,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12508,20 +12732,20 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 24.065197,
-			"PosY": 0,
-			"PosZ": 97.873474,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 173.10667,
-			"Scale": 0.45
-		},
-		{
 			"PosX": 42.503216,
 			"PosY": 0,
 			"PosZ": 86.60734,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
+		},
+		{
+			"PosX": 28,
+			"PosY": 0,
+			"PosZ": 96,
+			"PropId": "coniferous_tree_2",
+			"RotationY": -22.322407,
+			"Scale": 0.45
 		},
 		{
 			"PosX": -108.34474,
@@ -12580,9 +12804,25 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 32,
+			"PosY": 0,
+			"PosZ": 94,
+			"PropId": "coniferous_tree_2",
+			"RotationY": -174.07115,
+			"Scale": 0.45
+		},
+		{
 			"PosX": 65.56898,
 			"PosY": 0,
 			"PosZ": 67.9407,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 111.480286,
+			"PosY": 1.107409,
+			"PosZ": -5.6492443,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12605,7 +12845,7 @@
 		},
 		{
 			"PosX": 114.68558,
-			"PosY": 3,
+			"PosY": 1.1074089,
 			"PosZ": -15.445091,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12626,14 +12866,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": 28.32254,
-			"PosY": 0,
-			"PosZ": 96.64925,
-			"PropId": "coniferous_tree_2",
-			"RotationY": -174.07115,
-			"Scale": 0.45
 		},
 		{
 			"PosX": -63.29736,
@@ -12669,7 +12901,7 @@
 		},
 		{
 			"PosX": 110.18247,
-			"PosY": 2.9999998,
+			"PosY": 1.107409,
 			"PosZ": -0.2002697,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12685,7 +12917,7 @@
 		},
 		{
 			"PosX": 112.93741,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -8.041815,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12756,12 +12988,12 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 28.231335,
+			"PosX": 39,
 			"PosY": 0,
-			"PosZ": 97.645134,
+			"PosZ": 91,
 			"PropId": "coniferous_tree_2",
-			"RotationY": -22.322407,
-			"Scale": 0.45
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": -44.429184,
@@ -12805,7 +13037,7 @@
 		},
 		{
 			"PosX": 118.76807,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -26.721712,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12821,8 +13053,16 @@
 		},
 		{
 			"PosX": 115.18246,
-			"PosY": 3,
+			"PosY": 1.1074091,
 			"PosZ": -11.981691,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 112,
+			"PosY": 1.107409,
+			"PosZ": -2,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -12842,14 +13082,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
-		},
-		{
-			"PosX": 27.39475,
-			"PosY": 0,
-			"PosZ": 98.973946,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 104.27388,
-			"Scale": 0.45000002
 		},
 		{
 			"PosX": -120.28471,
@@ -12901,7 +13133,7 @@
 		},
 		{
 			"PosX": 118.76807,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -22.806747,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -12972,14 +13204,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 114.11616,
-			"PosY": 3,
-			"PosZ": -3.5625763,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 121.35183,
 			"PosY": 6,
 			"PosZ": -97.1324,
@@ -12994,6 +13218,14 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
+		},
+		{
+			"PosX": 116,
+			"PosY": 1.107409,
+			"PosZ": -8,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
 			"PosX": -110.21091,
@@ -13029,7 +13261,7 @@
 		},
 		{
 			"PosX": 111.827225,
-			"PosY": 2.975474,
+			"PosY": 1.6443708,
 			"PosZ": 4.593357,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -13045,7 +13277,7 @@
 		},
 		{
 			"PosX": 119.47075,
-			"PosY": 3,
+			"PosY": 1.107409,
 			"PosZ": -19.360239,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -13092,6 +13324,14 @@
 			"Scale": 1.2
 		},
 		{
+			"PosX": 114,
+			"PosY": 1.107409,
+			"PosZ": 0,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 65.208984,
 			"PosY": 6,
 			"PosZ": 74.38214,
@@ -13130,14 +13370,6 @@
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.4000001
-		},
-		{
-			"PosX": 114.38264,
-			"PosY": 3,
-			"PosZ": 0.06834793,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": -62.651257,
@@ -13180,6 +13412,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 116,
+			"PosY": 1.107409,
+			"PosZ": -4,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -56.890503,
 			"PosY": 0,
 			"PosZ": 125.637375,
@@ -13215,14 +13455,6 @@
 			"PosX": 122.30336,
 			"PosY": 5.942747,
 			"PosZ": -100.80489,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 117.6524,
-			"PosY": 3,
-			"PosZ": -8.513315,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -13293,7 +13525,7 @@
 		},
 		{
 			"PosX": 120.002365,
-			"PosY": 3,
+			"PosY": 1.109647,
 			"PosZ": -15.874908,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
@@ -13404,14 +13636,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 120.0465,
-			"PosY": 3.0000002,
-			"PosZ": -12.218964,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": 126.41587,
 			"PosY": 6,
 			"PosZ": -81.59038,
@@ -13508,14 +13732,6 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 115.56423,
-			"PosY": 3,
-			"PosZ": 4.47472,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -32.463493,
 			"PosY": 3,
 			"PosZ": 125.59274,
@@ -13535,14 +13751,6 @@
 			"PosX": -115.33519,
 			"PosY": 2.9999998,
 			"PosZ": 121.46724,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 118.83115,
-			"PosY": 3,
-			"PosZ": -3.9397774,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -13708,20 +13916,20 @@
 			"Scale": 1.4000001
 		},
 		{
+			"PosX": 122,
+			"PosY": 3,
+			"PosZ": -8,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": -23.007627,
 			"PosY": 5.985246,
 			"PosZ": 125.937256,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1.2
-		},
-		{
-			"PosX": 119.54613,
-			"PosY": 3,
-			"PosZ": -0.03799057,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
 		},
 		{
 			"PosX": 126.23725,
@@ -13804,6 +14012,14 @@
 			"Scale": 1
 		},
 		{
+			"PosX": 122,
+			"PosY": 3,
+			"PosZ": -4,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
 			"PosX": 116.20009,
 			"PosY": 3,
 			"PosZ": 12.078476,
@@ -13876,14 +14092,6 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 120.19101,
-			"PosY": 2.9999998,
-			"PosZ": 4.178135,
-			"PropId": "coniferous_tree_2",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -115.5725,
 			"PosY": 3,
 			"PosZ": 125.72559,
@@ -13895,6 +14103,14 @@
 			"PosX": -0.45108032,
 			"PosY": 6,
 			"PosZ": 122.12662,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 122,
+			"PosY": 3,
+			"PosZ": 0,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -13964,9 +14180,9 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 120.17437,
-			"PosY": 2.9999998,
-			"PosZ": 7.807604,
+			"PosX": 120,
+			"PosY": 3,
+			"PosZ": 8,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -13999,6 +14215,14 @@
 			"PosX": 117.30708,
 			"PosY": 3,
 			"PosZ": 15.5341835,
+			"PropId": "coniferous_tree_2",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 122,
+			"PosY": 3,
+			"PosZ": 4,
 			"PropId": "coniferous_tree_2",
 			"RotationY": 0,
 			"Scale": 1
@@ -15572,1156 +15796,52 @@
 			"Scale": 1.2
 		},
 		{
-			"PosX": -71.27962,
-			"PosY": -4.2146826,
-			"PosZ": -37.907,
-			"PropId": "crystal_tree",
-			"RotationY": 162.37967,
-			"Scale": 0.51361406
-		},
-		{
-			"PosX": -70.148,
-			"PosY": -4.2146826,
-			"PosZ": -37.281273,
-			"PropId": "crystal_tree",
-			"RotationY": -153.82344,
-			"Scale": 0.5361568
-		},
-		{
-			"PosX": -71.37147,
-			"PosY": -4.2146826,
-			"PosZ": -37.402958,
-			"PropId": "crystal_tree",
-			"RotationY": -1.5895109,
-			"Scale": 0.49125218
-		},
-		{
-			"PosX": -71.18066,
-			"PosY": -4.2146826,
-			"PosZ": -36.994038,
-			"PropId": "crystal_tree",
-			"RotationY": -75.02873,
-			"Scale": 0.5734555
-		},
-		{
-			"PosX": -70.55375,
-			"PosY": -4.2146826,
-			"PosZ": -36.71423,
-			"PropId": "crystal_tree",
-			"RotationY": 159.12791,
-			"Scale": 0.58685744
-		},
-		{
-			"PosX": -72.201965,
-			"PosY": -4.2146826,
-			"PosZ": -37.12313,
-			"PropId": "crystal_tree",
-			"RotationY": 0.8303754,
-			"Scale": 0.51541674
-		},
-		{
-			"PosX": -71.41051,
-			"PosY": -4.2146826,
-			"PosZ": -36.62649,
-			"PropId": "crystal_tree",
-			"RotationY": -86.53684,
-			"Scale": 0.6298625
-		},
-		{
-			"PosX": -71.91741,
-			"PosY": -4.2146826,
-			"PosZ": -36.17358,
-			"PropId": "crystal_tree",
-			"RotationY": -67.16427,
-			"Scale": 0.53888214
-		},
-		{
-			"PosX": -69.73372,
-			"PosY": -4.2146826,
-			"PosZ": -35.572594,
-			"PropId": "crystal_tree",
-			"RotationY": -151.6308,
-			"Scale": 0.6587768
-		},
-		{
-			"PosX": -72.378006,
-			"PosY": -4.2146826,
-			"PosZ": -35.97982,
-			"PropId": "crystal_tree",
-			"RotationY": -131.72148,
-			"Scale": 0.44438824
-		},
-		{
-			"PosX": -71.47848,
-			"PosY": -4.2146826,
-			"PosZ": -35.72499,
-			"PropId": "crystal_tree",
-			"RotationY": -161.51042,
-			"Scale": 0.64903516
-		},
-		{
-			"PosX": -70.6514,
-			"PosY": -4.2146826,
-			"PosZ": -35.420895,
-			"PropId": "crystal_tree",
-			"RotationY": 66.50084,
-			"Scale": 0.6732186
-		},
-		{
-			"PosX": -72.19947,
-			"PosY": -4.2146826,
-			"PosZ": -35.684776,
-			"PropId": "crystal_tree",
-			"RotationY": 5.3336635,
-			"Scale": 0.70437
-		},
-		{
-			"PosX": -70.1878,
-			"PosY": -4.2146826,
-			"PosZ": -34.776432,
-			"PropId": "crystal_tree",
-			"RotationY": 37.756298,
-			"Scale": 0.41085863
-		},
-		{
-			"PosX": -71.32424,
-			"PosY": -4.2146826,
-			"PosZ": -34.802387,
-			"PropId": "crystal_tree",
-			"RotationY": -149.1239,
-			"Scale": 0.5175026
-		},
-		{
-			"PosX": -71.995125,
-			"PosY": -4.214683,
-			"PosZ": -34.882954,
-			"PropId": "crystal_tree",
-			"RotationY": -78.3658,
-			"Scale": 0.40527952
-		},
-		{
-			"PosX": -70.749664,
-			"PosY": -4.2146826,
-			"PosZ": -34.561905,
-			"PropId": "crystal_tree",
-			"RotationY": 136.44775,
-			"Scale": 0.6335678
-		},
-		{
-			"PosX": -73.7926,
-			"PosY": -4.2146826,
-			"PosZ": -35.37887,
-			"PropId": "crystal_tree",
-			"RotationY": 15.201132,
-			"Scale": 0.46358916
-		},
-		{
-			"PosX": -70.359314,
-			"PosY": -4.2146826,
-			"PosZ": -34.286495,
-			"PropId": "crystal_tree",
-			"RotationY": -13.154574,
-			"Scale": 0.66512793
-		},
-		{
-			"PosX": -72.5138,
-			"PosY": -4.2146826,
-			"PosZ": -34.804466,
-			"PropId": "crystal_tree",
-			"RotationY": -166.57208,
-			"Scale": 0.42256224
-		},
-		{
-			"PosX": -71.410545,
-			"PosY": -4.2146826,
-			"PosZ": -34.333622,
-			"PropId": "crystal_tree",
-			"RotationY": 27.285604,
-			"Scale": 0.57720053
-		},
-		{
-			"PosX": -70.91775,
-			"PosY": -4.2146826,
-			"PosZ": -34.06647,
-			"PropId": "crystal_tree",
-			"RotationY": -43.20648,
-			"Scale": 0.4936413
-		},
-		{
-			"PosX": -72.93706,
-			"PosY": -4.2146826,
-			"PosZ": -34.27327,
-			"PropId": "crystal_tree",
-			"RotationY": -119.19853,
-			"Scale": 0.62710834
-		},
-		{
-			"PosX": -70.44919,
-			"PosY": -4.2146826,
-			"PosZ": -33.271606,
-			"PropId": "crystal_tree",
-			"RotationY": -111.27304,
-			"Scale": 0.46606243
-		},
-		{
-			"PosX": -71.141594,
-			"PosY": -4.2146826,
-			"PosZ": -33.264668,
-			"PropId": "crystal_tree",
-			"RotationY": -65.92882,
-			"Scale": 0.51658225
-		},
-		{
-			"PosX": -45.66765,
-			"PosY": -4.2146826,
-			"PosZ": -35.62013,
-			"PropId": "crystal_tree",
-			"RotationY": 40.47436,
-			"Scale": 0.7024585
-		},
-		{
-			"PosX": -45.9364,
-			"PosY": -4.214682,
-			"PosZ": -34.921276,
-			"PropId": "crystal_tree",
-			"RotationY": -54.75557,
-			"Scale": 0.6277438
-		},
-		{
-			"PosX": -44.60007,
-			"PosY": -4.2146826,
-			"PosZ": -34.998154,
-			"PropId": "crystal_tree",
-			"RotationY": -82.25291,
-			"Scale": 0.39978656
-		},
-		{
-			"PosX": -45.87445,
-			"PosY": -4.2146826,
-			"PosZ": -34.14598,
-			"PropId": "crystal_tree",
-			"RotationY": -77.52103,
-			"Scale": 0.6201679
-		},
-		{
-			"PosX": -45.084133,
-			"PosY": -4.2146826,
-			"PosZ": -34.46941,
-			"PropId": "crystal_tree",
-			"RotationY": 27.440983,
-			"Scale": 0.46341056
-		},
-		{
-			"PosX": -47.890564,
-			"PosY": -4.2146826,
-			"PosZ": -32.085754,
-			"PropId": "crystal_tree",
-			"RotationY": -127.954056,
-			"Scale": 0.40500316
-		},
-		{
-			"PosX": -48.351288,
-			"PosY": -4.2146826,
-			"PosZ": -31.550402,
-			"PropId": "crystal_tree",
-			"RotationY": 12.737131,
-			"Scale": 0.43165216
-		},
-		{
-			"PosX": -44.960228,
-			"PosY": -4.2146826,
-			"PosZ": -33.399227,
-			"PropId": "crystal_tree",
-			"RotationY": -163.22641,
-			"Scale": 0.69161046
-		},
-		{
-			"PosX": -47.09808,
-			"PosY": -4.2146826,
-			"PosZ": -31.990416,
-			"PropId": "crystal_tree",
-			"RotationY": 5.365918,
-			"Scale": 0.7084098
-		},
-		{
-			"PosX": -45.395206,
-			"PosY": -4.2146826,
-			"PosZ": -32.17075,
-			"PropId": "crystal_tree",
-			"RotationY": 44.630207,
-			"Scale": 0.57513326
-		},
-		{
-			"PosX": -47.645958,
-			"PosY": -4.2146826,
-			"PosZ": -30.90455,
-			"PropId": "crystal_tree",
-			"RotationY": 94.513,
-			"Scale": 0.60626876
-		},
-		{
-			"PosX": -44.19006,
-			"PosY": -4.2146826,
-			"PosZ": -32.64814,
-			"PropId": "crystal_tree",
-			"RotationY": 54.111794,
-			"Scale": 0.52495015
-		},
-		{
-			"PosX": -46.899403,
-			"PosY": -4.2146826,
-			"PosZ": -30.807985,
-			"PropId": "crystal_tree",
-			"RotationY": -53.64866,
-			"Scale": 0.6180216
-		},
-		{
-			"PosX": -44.40257,
-			"PosY": -4.2146826,
-			"PosZ": -32.194706,
-			"PropId": "crystal_tree",
-			"RotationY": -155.10023,
-			"Scale": 0.4401459
-		},
-		{
-			"PosX": -44.967396,
-			"PosY": -4.2146826,
-			"PosZ": -31.681992,
-			"PropId": "crystal_tree",
-			"RotationY": 41.96538,
-			"Scale": 0.41176754
-		},
-		{
-			"PosX": -20.62102,
-			"PosY": -4.2146826,
-			"PosZ": -19.16421,
-			"PropId": "crystal_tree",
-			"RotationY": -156.11609,
-			"Scale": 0.67695135
-		},
-		{
-			"PosX": -19.74216,
-			"PosY": -4.2054815,
-			"PosZ": -20.00613,
-			"PropId": "crystal_tree",
-			"RotationY": -146.15732,
-			"Scale": 0.41249445
-		},
-		{
-			"PosX": -19.904608,
-			"PosY": -4.2146826,
-			"PosZ": -19.264723,
-			"PropId": "crystal_tree",
-			"RotationY": 169.2544,
-			"Scale": 0.4556167
-		},
-		{
-			"PosX": -20.086449,
-			"PosY": -4.2146826,
-			"PosZ": -18.63695,
-			"PropId": "crystal_tree",
-			"RotationY": 94.87494,
-			"Scale": 0.58947587
-		},
-		{
-			"PosX": -19.20387,
-			"PosY": -4.2146826,
-			"PosZ": -19.305426,
-			"PropId": "crystal_tree",
-			"RotationY": 77.80571,
-			"Scale": 0.655823
-		},
-		{
-			"PosX": -19.62079,
-			"PosY": -4.2146826,
-			"PosZ": -18.334442,
-			"PropId": "crystal_tree",
-			"RotationY": -4.1943803,
-			"Scale": 0.6129463
-		},
-		{
-			"PosX": -19.981781,
-			"PosY": -4.2146826,
-			"PosZ": -17.925545,
-			"PropId": "crystal_tree",
-			"RotationY": 175.24493,
-			"Scale": 0.47991037
-		},
-		{
-			"PosX": -20.227844,
-			"PosY": -4.2146826,
-			"PosZ": -17.342808,
-			"PropId": "crystal_tree",
-			"RotationY": -62.655598,
-			"Scale": 0.6962122
-		},
-		{
-			"PosX": -21.976757,
-			"PosY": -4.214682,
-			"PosZ": -15.712698,
-			"PropId": "crystal_tree",
-			"RotationY": -151.21547,
-			"Scale": 0.49146238
-		},
-		{
-			"PosX": -19.487997,
-			"PosY": -4.2146826,
-			"PosZ": -17.401505,
-			"PropId": "crystal_tree",
-			"RotationY": -89.3738,
-			"Scale": 0.4866015
-		},
-		{
-			"PosX": -22.382961,
-			"PosY": -4.2146826,
-			"PosZ": -14.684663,
-			"PropId": "crystal_tree",
-			"RotationY": -54.01761,
-			"Scale": 0.49056706
-		},
-		{
-			"PosX": -18.712906,
-			"PosY": -4.214683,
-			"PosZ": -17.858383,
-			"PropId": "crystal_tree",
-			"RotationY": -132.63562,
-			"Scale": 0.39115775
-		},
-		{
-			"PosX": -21.383541,
-			"PosY": -4.2146826,
-			"PosZ": -15.375914,
-			"PropId": "crystal_tree",
-			"RotationY": 61.021557,
-			"Scale": 0.3913962
-		},
-		{
-			"PosX": -21.306477,
-			"PosY": -4.2146826,
-			"PosZ": -15.192894,
-			"PropId": "crystal_tree",
-			"RotationY": 90.2987,
-			"Scale": 0.63560104
-		},
-		{
-			"PosX": -19.481138,
-			"PosY": -4.2146826,
-			"PosZ": -16.539637,
-			"PropId": "crystal_tree",
-			"RotationY": 171.07574,
-			"Scale": 0.5267706
-		},
-		{
-			"PosX": -22.156277,
-			"PosY": -4.2146826,
-			"PosZ": -14.099416,
-			"PropId": "crystal_tree",
-			"RotationY": 90.633194,
-			"Scale": 0.43243158
-		},
-		{
-			"PosX": -21.685606,
-			"PosY": -4.2146826,
-			"PosZ": -14.458507,
-			"PropId": "crystal_tree",
-			"RotationY": 86.65793,
-			"Scale": 0.5043068
-		},
-		{
-			"PosX": -18.870123,
-			"PosY": -4.2146826,
-			"PosZ": -16.90061,
-			"PropId": "crystal_tree",
-			"RotationY": 153.42386,
-			"Scale": 0.6512244
-		},
-		{
-			"PosX": -21.031952,
-			"PosY": -4.2146826,
-			"PosZ": -14.897787,
-			"PropId": "crystal_tree",
-			"RotationY": -172.59824,
-			"Scale": 0.6354197
-		},
-		{
-			"PosX": -21.12083,
-			"PosY": -4.2146826,
-			"PosZ": -14.576309,
-			"PropId": "crystal_tree",
-			"RotationY": -38.993942,
-			"Scale": 0.6925667
-		},
-		{
-			"PosX": -20.088123,
-			"PosY": -4.2146826,
-			"PosZ": -15.421448,
-			"PropId": "crystal_tree",
-			"RotationY": -82.87957,
-			"Scale": 0.6616391
-		},
-		{
-			"PosX": -18.27616,
-			"PosY": -4.2146826,
-			"PosZ": -16.873594,
-			"PropId": "crystal_tree",
-			"RotationY": -46.37695,
-			"Scale": 0.4615051
-		},
-		{
-			"PosX": -19.441889,
-			"PosY": -4.214683,
-			"PosZ": -15.674466,
-			"PropId": "crystal_tree",
-			"RotationY": -21.634504,
-			"Scale": 0.5733221
-		},
-		{
-			"PosX": -20.208118,
-			"PosY": -4.2146826,
-			"PosZ": -14.965543,
-			"PropId": "crystal_tree",
-			"RotationY": 156.485,
-			"Scale": 0.62185365
-		},
-		{
-			"PosX": -17.61628,
-			"PosY": -4.2146826,
-			"PosZ": -17.098242,
-			"PropId": "crystal_tree",
-			"RotationY": 123.19955,
-			"Scale": 0.4719898
-		},
-		{
-			"PosX": -20.010227,
-			"PosY": -4.2146826,
-			"PosZ": -14.75356,
-			"PropId": "crystal_tree",
-			"RotationY": 4.5095897,
-			"Scale": 0.5840477
-		},
-		{
-			"PosX": -17.89852,
-			"PosY": -4.2146826,
-			"PosZ": -16.61977,
-			"PropId": "crystal_tree",
-			"RotationY": 88.57351,
-			"Scale": 0.5621319
-		},
-		{
-			"PosX": -19.470642,
-			"PosY": -4.2146826,
-			"PosZ": -14.977515,
-			"PropId": "crystal_tree",
-			"RotationY": 116.90281,
-			"Scale": 0.6085818
-		},
-		{
-			"PosX": -20.352955,
-			"PosY": -4.2146826,
-			"PosZ": -14.139466,
-			"PropId": "crystal_tree",
-			"RotationY": -29.919031,
-			"Scale": 0.62225217
-		},
-		{
-			"PosX": -20.407013,
-			"PosY": -4.2146826,
-			"PosZ": -14.068272,
-			"PropId": "crystal_tree",
-			"RotationY": 33.098236,
-			"Scale": 0.59116405
-		},
-		{
-			"PosX": -17.440893,
-			"PosY": -4.2146826,
-			"PosZ": -16.67189,
-			"PropId": "crystal_tree",
-			"RotationY": 15.25707,
-			"Scale": 0.6970798
-		},
-		{
-			"PosX": -18.352457,
-			"PosY": -4.2146826,
-			"PosZ": -15.766663,
-			"PropId": "crystal_tree",
-			"RotationY": 170.75143,
-			"Scale": 0.5447862
-		},
-		{
-			"PosX": -18.266512,
-			"PosY": -4.2146826,
-			"PosZ": -15.834308,
-			"PropId": "crystal_tree",
-			"RotationY": -175.92656,
-			"Scale": 0.42371038
-		},
-		{
-			"PosX": -18.483196,
-			"PosY": -4.2146826,
-			"PosZ": -15.610634,
-			"PropId": "crystal_tree",
-			"RotationY": -61.256023,
-			"Scale": 0.4546487
-		},
-		{
-			"PosX": -17.836548,
-			"PosY": -4.2146826,
-			"PosZ": -16.018122,
-			"PropId": "crystal_tree",
-			"RotationY": -88.13117,
-			"Scale": 0.6195135
-		},
-		{
-			"PosX": -17.815687,
-			"PosY": -4.2146826,
-			"PosZ": -16.019796,
-			"PropId": "crystal_tree",
-			"RotationY": -93.32371,
-			"Scale": 0.39633214
-		},
-		{
-			"PosX": -17.778982,
-			"PosY": -4.214682,
-			"PosZ": -15.903371,
-			"PropId": "crystal_tree",
-			"RotationY": -106.3884,
-			"Scale": 0.44757345
-		},
-		{
-			"PosX": -16.982233,
-			"PosY": -4.2146826,
-			"PosZ": -16.609806,
-			"PropId": "crystal_tree",
-			"RotationY": -115.19835,
-			"Scale": 0.43504122
-		},
-		{
-			"PosX": -18.497528,
-			"PosY": -4.2146826,
-			"PosZ": -14.924871,
-			"PropId": "crystal_tree",
-			"RotationY": 92.15313,
-			"Scale": 0.4041269
-		},
-		{
-			"PosX": -17.755692,
-			"PosY": -4.2146826,
-			"PosZ": -15.5168915,
-			"PropId": "crystal_tree",
-			"RotationY": 136.83818,
-			"Scale": 0.5623473
-		},
-		{
-			"PosX": -17.15823,
-			"PosY": -4.2146826,
-			"PosZ": -15.970005,
-			"PropId": "crystal_tree",
-			"RotationY": 25.497377,
-			"Scale": 0.6087945
-		},
-		{
-			"PosX": -16.845062,
-			"PosY": -4.2146826,
-			"PosZ": -15.998367,
-			"PropId": "crystal_tree",
-			"RotationY": 49.49568,
-			"Scale": 0.6711511
-		},
-		{
-			"PosX": -17.005621,
-			"PosY": -4.2146826,
-			"PosZ": -15.529648,
-			"PropId": "crystal_tree",
-			"RotationY": -22.286283,
-			"Scale": 0.39376283
-		},
-		{
-			"PosX": -17.957026,
-			"PosY": -4.2146826,
-			"PosZ": -14.586823,
-			"PropId": "crystal_tree",
-			"RotationY": 152.11497,
-			"Scale": 0.45606676
-		},
-		{
-			"PosX": -17.26327,
-			"PosY": -4.2146826,
-			"PosZ": -14.979725,
-			"PropId": "crystal_tree",
-			"RotationY": 79.31958,
-			"Scale": 0.39653453
-		},
-		{
-			"PosX": 38.66184,
-			"PosY": -4.282608,
-			"PosZ": 41.933582,
-			"PropId": "crystal_tree",
-			"RotationY": 98.26103,
-			"Scale": 0.4839454
-		},
-		{
-			"PosX": 38.525097,
-			"PosY": -4.282608,
-			"PosZ": 42.979015,
-			"PropId": "crystal_tree",
-			"RotationY": 126.51197,
-			"Scale": 0.6481382
-		},
-		{
-			"PosX": 39.10612,
-			"PosY": -4.282608,
-			"PosZ": 42.42143,
-			"PropId": "crystal_tree",
-			"RotationY": 17.84337,
-			"Scale": 0.4713084
-		},
-		{
-			"PosX": 40.123917,
-			"PosY": -4.282608,
-			"PosZ": 42.199173,
-			"PropId": "crystal_tree",
-			"RotationY": 25.497736,
-			"Scale": 0.64299387
-		},
-		{
-			"PosX": 39.339523,
-			"PosY": -4.282608,
-			"PosZ": 42.995663,
-			"PropId": "crystal_tree",
-			"RotationY": -38.575504,
-			"Scale": 0.48558626
-		},
-		{
-			"PosX": 55.606888,
-			"PosY": -4.282608,
-			"PosZ": 44.217834,
-			"PropId": "crystal_tree",
-			"RotationY": 57.05337,
-			"Scale": 0.6164235
-		},
-		{
-			"PosX": 56.404736,
-			"PosY": -4.282608,
-			"PosZ": 43.54696,
-			"PropId": "crystal_tree",
-			"RotationY": -11.381269,
-			"Scale": 0.62581784
-		},
-		{
-			"PosX": 56.56606,
-			"PosY": -4.282608,
-			"PosZ": 44.633976,
-			"PropId": "crystal_tree",
-			"RotationY": 51.26153,
-			"Scale": 0.45762247
-		},
-		{
-			"PosX": 57.242897,
-			"PosY": -4.282608,
-			"PosZ": 44.09318,
-			"PropId": "crystal_tree",
-			"RotationY": 108.93827,
-			"Scale": 0.4130506
-		},
-		{
-			"PosX": 56.752995,
-			"PosY": -4.282608,
-			"PosZ": 45.17464,
-			"PropId": "crystal_tree",
-			"RotationY": 101.39173,
-			"Scale": 0.60179996
-		},
-		{
-			"PosX": 61.78377,
-			"PosY": -4.282608,
-			"PosZ": 42.73875,
-			"PropId": "crystal_tree",
-			"RotationY": 178.65346,
-			"Scale": 0.60021204
-		},
-		{
-			"PosX": 62.523796,
-			"PosY": -4.2826076,
-			"PosZ": 42.258083,
-			"PropId": "crystal_tree",
-			"RotationY": -123.97024,
-			"Scale": 0.5197878
-		},
-		{
-			"PosX": 63.23347,
-			"PosY": -4.282608,
-			"PosZ": 42.203907,
-			"PropId": "crystal_tree",
-			"RotationY": -107.378105,
-			"Scale": 0.5172908
-		},
-		{
-			"PosX": 62.44259,
-			"PosY": -4.282608,
-			"PosZ": 43.210613,
-			"PropId": "crystal_tree",
-			"RotationY": 14.165952,
-			"Scale": 0.6557012
-		},
-		{
-			"PosX": 63.09926,
-			"PosY": -4.282608,
-			"PosZ": 43.02073,
-			"PropId": "crystal_tree",
-			"RotationY": -124.0657,
-			"Scale": 0.48516268
-		},
-		{
-			"PosX": 65.091484,
-			"PosY": -3.3330688,
-			"PosZ": 41.36698,
-			"PropId": "crystal_tree",
-			"RotationY": -41.79817,
-			"Scale": 0.57944214
-		},
-		{
-			"PosX": 64.358315,
-			"PosY": -4.282608,
-			"PosZ": 42.411346,
-			"PropId": "crystal_tree",
-			"RotationY": 147.29224,
-			"Scale": 0.6672334
-		},
-		{
-			"PosX": 65.66018,
-			"PosY": -2.9826508,
-			"PosZ": 41.13336,
-			"PropId": "crystal_tree",
-			"RotationY": 63.465508,
-			"Scale": 0.42268655
-		},
-		{
-			"PosX": 65.23145,
-			"PosY": -4.2826076,
-			"PosZ": 42.185085,
-			"PropId": "crystal_tree",
-			"RotationY": -150.65225,
-			"Scale": 0.49917218
-		},
-		{
-			"PosX": 66.230934,
-			"PosY": -4.282608,
-			"PosZ": 42.057365,
-			"PropId": "crystal_tree",
-			"RotationY": 131.81862,
-			"Scale": 0.57912993
-		},
-		{
-			"PosX": 65.81523,
-			"PosY": -4.282608,
-			"PosZ": 43.3461,
-			"PropId": "crystal_tree",
-			"RotationY": -156.0484,
-			"Scale": 0.5928702
-		},
-		{
-			"PosX": 67.02347,
-			"PosY": -4.282608,
-			"PosZ": 43.019596,
-			"PropId": "crystal_tree",
-			"RotationY": 163.123,
-			"Scale": 0.5182357
-		},
-		{
-			"PosX": 66.54162,
-			"PosY": -4.282608,
-			"PosZ": 43.614334,
-			"PropId": "crystal_tree",
-			"RotationY": -165.87456,
-			"Scale": 0.66950077
-		},
-		{
-			"PosX": 66.55521,
-			"PosY": -4.2826085,
-			"PosZ": 44.439217,
-			"PropId": "crystal_tree",
-			"RotationY": -65.94075,
-			"Scale": 0.41950324
-		},
-		{
-			"PosX": 67.271225,
-			"PosY": -4.282608,
-			"PosZ": 43.590538,
-			"PropId": "crystal_tree",
-			"RotationY": 116.10582,
-			"Scale": 0.6538916
-		},
-		{
-			"PosX": 75.77534,
-			"PosY": -3.2487943,
-			"PosZ": 41.310795,
-			"PropId": "crystal_tree",
-			"RotationY": 145.94164,
-			"Scale": 0.41605517
-		},
-		{
-			"PosX": 74.927666,
-			"PosY": -4.282608,
-			"PosZ": 42.77027,
-			"PropId": "crystal_tree",
-			"RotationY": 59.236446,
-			"Scale": 0.5450269
-		},
-		{
-			"PosX": 75.54194,
-			"PosY": -4.2630844,
-			"PosZ": 41.98698,
-			"PropId": "crystal_tree",
-			"RotationY": -171.35258,
-			"Scale": 0.5474538
-		},
-		{
-			"PosX": 76.342125,
-			"PosY": -3.8365405,
-			"PosZ": 41.702618,
-			"PropId": "crystal_tree",
-			"RotationY": 82.876625,
-			"Scale": 0.4190971
-		},
-		{
-			"PosX": 76.3446,
-			"PosY": -4.282608,
-			"PosZ": 42.42423,
-			"PropId": "crystal_tree",
-			"RotationY": 142.03429,
-			"Scale": 0.70519227
-		},
-		{
-			"PosX": 77.97796,
-			"PosY": -2.6296692,
-			"PosZ": 40.89804,
-			"PropId": "crystal_tree",
-			"RotationY": 9.886364,
-			"Scale": 0.46166685
-		},
-		{
-			"PosX": 78.48712,
-			"PosY": -2.2261047,
-			"PosZ": 40.62899,
-			"PropId": "crystal_tree",
-			"RotationY": -176.02539,
-			"Scale": 0.49063998
-		},
-		{
-			"PosX": 78.70895,
-			"PosY": -3.3625717,
-			"PosZ": 41.38664,
-			"PropId": "crystal_tree",
-			"RotationY": 55.21818,
-			"Scale": 0.5435399
-		},
-		{
-			"PosX": 78.79565,
-			"PosY": -4.2026367,
-			"PosZ": 41.946682,
-			"PropId": "crystal_tree",
-			"RotationY": 79.60732,
-			"Scale": 0.59106314
-		},
-		{
-			"PosX": 79.33034,
-			"PosY": -3.5213928,
-			"PosZ": 41.49253,
-			"PropId": "crystal_tree",
-			"RotationY": 99.28054,
-			"Scale": 0.39373702
-		},
-		{
-			"PosX": 120.33726,
-			"PosY": -4.282608,
-			"PosZ": 45.225857,
-			"PropId": "crystal_tree",
-			"RotationY": -149.8586,
-			"Scale": 0.4443273
-		},
-		{
-			"PosX": 120.69957,
-			"PosY": -4.282608,
-			"PosZ": 44.737545,
-			"PropId": "crystal_tree",
-			"RotationY": 116.127884,
-			"Scale": 0.6938686
-		},
-		{
-			"PosX": 120.0345,
-			"PosY": -4.282608,
-			"PosZ": 46.161835,
-			"PropId": "crystal_tree",
-			"RotationY": 111.19962,
-			"Scale": 0.5383017
-		},
-		{
-			"PosX": 120.7198,
-			"PosY": -4.282608,
-			"PosZ": 45.634026,
-			"PropId": "crystal_tree",
-			"RotationY": 11.036235,
-			"Scale": 0.543082
-		},
-		{
-			"PosX": 121.21062,
-			"PosY": -4.282608,
-			"PosZ": 45.36077,
-			"PropId": "crystal_tree",
-			"RotationY": 74.084015,
-			"Scale": 0.53908783
-		},
-		{
-			"PosX": 121.12387,
-			"PosY": -4.282608,
-			"PosZ": 45.684673,
-			"PropId": "crystal_tree",
-			"RotationY": -108.30861,
-			"Scale": 0.49137014
-		},
-		{
-			"PosX": 121.07228,
-			"PosY": -4.282608,
-			"PosZ": 46.412827,
-			"PropId": "crystal_tree",
-			"RotationY": 160.5711,
-			"Scale": 0.60407454
-		},
-		{
-			"PosX": 121.79033,
-			"PosY": -4.2826085,
-			"PosZ": 46.053753,
-			"PropId": "crystal_tree",
-			"RotationY": -89.55813,
-			"Scale": 0.70440066
-		},
-		{
-			"PosX": 121.78137,
-			"PosY": -4.282608,
-			"PosZ": 46.280834,
-			"PropId": "crystal_tree",
-			"RotationY": 53.7241,
-			"Scale": 0.67270535
-		},
-		{
-			"PosX": 122.66451,
-			"PosY": -4.282608,
-			"PosZ": 44.779396,
-			"PropId": "crystal_tree",
-			"RotationY": 1.5764683,
-			"Scale": 0.6849731
-		},
-		{
-			"PosX": 121.42744,
-			"PosY": -4.282608,
-			"PosZ": 47.308834,
-			"PropId": "crystal_tree",
-			"RotationY": -124.070206,
-			"Scale": 0.4591956
-		},
-		{
-			"PosX": 121.80584,
-			"PosY": -4.282608,
-			"PosZ": 46.94701,
-			"PropId": "crystal_tree",
-			"RotationY": 39.79391,
-			"Scale": 0.5432375
-		},
-		{
-			"PosX": 122.665794,
-			"PosY": -4.282608,
-			"PosZ": 45.53094,
-			"PropId": "crystal_tree",
-			"RotationY": 140.09126,
-			"Scale": 0.70476794
-		},
-		{
-			"PosX": 121.49337,
-			"PosY": -4.282608,
-			"PosZ": 47.621166,
-			"PropId": "crystal_tree",
-			"RotationY": -53.508408,
-			"Scale": 0.5136553
-		},
-		{
-			"PosX": 122.03607,
-			"PosY": -4.2826076,
-			"PosZ": 46.909138,
-			"PropId": "crystal_tree",
-			"RotationY": 134.95631,
-			"Scale": 0.695506
-		},
-		{
-			"PosX": 122.32008,
-			"PosY": -4.282608,
-			"PosZ": 46.51993,
-			"PropId": "crystal_tree",
-			"RotationY": -3.4465559,
-			"Scale": 0.68571705
-		},
-		{
-			"PosX": 122.88575,
-			"PosY": -4.282608,
-			"PosZ": 46.379486,
-			"PropId": "crystal_tree",
-			"RotationY": -114.743706,
-			"Scale": 0.63094175
-		},
-		{
-			"PosX": 123.47412,
-			"PosY": -4.282608,
-			"PosZ": 45.52657,
-			"PropId": "crystal_tree",
-			"RotationY": -78.99148,
-			"Scale": 0.6397271
-		},
-		{
-			"PosX": 122.318726,
-			"PosY": -4.2826076,
-			"PosZ": 48.334263,
-			"PropId": "crystal_tree",
-			"RotationY": 58.448864,
-			"Scale": 0.67109454
-		},
-		{
-			"PosX": 122.88481,
-			"PosY": -4.282608,
-			"PosZ": 47.73064,
-			"PropId": "crystal_tree",
-			"RotationY": 86.63548,
-			"Scale": 0.5121282
-		},
-		{
-			"PosX": 48.859184,
+			"PosX": -65.87622,
 			"PosY": 0,
-			"PosZ": -64.175224,
+			"PosZ": 66.066986,
 			"PropId": "heraldry_banner_stand",
 			"RotationY": 135,
 			"Scale": 1.2
 		},
 		{
-			"PosX": 60.08288,
+			"PosX": -94.98484,
 			"PosY": 0,
-			"PosZ": -55.756783,
+			"PosZ": 64.50108,
+			"PropId": "heraldry_banner_stand",
+			"RotationY": 180,
+			"Scale": 1.2
+		},
+		{
+			"PosX": -109.87877,
+			"PosY": 0,
+			"PosZ": 64.78528,
+			"PropId": "heraldry_banner_stand",
+			"RotationY": 180,
+			"Scale": 1.2
+		},
+		{
+			"PosX": -54.846416,
+			"PosY": 0,
+			"PosZ": 76.75023,
 			"PropId": "heraldry_banner_stand",
 			"RotationY": 135,
 			"Scale": 1.2
 		},
 		{
-			"PosX": -109.26673,
+			"PosX": -52.291862,
 			"PosY": 0,
-			"PosZ": 55.167393,
+			"PosZ": 98.140205,
 			"PropId": "heraldry_banner_stand",
-			"RotationY": 180,
-			"Scale": 1.2
+			"RotationY": 90,
+			"Scale": 1
 		},
 		{
-			"PosX": -95.75498,
+			"PosX": -51.938557,
 			"PosY": 0,
-			"PosZ": 83.83797,
+			"PosZ": 112.831665,
 			"PropId": "heraldry_banner_stand",
-			"RotationY": 180,
-			"Scale": 1.2
+			"RotationY": 90,
+			"Scale": 1
 		},
 		{
 			"PosX": -81.46401,
@@ -16760,7 +15880,7 @@
 			"PosY": 0,
 			"PosZ": -104.45222,
 			"PropId": "mossy_rock_ore",
-			"RotationY": -113.98068,
+			"RotationY": -113.98067,
 			"Scale": 1.08896
 		},
 		{
@@ -16788,22 +15908,6 @@
 			"Scale": 0.82382834
 		},
 		{
-			"PosX": -2.6254935,
-			"PosY": 1.0632663,
-			"PosZ": -77.486244,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -1.6664277,
-			"PosY": 1.1674689,
-			"PosZ": -74.9935,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
 			"PosX": -2.4103947,
 			"PosY": 0.17299277,
 			"PosZ": -80.534744,
@@ -16812,9 +15916,9 @@
 			"Scale": 1
 		},
 		{
-			"PosX": -0.8771019,
+			"PosX": 2,
 			"PosY": 0,
-			"PosZ": -79.05931,
+			"PosZ": -72,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1
@@ -16828,17 +15932,33 @@
 			"Scale": 0.47830427
 		},
 		{
-			"PosX": 13.414179,
-			"PosY": 0.047568366,
-			"PosZ": -56.739326,
+			"PosX": 4,
+			"PosY": 0,
+			"PosZ": -74,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 14.902405,
-			"PosY": 0.23419785,
-			"PosZ": -53.849094,
+			"PosX": 6,
+			"PosY": 0,
+			"PosZ": -72,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 0,
+			"Scale": 0.6999999
+		},
+		{
+			"PosX": 10,
+			"PosY": 0,
+			"PosZ": -62,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 12,
+			"PosY": 0,
+			"PosZ": -60,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1
@@ -16897,7 +16017,7 @@
 			"PosZ": 11.215218,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
-			"Scale": 1
+			"Scale": 0.5999999
 		},
 		{
 			"PosX": 14.121113,
@@ -16969,15 +16089,7 @@
 			"PosZ": -49.589108,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 61.618774,
-			"PosY": 0,
-			"PosZ": -51.28432,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 0,
-			"Scale": 1
+			"Scale": 0.49999988
 		},
 		{
 			"PosX": 61.654976,
@@ -16986,6 +16098,22 @@
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1
+		},
+		{
+			"PosX": -12,
+			"PosY": 0,
+			"PosZ": 58,
+			"PropId": "mossy_rock_ore",
+			"RotationY": -174.42365,
+			"Scale": 1.0877978
+		},
+		{
+			"PosX": -16,
+			"PosY": 0,
+			"PosZ": 60,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 17.122166,
+			"Scale": 0.673104
 		},
 		{
 			"PosX": 69.12184,
@@ -17004,41 +16132,89 @@
 			"Scale": 1.4660981
 		},
 		{
-			"PosX": -6.7084002,
+			"PosX": -12,
 			"PosY": 0,
-			"PosZ": 62.01784,
+			"PosZ": 62,
+			"PropId": "mossy_rock_ore",
+			"RotationY": -3.9097807,
+			"Scale": 0.59987986
+		},
+		{
+			"PosX": -8,
+			"PosY": 0,
+			"PosZ": 62,
+			"PropId": "mossy_rock_ore",
+			"RotationY": -131.70401,
+			"Scale": 1.2231792
+		},
+		{
+			"PosX": -4,
+			"PosY": 0,
+			"PosZ": 64,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 45.32057,
+			"Scale": 1.003585
+		},
+		{
+			"PosX": -2,
+			"PosY": 0,
+			"PosZ": 68,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -84.77644,
 			"Scale": 1.5435206
 		},
 		{
-			"PosX": -62.762257,
+			"PosX": -51.992268,
 			"PosY": 0,
-			"PosZ": 77.29322,
+			"PosZ": 84.22714,
 			"PropId": "mossy_rock_ore",
-			"RotationY": 0.8973148,
-			"Scale": 0.2
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
-			"PosX": -2.5410337,
+			"PosX": -54.885525,
 			"PosY": 0,
-			"PosZ": 64.14129,
+			"PosZ": 85.60636,
 			"PropId": "mossy_rock_ore",
-			"RotationY": 131.62315,
-			"Scale": 1.1061577
+			"RotationY": 0,
+			"Scale": 1
 		},
 		{
-			"PosX": -1.298177,
+			"PosX": 4,
 			"PosY": 0,
-			"PosZ": 64.984886,
+			"PosZ": 70,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 49.31778,
 			"Scale": 0.5759603
 		},
 		{
-			"PosX": -46.03483,
+			"PosX": 2,
 			"PosY": 0,
-			"PosZ": 97.41845,
+			"PosZ": 72,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 131.62315,
+			"Scale": 1.1061577
+		},
+		{
+			"PosX": -53.01687,
+			"PosY": 0,
+			"PosZ": 87.03639,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 0,
+			"Scale": 0.5999999
+		},
+		{
+			"PosX": 6,
+			"PosY": 0,
+			"PosZ": 72,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 57.959488,
+			"Scale": 0.9478842
+		},
+		{
+			"PosX": -48,
+			"PosY": 0,
+			"PosZ": 98,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1
@@ -17048,16 +16224,8 @@
 			"PosY": 0,
 			"PosZ": 99.111115,
 			"PropId": "mossy_rock_ore",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": -43.61734,
-			"PosY": 0,
-			"PosZ": 98.99575,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 0,
-			"Scale": 1
+			"RotationY": 314.9999,
+			"Scale": 0.39999986
 		},
 		{
 			"PosX": -45.38524,
@@ -17065,23 +16233,23 @@
 			"PosZ": 100.36752,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
+			"Scale": 0.49999988
+		},
+		{
+			"PosX": -42,
+			"PosY": 0,
+			"PosZ": 100,
+			"PropId": "mossy_rock_ore",
+			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 3.417162,
+			"PosX": -6.5230503,
 			"PosY": 0,
-			"PosZ": 87.66845,
+			"PosZ": 100.78718,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 0,
 			"Scale": 1.55
-		},
-		{
-			"PosX": -49.10116,
-			"PosY": 0,
-			"PosZ": 106.53417,
-			"PropId": "mossy_rock_ore",
-			"RotationY": -15.14571,
-			"Scale": 0.7710705
 		},
 		{
 			"PosX": 36.856575,
@@ -17197,7 +16365,7 @@
 		},
 		{
 			"PosX": 105.970116,
-			"PosY": 0,
+			"PosY": 0.57735145,
 			"PosZ": 4.887927,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -97.13225,
@@ -17213,7 +16381,7 @@
 		},
 		{
 			"PosX": 106.9048,
-			"PosY": 0,
+			"PosY": 0.5403267,
 			"PosZ": 4.9897175,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -61.868248,
@@ -17229,7 +16397,7 @@
 		},
 		{
 			"PosX": 106.94046,
-			"PosY": 0,
+			"PosY": 0.06271431,
 			"PosZ": 5.8828664,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -168.43793,
@@ -17253,7 +16421,7 @@
 		},
 		{
 			"PosX": 108.07217,
-			"PosY": 0.10017289,
+			"PosY": 0.8653056,
 			"PosZ": 4.468423,
 			"PropId": "mossy_rock_ore",
 			"RotationY": 126.213844,
@@ -17261,7 +16429,7 @@
 		},
 		{
 			"PosX": 108.25308,
-			"PosY": 0.2920326,
+			"PosY": 0.4933852,
 			"PosZ": 5.4466662,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -75.2795,
@@ -17292,30 +16460,6 @@
 			"Scale": 2.05
 		},
 		{
-			"PosX": 44.97627,
-			"PosY": 0,
-			"PosZ": 94.43788,
-			"PropId": "mossy_rock_ore",
-			"RotationY": -3.9097807,
-			"Scale": 0.99987996
-		},
-		{
-			"PosX": 45.934822,
-			"PosY": 0,
-			"PosZ": 94.45394,
-			"PropId": "mossy_rock_ore",
-			"RotationY": -174.42365,
-			"Scale": 1.0877978
-		},
-		{
-			"PosX": 44.48227,
-			"PosY": 0,
-			"PosZ": 95.95154,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 45.32057,
-			"Scale": 1.003585
-		},
-		{
 			"PosX": 45.34175,
 			"PosY": 0,
 			"PosZ": 95.41354,
@@ -17324,36 +16468,12 @@
 			"Scale": 0.8472785
 		},
 		{
-			"PosX": 42.6208,
-			"PosY": 0,
-			"PosZ": 97.53994,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 57.959488,
-			"Scale": 0.9478842
-		},
-		{
 			"PosX": 46.19596,
 			"PosY": 0.116265096,
 			"PosZ": 95.45987,
 			"PropId": "mossy_rock_ore",
 			"RotationY": -22.190565,
 			"Scale": 1.2205031
-		},
-		{
-			"PosX": 43.828804,
-			"PosY": 0,
-			"PosZ": 97.29869,
-			"PropId": "mossy_rock_ore",
-			"RotationY": -131.70401,
-			"Scale": 1.2231792
-		},
-		{
-			"PosX": 43.05865,
-			"PosY": 0,
-			"PosZ": 98.1531,
-			"PropId": "mossy_rock_ore",
-			"RotationY": 17.122166,
-			"Scale": 0.673104
 		},
 		{
 			"PosX": 45.698826,
@@ -17692,25 +16812,41 @@
 			"Scale": 1.0242229
 		},
 		{
-			"PosX": -109.62098,
+			"PosX": 10,
 			"PosY": 0,
-			"PosZ": 99.84541,
+			"PosZ": -68,
+			"PropId": "Resource_001",
+			"RotationY": 120,
+			"Scale": 5
+		},
+		{
+			"PosX": -8,
+			"PosY": 0,
+			"PosZ": 70,
+			"PropId": "Resource_001",
+			"RotationY": 314.99997,
+			"Scale": 5
+		},
+		{
+			"PosX": -110.4919,
+			"PosY": 0,
+			"PosZ": 87.82597,
 			"PropId": "siege_cannon",
 			"RotationY": 164.99992,
 			"Scale": 1.6000001
 		},
 		{
-			"PosX": -67.39909,
+			"PosX": -85.24669,
 			"PosY": 0,
-			"PosZ": 110.40144,
+			"PosZ": 111.9377,
 			"PropId": "siege_cannon",
 			"RotationY": 120,
 			"Scale": 1.6000001
 		},
 		{
-			"PosX": 21.405712,
+			"PosX": 21.33724,
 			"PosY": 0,
-			"PosZ": -103.62948,
+			"PosZ": -92.79272,
 			"PropId": "skull_altar_pedestal",
 			"RotationY": 284.99997,
 			"Scale": 2.0000002
@@ -17724,17 +16860,17 @@
 			"Scale": 1.9000002
 		},
 		{
-			"PosX": 95.29099,
+			"PosX": 90.72038,
 			"PosY": 0,
-			"PosZ": -47.46598,
+			"PosZ": -37.069725,
 			"PropId": "skull_altar_pedestal",
 			"RotationY": 15,
 			"Scale": 1.9000002
 		},
 		{
-			"PosX": 104.02348,
+			"PosX": 110.04024,
 			"PosY": 0,
-			"PosZ": -47.729866,
+			"PosZ": -37.119934,
 			"PropId": "skull_altar_pedestal",
 			"RotationY": 15,
 			"Scale": 1.9000002
@@ -17772,33 +16908,33 @@
 			"Scale": 1
 		},
 		{
-			"PosX": 80.35802,
+			"PosX": 66.164825,
 			"PosY": 0,
-			"PosZ": -50.481834,
+			"PosZ": -42.972076,
+			"PropId": "spiked_gate",
+			"RotationY": 0,
+			"Scale": 1
+		},
+		{
+			"PosX": 69.03115,
+			"PosY": 0,
+			"PosZ": -44.909645,
 			"PropId": "spiked_gate",
 			"RotationY": 0,
 			"Scale": 1.6000001
 		},
 		{
-			"PosX": 82.539,
+			"PosX": 83.74916,
 			"PosY": 0,
-			"PosZ": -48.936832,
+			"PosZ": -38.836006,
 			"PropId": "spiked_gate",
 			"RotationY": 0,
 			"Scale": 1
 		},
 		{
-			"PosX": 86.542915,
+			"PosX": 85.8499,
 			"PosY": 0,
-			"PosZ": -36.51505,
-			"PropId": "spiked_gate",
-			"RotationY": 0,
-			"Scale": 1
-		},
-		{
-			"PosX": 88.61607,
-			"PosY": 0,
-			"PosZ": -37.248684,
+			"PosZ": -40.752872,
 			"PropId": "spiked_gate",
 			"RotationY": 0,
 			"Scale": 1.4000001
@@ -17812,35 +16948,35 @@
 			"Scale": 1.9000002
 		},
 		{
-			"PosX": 19.09313,
+			"PosX": 18.274965,
 			"PosY": 0,
-			"PosZ": -102.140274,
+			"PosZ": -93.22602,
 			"PropId": "tattered_banner_pole",
 			"RotationY": 270,
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": 18.23014,
+			"PosX": 18.423077,
 			"PosY": 0,
-			"PosZ": -109.974915,
+			"PosZ": -109.52696,
 			"PropId": "tattered_banner_pole",
 			"RotationY": 270,
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -66.32526,
+			"PosX": 45.175972,
 			"PosY": 0,
-			"PosZ": 64.20015,
+			"PosZ": -59.960644,
 			"PropId": "tattered_banner_pole",
-			"RotationY": 329.99985,
+			"RotationY": 314.99988,
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -52.9065,
+			"PosX": 56.054356,
 			"PosY": 0,
-			"PosZ": 80.36765,
+			"PosZ": -49.593483,
 			"PropId": "tattered_banner_pole",
-			"RotationY": 329.99985,
+			"RotationY": 314.99988,
 			"Scale": 1.4000001
 		},
 		{
@@ -17860,17 +16996,17 @@
 			"Scale": 1.4000001
 		},
 		{
-			"PosX": -76.083595,
+			"PosX": -75.34288,
 			"PosY": 0,
-			"PosZ": 14.788837,
+			"PosZ": 13.418886,
 			"PropId": "wooden_barrel_prop",
 			"RotationY": 0,
 			"Scale": 1.5000001
 		},
 		{
-			"PosX": -68.815285,
+			"PosX": -70.57397,
 			"PosY": 0,
-			"PosZ": 103.61362,
+			"PosZ": 47.432182,
 			"PropId": "wooden_cart",
 			"RotationY": 299.9999,
 			"Scale": 1.7000002
@@ -17881,132 +17017,312 @@
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -98.94041,
+			"PosX": -86.1677,
 			"PosY": 0,
-			"PosZ": 74.63157,
-			"RotationY": 74.99998,
-			"Scale": 1.9000002,
-			"UnitId": "fantasy_tower_1"
+			"PosZ": 2.1984568,
+			"RotationY": 0,
+			"Scale": 1,
+			"UnitId": "arrow_quiver"
 		},
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -98.94041,
+			"PosX": -109.2819,
 			"PosY": 0,
-			"PosZ": 74.63157,
-			"RotationY": 74.99998,
-			"Scale": 1.9000002,
-			"UnitId": "fantasy_tower_1"
+			"PosZ": 1.5935755,
+			"RotationY": 0,
+			"Scale": 1,
+			"UnitId": "arrow_quiver"
 		},
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -55.5789,
+			"PosX": -88.62236,
 			"PosY": 0,
-			"PosZ": 100.54861,
-			"RotationY": 74.99998,
+			"PosZ": 50.902435,
+			"RotationY": 0,
 			"Scale": 1.9000002,
-			"UnitId": "fantasy_tower_1"
+			"UnitId": "barrel_with_tools"
 		},
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -55.5789,
+			"PosX": -100.60481,
 			"PosY": 0,
-			"PosZ": 100.54861,
-			"RotationY": 74.99998,
-			"Scale": 1.9000002,
-			"UnitId": "fantasy_tower_1"
+			"PosZ": 101.40859,
+			"RotationY": 135,
+			"Scale": 4,
+			"UnitId": "fantasy_castle"
 		},
 		{
-			"IsEnemy": false,
-			"Player": 0,
-			"PosX": -57.452236,
+			"IsEnemy": true,
+			"Player": 12,
+			"PosX": -67.643616,
 			"PosY": 0,
-			"PosZ": 115.14739,
-			"RotationY": 74.99998,
-			"Scale": 1.9000002,
+			"PosZ": 68.5598,
+			"RotationY": 74.999985,
+			"Scale": 3.2999992,
 			"UnitId": "fantasy_tower_1"
 		},
 		{
 			"IsEnemy": true,
-			"Player": 1,
-			"PosX": -94.59743,
+			"Player": 12,
+			"PosX": -94.23036,
 			"PosY": 0,
-			"PosZ": -83.69634,
-			"RotationY": 0,
-			"Scale": 1.5000001,
-			"UnitId": "ice_castle_1"
+			"PosZ": 68.383934,
+			"RotationY": 179.99992,
+			"Scale": 3.2999992,
+			"UnitId": "fantasy_tower_1"
 		},
 		{
-			"IsEnemy": false,
-			"Player": 0,
-			"PosX": -93.85986,
+			"IsEnemy": true,
+			"Player": 12,
+			"PosX": -109.79041,
 			"PosY": 0,
-			"PosZ": 0.37747765,
+			"PosZ": 68.39057,
 			"RotationY": 0,
-			"Scale": 1.5000001,
-			"UnitId": "ice_castle_1"
+			"Scale": 3.2999992,
+			"UnitId": "fantasy_tower_1"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 12,
+			"PosX": -56.68453,
+			"PosY": 0,
+			"PosZ": 79.856926,
+			"RotationY": 120,
+			"Scale": 3.2999992,
+			"UnitId": "fantasy_tower_1"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 12,
+			"PosX": -55.356953,
+			"PosY": 0,
+			"PosZ": 98.14493,
+			"RotationY": 74.99998,
+			"Scale": 3.2999992,
+			"UnitId": "fantasy_tower_1"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 12,
+			"PosX": -54.434017,
+			"PosY": 0,
+			"PosZ": 113.40944,
+			"RotationY": 74.99998,
+			"Scale": 3.2999992,
+			"UnitId": "fantasy_tower_1"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 24.970709,
+			"PosY": 0,
+			"PosZ": -92.56574,
+			"RotationY": 270,
+			"Scale": 1.4000001,
+			"UnitId": "fortified_tower"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 25.706184,
+			"PosY": 0,
+			"PosZ": -109.2049,
+			"RotationY": 270,
+			"Scale": 1.4000001,
+			"UnitId": "fortified_tower"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 47.88993,
+			"PosY": 0,
+			"PosZ": -62.68704,
+			"RotationY": 314.9999,
+			"Scale": 1.4000001,
+			"UnitId": "fortified_tower"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 58.815365,
+			"PosY": 0,
+			"PosZ": -51.682255,
+			"RotationY": 314.9999,
+			"Scale": 1.3000001,
+			"UnitId": "fortified_tower"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 91.71713,
+			"PosY": 0,
+			"PosZ": -41.992844,
+			"RotationY": 0,
+			"Scale": 1.4000001,
+			"UnitId": "fortified_tower"
+		},
+		{
+			"IsEnemy": true,
+			"Player": 23,
+			"PosX": 109.373764,
+			"PosY": 0,
+			"PosZ": -42.409237,
+			"RotationY": 0,
+			"Scale": 1.4000001,
+			"UnitId": "fortified_tower"
 		},
 		{
 			"IsEnemy": true,
 			"Player": 1,
-			"PosX": 42.35948,
+			"PosX": 93.96287,
 			"PosY": 0,
-			"PosZ": -45.43489,
-			"RotationY": 0,
-			"Scale": 1.5000001,
+			"PosZ": -94.21715,
+			"RotationY": 314.99988,
+			"Scale": 4,
 			"UnitId": "ice_castle_1"
 		},
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": -39.76,
+			"PosX": 26.152178,
 			"PosY": 0,
-			"PosZ": 45.52,
+			"PosZ": -100.98088,
+			"RotationY": 270,
+			"Scale": 3.9999986,
+			"UnitId": "skull_archway"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": 100.92942,
+			"PosY": 0,
+			"PosZ": -42.269802,
 			"RotationY": 0,
-			"Scale": 1.5,
-			"UnitId": "ice_castle_1"
+			"Scale": 4,
+			"UnitId": "skull_archway"
 		},
 		{
 			"IsEnemy": true,
 			"Player": 1,
-			"PosX": 81.92392,
+			"PosX": 53.21189,
 			"PosY": 0,
-			"PosZ": -88.26566,
-			"RotationY": 0,
-			"Scale": 2.5,
-			"UnitId": "ice_castle_1"
-		},
-		{
-			"IsEnemy": false,
-			"Player": 0,
-			"PosX": -83.41051,
-			"PosY": 0,
-			"PosZ": 92.212166,
-			"RotationY": 0,
-			"Scale": 2.5499997,
-			"UnitId": "ice_castle_1"
+			"PosZ": -56.777023,
+			"RotationY": 135,
+			"Scale": 3.7999988,
+			"UnitId": "stone_arch_gate_1"
 		},
 		{
 			"IsEnemy": true,
-			"Player": 1,
-			"PosX": 90.15632,
+			"Player": 12,
+			"PosX": -62.845947,
 			"PosY": 0,
-			"PosZ": 0.61254096,
-			"RotationY": 0,
-			"Scale": 1.5000001,
-			"UnitId": "ice_castle_1"
+			"PosZ": 74.146576,
+			"RotationY": 135,
+			"Scale": 4,
+			"UnitId": "stone_fortification_gate"
 		},
 		{
 			"IsEnemy": false,
 			"Player": 0,
-			"PosX": 98.0495,
+			"PosX": -102.30129,
 			"PosY": 0,
-			"PosZ": 90.6912,
+			"PosZ": 67.09521,
+			"RotationY": 0,
+			"Scale": 4,
+			"UnitId": "stone_gate_arch"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -55.527103,
+			"PosY": 0,
+			"PosZ": 106.11525,
+			"RotationY": 90,
+			"Scale": 4,
+			"UnitId": "stone_gate_arch"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -63.93066,
+			"PosY": 0,
+			"PosZ": 27.047354,
+			"RotationY": 284.99997,
+			"Scale": 2.2000003,
+			"UnitId": "timber_framed_house"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -62.827953,
+			"PosY": 0,
+			"PosZ": 34.631622,
+			"RotationY": 254.99998,
+			"Scale": 2.0000002,
+			"UnitId": "timber_framed_house"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -82.968925,
+			"PosY": 0,
+			"PosZ": 5.1217585,
+			"RotationY": 0,
+			"Scale": 1,
+			"UnitId": "wooden_box"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -80.81561,
+			"PosY": 0,
+			"PosZ": 7.2129326,
 			"RotationY": 0,
 			"Scale": 1.5000001,
-			"UnitId": "ice_castle_1"
+			"UnitId": "wooden_box"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -20,
+			"PosY": 0,
+			"PosZ": 62,
+			"RotationY": 344.99997,
+			"Scale": 1.2,
+			"UnitId": "wooden_box"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": -22,
+			"PosY": 0,
+			"PosZ": 66,
+			"RotationY": 329.99997,
+			"Scale": 1.8000002,
+			"UnitId": "wooden_box"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": 0,
+			"PosY": 0,
+			"PosZ": 76,
+			"RotationY": 0,
+			"Scale": 1.2,
+			"UnitId": "wooden_box"
+		},
+		{
+			"IsEnemy": false,
+			"Player": 0,
+			"PosX": 0,
+			"PosY": 0,
+			"PosZ": 80,
+			"RotationY": 0,
+			"Scale": 1.8000002,
+			"UnitId": "wooden_box"
 		}
 	],
 	"Width": 128

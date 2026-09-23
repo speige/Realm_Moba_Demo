@@ -37,6 +37,26 @@
             Generic named-point lookup. Maps pass coordinate names; this type does not know MOBA lanes.
             </summary>
         </member>
+        <member name="T:Realm.MapAPI.GameAPIExtensions">
+            <summary>
+            Provides convenience extension methods for map authors using the <see cref="T:Realm.MapAPI.IGameAPI"/> interface.
+            </summary>
+        </member>
+        <member name="M:Realm.MapAPI.GameAPIExtensions.GetPlayerLanguage(Realm.MapAPI.IGameAPI)">
+            <summary>
+            Retrieves the preferred language code of the primary local player.
+            </summary>
+            <param name="api">The game API instance.</param>
+            <returns>ISO language code string (e.g. "en", "es").</returns>
+        </member>
+        <member name="M:Realm.MapAPI.GameAPIExtensions.Translate(Realm.MapAPI.IGameAPI,System.String)">
+            <summary>
+            Translates a localization key for the current local player with English fallback.
+            </summary>
+            <param name="api">The game API instance.</param>
+            <param name="key">Localization translation key.</param>
+            <returns>Translated text string.</returns>
+        </member>
         <member name="T:Realm.MapAPI.HeroProgressionConfig">
             <summary>
             Defines progression configuration settings for heroes, including experience curves, kill rewards, and starting resources.
@@ -204,12 +224,6 @@
             </summary>
             <param name="isEnemy">True to get the enemy castle, false for the player castle.</param>
             <returns>The castle unit, or null if it has been destroyed.</returns>
-        </member>
-        <member name="M:Realm.MapAPI.IGameAPI.UpgradeUnit(Realm.MapAPI.IUnit)">
-            <summary>
-            Upgrades the specified unit to its next level if supported.
-            </summary>
-            <param name="unit">The unit to upgrade.</param>
         </member>
         <member name="M:Realm.MapAPI.IGameAPI.SpawnTargetIndicator(System.Numerics.Vector3,System.Numerics.Vector3)">
             <summary>
@@ -394,6 +408,48 @@
             <summary>
             Clears all entries from the current leaderboard.
             </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.ShowSummaryTable(System.String,System.Boolean)">
+            <summary>
+            Displays or hides the multi-column stats summary table on all players' screens.
+            </summary>
+            <param name="title">Header title of the summary table.</param>
+            <param name="visible">True to display the table, false to hide it.</param>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.SetSummaryTableHeaders(System.String[])">
+            <summary>
+            Configures custom column header labels for the stats summary table.
+            Headers[0] labels the row identifier/player column. Subsequent elements label the metric columns.
+            Headers must be passed already localized by the caller.
+            </summary>
+            <param name="columnHeaders">Array of header titles to display at the top of the table.</param>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.SetSummaryTableRow(System.String,System.String[])">
+            <summary>
+            Sets or updates a row in the stats summary table.
+            </summary>
+            <param name="rowKey">Unique row identifier or player label (corresponds to Headers[0]).</param>
+            <param name="cellValues">Metric values corresponding to Headers[1..N].</param>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.ClearSummaryTable">
+            <summary>
+            Clears all rows from the active stats summary table.
+            </summary>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.GetPlayerLanguage(System.Int32)">
+            <summary>
+            Retrieves the preferred language code of the specified player (e.g. "en", "es").
+            </summary>
+            <param name="playerIndex">Zero-based player index.</param>
+            <returns>ISO language code string.</returns>
+        </member>
+        <member name="M:Realm.MapAPI.IGameAPI.Translate(System.String,System.Int32)">
+            <summary>
+            Translates a localization key using the player's preferred language with English fallback.
+            </summary>
+            <param name="key">Localization translation key.</param>
+            <param name="playerIndex">Zero-based player index, or -1 for current local player.</param>
+            <returns>Translated text string.</returns>
         </member>
         <member name="M:Realm.MapAPI.IGameAPI.StartCountdownTimer(System.Single,System.String)">
             <summary>
@@ -1240,11 +1296,6 @@
         <member name="P:Realm.MapAPI.IUnit.Experience">
             <summary>
             Gets or sets the experience points of the hero unit.
-            </summary>
-        </member>
-        <member name="P:Realm.MapAPI.IUnit.Potions">
-            <summary>
-            Gets or sets the number of healing potions in the unit's inventory.
             </summary>
         </member>
         <member name="P:Realm.MapAPI.IUnit.XpBounty">

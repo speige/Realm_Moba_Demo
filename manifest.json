@@ -9,7 +9,6 @@
 			"Standard Walk - Standard Walk.ranim": "5c48f7b2c6ad1e735d1e3644361007dc4175a7c716f83817797ed572c6819b22",
 			"Upward Thrust - Upward Weapon Thrust.ranim": "19c2fc338a0d52ee36cab89f730245999368d239a662f84383a0a9f2adebe083"
 		},
-		"decals": {},
 		"glb": {
 			"buildings": {
 				"bell_tower.rmesh": "8e783b4373f9e05fc83b7fcee354baef110dd9129e5183782c20b6937bd157ee",
@@ -33,11 +32,6 @@
 				"crystal_cluster_29.rmesh": "7a506d9ec8c6779653745c0c00eb5f2e05cc16c33e29bb9f45b335a98a18427a",
 				"heraldry_banner_stand.rmesh": "bdd8b8c39920db0b6bfb56b452411a87e8516ff7c5e756c66315543a673dc1c3",
 				"merchant_stall.rmesh": "c38e9ee85256e4ddea0ef2767d9e847ba599bbe5bbe90dc00f5188dc7de76e0b",
-				"moba_minion_team1.rmesh": "feba0dff6752c706e909ec3529feda679fe4b753e1d1baec8a1dd9fac42b1b5c",
-				"moba_minion_team2.rmesh": "9b9e79b906376625b99f815292799ac8d7c7365fafc326001f1e54b854c70611",
-				"resource_001.rmesh": "19074bb27d2ec52907f960426057c6c99a05d8bb82303fb649b52ebb1ac5adf3",
-				"resource_002.rmesh": "2518b338f7cf0d2765f082a4edc50ee6f51509129ffaf12d087c288cdff7fe2d",
-				"resource_003.rmesh": "18b90fbb554dde489f59a10b7208e8b44d4bc4ebfd67adf735ddf03dda661c7b",
 				"siege_cannon.rmesh": "83a7170ed99b9453c0ebbf8de715f802d3d05500966db2d35cb33632a225bbfe",
 				"skull_altar_pedestal.rmesh": "744cf399c446740176dbf282e2435e47134cfdc63ff72b16a2e34856a78c7657",
 				"skull_totem_prop.rmesh": "da24fc515ae480871e36a2eca45a6aa6da66433abc4d1b31be625cccc48c33e8",
@@ -70,9 +64,6 @@
 				"wooden_crate.rmesh": "5ce50471a3e24a2e68580bfcafd68941dca33020365ef6a85fe67d34171bde61"
 			}
 		},
-		"icons": {},
-		"noise_textures": {},
-		"ribbons": {},
 		"skyboxes": {
 			"jade_shrine.rtex": "e731a047f223e140a15463ecd247f89829df3faa5f061927116c66db1c52e751"
 		},
@@ -91,7 +82,6 @@
 			"whispering_woods_shaded_root.rtex": "8ae0d9db8b3a4ae42e08454085c676eee29c86163c7e0b857379db50ebdc8d2e",
 			"whispering_woods_soft_grass.rtex": "54dcc56db933a8ad7fe195deab9727fc373623d242865021b01295f94c8483a1",
 			"wild_grass.rtex": "00c19e6d04b8bb19a9e438cf2fa6c34d466a175d9e278be8407fbaf787a5e4dd"
-		},
-		"vfx_spritesheets": {}
+		}
 	}
 }
